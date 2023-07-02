@@ -1,0 +1,3498 @@
+{
+  "humor": [
+    {
+      "kind": "books#volumes",
+      "totalItems": 200,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "UOFEAQAAMAAJ",
+          "etag": "fUzU5JOgX5k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UOFEAQAAMAAJ",
+          "volumeInfo": {
+            "title": "The Jungle",
+            "authors": [
+              "Upton Sinclair"
+            ],
+            "publisher": "McLeod & Allen",
+            "publishedDate": "1906",
+            "description": "...Documents the brutal conditions in the Chicago stockyards at the turn of the century and brings into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share in the American dream...",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "OSU:32435078602422"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+              "Adventure"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.6.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Jungle.html?hl=&id=UOFEAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UOFEAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5FuUSQAACAAJ",
+          "etag": "DhfKBIsZFp4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5FuUSQAACAAJ",
+          "volumeInfo": {
+            "title": "Five Point Someone (telugu)",
+            "authors": [
+              "Chetan Bhagat"
+            ],
+            "publishedDate": "2009",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "8183510345"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9788183510349"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 268,
+            "printType": "BOOK",
+            "categories": [
+              "Novel"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Five_Point_Someone_telugu.html?hl=&id=5FuUSQAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5FuUSQAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "Z8ZpQgAACAAJ",
+          "etag": "vO1ym/LHUgo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Z8ZpQgAACAAJ",
+          "volumeInfo": {
+            "title": "The International Marketing of Travel and Tourism",
+            "subtitle": "A Strategic Approach",
+            "authors": [
+              "François Vellas",
+              "Lionel Bécherel"
+            ],
+            "publishedDate": "1999",
+            "description": "Tourism marketing has long been considered as a branch of traditional marketing. However, in recent years, tourism marketing has gone through fundamental changes: the pursuit of global strategies based on strategic alliances, the breakdown of commercial borders and advances in new technology have all facilitated the commercialization of tourism products. Setting out to examine the changes shaping the international marketing of tourism and travel this book begins by defining the role of national marketing in tourism and describes the strategic marketing process, from analysis and strategy formulation to implementation techniques. It provides the marketing theory for the rest of the text. Part two focuses on specific issues that are currently influencing tourism marketing. It explains how technology is affecting the way tourism firms operate, the impact and influence of environmental awareness, human resource strategy and service quality on tourism marketing.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0333717589"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780333717585"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 329,
+            "printType": "BOOK",
+            "categories": [
+              "Elektronisk handel"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_International_Marketing_of_Travel_an.html?hl=&id=Z8ZpQgAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Z8ZpQgAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "dR7ZDQAAQBAJ",
+          "etag": "vKV8hFmVIPk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/dR7ZDQAAQBAJ",
+          "volumeInfo": {
+            "title": "Manalive",
+            "authors": [
+              "G. K. Chesterton"
+            ],
+            "publisher": "Lindhardt og Ringhof",
+            "publishedDate": "2017-01-04",
+            "description": "\"I am going to hold a pistol to the head of the Modern Man. But I shall not use it to kill him – only to bring him to life.\" Innocent Smith, an \"allegorical practical joker\", turns everything upside down with his arrival at Beacon House, a London Boarding establishment. His passion and liveliness brightens up the place immediately, but at the height of the enjoyment, everyone is shocked when Smith tries to murder one of them. But in ‘Manalive’ (1912), Chesterton’s perhaps most joyful novel, nothing is as it appears, and the tenants will soon see life a whole new way. Gilbert Keith Chesterton (1874-1936) was one of the most prolific English writers of all time. He wrote poems, plays, essays, newspaper columns, and is especially known for his fictional priest detective Father Brown. His \"frenemy\", the author of Pygmalion, George Bernard Shaw, famously called him \"a man of colossal genius\" and the two of them would often engage in friendly public discussions with people like H.G. Wells and Clarence Darrow. Chesterton died in his home, and his last known words were a greeting to his wife, author Frances Blogg.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9789176393109"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "9176393100"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 128,
+            "printType": "BOOK",
+            "categories": [
+              "Philosophy"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.9.9.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=dR7ZDQAAQBAJ&printsec=frontcover&dq=subject:humor&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 371.36,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 259.95,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&rdid=book-dR7ZDQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 371360000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 259950000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Manalive-sample-epub.acsm?id=dR7ZDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dR7ZDQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5jaBK9RATS0C",
+          "etag": "rXbvC/YqGUU",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5jaBK9RATS0C",
+          "volumeInfo": {
+            "title": "Routledge Diccionario Técnico Inglés",
+            "authors": [
+              "Routledge"
+            ],
+            "publisher": "Psychology Press",
+            "publishedDate": "1997",
+            "description": "This collection of essays and reviews represents the most significant and comprehensive writing on Shakespeare's A Comedy of Errors. Miola's edited work also features a comprehensive critical history, coupled with a full bibliography and photographs of major productions of the play from around the world. In the collection, there are five previously unpublished essays. The topics covered in these new essays are women in the play, the play's debt to contemporary theater, its critical and performance histories in Germany and Japan, the metrical variety of the play, and the distinctly modern perspective on the play as containing dark and disturbing elements. To compliment these new essays, the collection features significant scholarship and commentary on The Comedy of Errors that is published in obscure and difficulty accessible journals, newspapers, and other sources. This collection brings together these essays for the first time.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0415112729"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780415112727"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 896,
+            "printType": "BOOK",
+            "categories": [
+              "English language"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.5.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&printsec=frontcover&dq=subject:technology&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&dq=subject:technology&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s.html?hl=&id=5jaBK9RATS0C"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s-sample-pdf.acsm?id=5jaBK9RATS0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5jaBK9RATS0C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "books#volumes",
+      "totalItems": 200,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "UOFEAQAAMAAJ",
+          "etag": "fUzU5JOgX5k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UOFEAQAAMAAJ",
+          "volumeInfo": {
+            "title": "The Jungle",
+            "authors": [
+              "Upton Sinclair"
+            ],
+            "publisher": "McLeod & Allen",
+            "publishedDate": "1906",
+            "description": "...Documents the brutal conditions in the Chicago stockyards at the turn of the century and brings into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share in the American dream...",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "OSU:32435078602422"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+              "Adventure"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.6.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Jungle.html?hl=&id=UOFEAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UOFEAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5FuUSQAACAAJ",
+          "etag": "DhfKBIsZFp4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5FuUSQAACAAJ",
+          "volumeInfo": {
+            "title": "Five Point Someone (telugu)",
+            "authors": [
+              "Chetan Bhagat"
+            ],
+            "publishedDate": "2009",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "8183510345"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9788183510349"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 268,
+            "printType": "BOOK",
+            "categories": [
+              "Novel"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Five_Point_Someone_telugu.html?hl=&id=5FuUSQAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5FuUSQAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "Z8ZpQgAACAAJ",
+          "etag": "vO1ym/LHUgo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Z8ZpQgAACAAJ",
+          "volumeInfo": {
+            "title": "The International Marketing of Travel and Tourism",
+            "subtitle": "A Strategic Approach",
+            "authors": [
+              "François Vellas",
+              "Lionel Bécherel"
+            ],
+            "publishedDate": "1999",
+            "description": "Tourism marketing has long been considered as a branch of traditional marketing. However, in recent years, tourism marketing has gone through fundamental changes: the pursuit of global strategies based on strategic alliances, the breakdown of commercial borders and advances in new technology have all facilitated the commercialization of tourism products. Setting out to examine the changes shaping the international marketing of tourism and travel this book begins by defining the role of national marketing in tourism and describes the strategic marketing process, from analysis and strategy formulation to implementation techniques. It provides the marketing theory for the rest of the text. Part two focuses on specific issues that are currently influencing tourism marketing. It explains how technology is affecting the way tourism firms operate, the impact and influence of environmental awareness, human resource strategy and service quality on tourism marketing.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0333717589"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780333717585"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 329,
+            "printType": "BOOK",
+            "categories": [
+              "Elektronisk handel"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_International_Marketing_of_Travel_an.html?hl=&id=Z8ZpQgAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Z8ZpQgAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "dR7ZDQAAQBAJ",
+          "etag": "vKV8hFmVIPk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/dR7ZDQAAQBAJ",
+          "volumeInfo": {
+            "title": "Manalive",
+            "authors": [
+              "G. K. Chesterton"
+            ],
+            "publisher": "Lindhardt og Ringhof",
+            "publishedDate": "2017-01-04",
+            "description": "\"I am going to hold a pistol to the head of the Modern Man. But I shall not use it to kill him – only to bring him to life.\" Innocent Smith, an \"allegorical practical joker\", turns everything upside down with his arrival at Beacon House, a London Boarding establishment. His passion and liveliness brightens up the place immediately, but at the height of the enjoyment, everyone is shocked when Smith tries to murder one of them. But in ‘Manalive’ (1912), Chesterton’s perhaps most joyful novel, nothing is as it appears, and the tenants will soon see life a whole new way. Gilbert Keith Chesterton (1874-1936) was one of the most prolific English writers of all time. He wrote poems, plays, essays, newspaper columns, and is especially known for his fictional priest detective Father Brown. His \"frenemy\", the author of Pygmalion, George Bernard Shaw, famously called him \"a man of colossal genius\" and the two of them would often engage in friendly public discussions with people like H.G. Wells and Clarence Darrow. Chesterton died in his home, and his last known words were a greeting to his wife, author Frances Blogg.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9789176393109"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "9176393100"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 128,
+            "printType": "BOOK",
+            "categories": [
+              "Philosophy"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.9.9.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=dR7ZDQAAQBAJ&printsec=frontcover&dq=subject:humor&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 371.36,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 259.95,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&rdid=book-dR7ZDQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 371360000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 259950000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Manalive-sample-epub.acsm?id=dR7ZDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dR7ZDQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5jaBK9RATS0C",
+          "etag": "rXbvC/YqGUU",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5jaBK9RATS0C",
+          "volumeInfo": {
+            "title": "Routledge Diccionario Técnico Inglés",
+            "authors": [
+              "Routledge"
+            ],
+            "publisher": "Psychology Press",
+            "publishedDate": "1997",
+            "description": "This collection of essays and reviews represents the most significant and comprehensive writing on Shakespeare's A Comedy of Errors. Miola's edited work also features a comprehensive critical history, coupled with a full bibliography and photographs of major productions of the play from around the world. In the collection, there are five previously unpublished essays. The topics covered in these new essays are women in the play, the play's debt to contemporary theater, its critical and performance histories in Germany and Japan, the metrical variety of the play, and the distinctly modern perspective on the play as containing dark and disturbing elements. To compliment these new essays, the collection features significant scholarship and commentary on The Comedy of Errors that is published in obscure and difficulty accessible journals, newspapers, and other sources. This collection brings together these essays for the first time.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0415112729"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780415112727"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 896,
+            "printType": "BOOK",
+            "categories": [
+              "English language"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.5.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&printsec=frontcover&dq=subject:technology&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&dq=subject:technology&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s.html?hl=&id=5jaBK9RATS0C"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s-sample-pdf.acsm?id=5jaBK9RATS0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5jaBK9RATS0C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "books#volumes",
+      "totalItems": 200,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "UOFEAQAAMAAJ",
+          "etag": "fUzU5JOgX5k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UOFEAQAAMAAJ",
+          "volumeInfo": {
+            "title": "The Jungle",
+            "authors": [
+              "Upton Sinclair"
+            ],
+            "publisher": "McLeod & Allen",
+            "publishedDate": "1906",
+            "description": "...Documents the brutal conditions in the Chicago stockyards at the turn of the century and brings into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share in the American dream...",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "OSU:32435078602422"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+              "Adventure"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.6.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Jungle.html?hl=&id=UOFEAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UOFEAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5FuUSQAACAAJ",
+          "etag": "DhfKBIsZFp4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5FuUSQAACAAJ",
+          "volumeInfo": {
+            "title": "Five Point Someone (telugu)",
+            "authors": [
+              "Chetan Bhagat"
+            ],
+            "publishedDate": "2009",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "8183510345"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9788183510349"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 268,
+            "printType": "BOOK",
+            "categories": [
+              "Novel"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Five_Point_Someone_telugu.html?hl=&id=5FuUSQAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5FuUSQAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "Z8ZpQgAACAAJ",
+          "etag": "vO1ym/LHUgo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Z8ZpQgAACAAJ",
+          "volumeInfo": {
+            "title": "The International Marketing of Travel and Tourism",
+            "subtitle": "A Strategic Approach",
+            "authors": [
+              "François Vellas",
+              "Lionel Bécherel"
+            ],
+            "publishedDate": "1999",
+            "description": "Tourism marketing has long been considered as a branch of traditional marketing. However, in recent years, tourism marketing has gone through fundamental changes: the pursuit of global strategies based on strategic alliances, the breakdown of commercial borders and advances in new technology have all facilitated the commercialization of tourism products. Setting out to examine the changes shaping the international marketing of tourism and travel this book begins by defining the role of national marketing in tourism and describes the strategic marketing process, from analysis and strategy formulation to implementation techniques. It provides the marketing theory for the rest of the text. Part two focuses on specific issues that are currently influencing tourism marketing. It explains how technology is affecting the way tourism firms operate, the impact and influence of environmental awareness, human resource strategy and service quality on tourism marketing.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0333717589"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780333717585"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 329,
+            "printType": "BOOK",
+            "categories": [
+              "Elektronisk handel"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_International_Marketing_of_Travel_an.html?hl=&id=Z8ZpQgAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Z8ZpQgAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "dR7ZDQAAQBAJ",
+          "etag": "vKV8hFmVIPk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/dR7ZDQAAQBAJ",
+          "volumeInfo": {
+            "title": "Manalive",
+            "authors": [
+              "G. K. Chesterton"
+            ],
+            "publisher": "Lindhardt og Ringhof",
+            "publishedDate": "2017-01-04",
+            "description": "\"I am going to hold a pistol to the head of the Modern Man. But I shall not use it to kill him – only to bring him to life.\" Innocent Smith, an \"allegorical practical joker\", turns everything upside down with his arrival at Beacon House, a London Boarding establishment. His passion and liveliness brightens up the place immediately, but at the height of the enjoyment, everyone is shocked when Smith tries to murder one of them. But in ‘Manalive’ (1912), Chesterton’s perhaps most joyful novel, nothing is as it appears, and the tenants will soon see life a whole new way. Gilbert Keith Chesterton (1874-1936) was one of the most prolific English writers of all time. He wrote poems, plays, essays, newspaper columns, and is especially known for his fictional priest detective Father Brown. His \"frenemy\", the author of Pygmalion, George Bernard Shaw, famously called him \"a man of colossal genius\" and the two of them would often engage in friendly public discussions with people like H.G. Wells and Clarence Darrow. Chesterton died in his home, and his last known words were a greeting to his wife, author Frances Blogg.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9789176393109"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "9176393100"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 128,
+            "printType": "BOOK",
+            "categories": [
+              "Philosophy"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.9.9.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=dR7ZDQAAQBAJ&printsec=frontcover&dq=subject:humor&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 371.36,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 259.95,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&rdid=book-dR7ZDQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 371360000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 259950000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Manalive-sample-epub.acsm?id=dR7ZDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dR7ZDQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5jaBK9RATS0C",
+          "etag": "rXbvC/YqGUU",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5jaBK9RATS0C",
+          "volumeInfo": {
+            "title": "Routledge Diccionario Técnico Inglés",
+            "authors": [
+              "Routledge"
+            ],
+            "publisher": "Psychology Press",
+            "publishedDate": "1997",
+            "description": "This collection of essays and reviews represents the most significant and comprehensive writing on Shakespeare's A Comedy of Errors. Miola's edited work also features a comprehensive critical history, coupled with a full bibliography and photographs of major productions of the play from around the world. In the collection, there are five previously unpublished essays. The topics covered in these new essays are women in the play, the play's debt to contemporary theater, its critical and performance histories in Germany and Japan, the metrical variety of the play, and the distinctly modern perspective on the play as containing dark and disturbing elements. To compliment these new essays, the collection features significant scholarship and commentary on The Comedy of Errors that is published in obscure and difficulty accessible journals, newspapers, and other sources. This collection brings together these essays for the first time.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0415112729"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780415112727"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 896,
+            "printType": "BOOK",
+            "categories": [
+              "English language"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.5.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&printsec=frontcover&dq=subject:technology&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&dq=subject:technology&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s.html?hl=&id=5jaBK9RATS0C"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s-sample-pdf.acsm?id=5jaBK9RATS0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5jaBK9RATS0C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "books#volumes",
+      "totalItems": 200,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "UOFEAQAAMAAJ",
+          "etag": "fUzU5JOgX5k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UOFEAQAAMAAJ",
+          "volumeInfo": {
+            "title": "The Jungle",
+            "authors": [
+              "Upton Sinclair"
+            ],
+            "publisher": "McLeod & Allen",
+            "publishedDate": "1906",
+            "description": "...Documents the brutal conditions in the Chicago stockyards at the turn of the century and brings into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share in the American dream...",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "OSU:32435078602422"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+              "Adventure"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.6.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Jungle.html?hl=&id=UOFEAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UOFEAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5FuUSQAACAAJ",
+          "etag": "DhfKBIsZFp4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5FuUSQAACAAJ",
+          "volumeInfo": {
+            "title": "Five Point Someone (telugu)",
+            "authors": [
+              "Chetan Bhagat"
+            ],
+            "publishedDate": "2009",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "8183510345"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9788183510349"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 268,
+            "printType": "BOOK",
+            "categories": [
+              "Novel"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Five_Point_Someone_telugu.html?hl=&id=5FuUSQAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5FuUSQAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "Z8ZpQgAACAAJ",
+          "etag": "vO1ym/LHUgo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Z8ZpQgAACAAJ",
+          "volumeInfo": {
+            "title": "The International Marketing of Travel and Tourism",
+            "subtitle": "A Strategic Approach",
+            "authors": [
+              "François Vellas",
+              "Lionel Bécherel"
+            ],
+            "publishedDate": "1999",
+            "description": "Tourism marketing has long been considered as a branch of traditional marketing. However, in recent years, tourism marketing has gone through fundamental changes: the pursuit of global strategies based on strategic alliances, the breakdown of commercial borders and advances in new technology have all facilitated the commercialization of tourism products. Setting out to examine the changes shaping the international marketing of tourism and travel this book begins by defining the role of national marketing in tourism and describes the strategic marketing process, from analysis and strategy formulation to implementation techniques. It provides the marketing theory for the rest of the text. Part two focuses on specific issues that are currently influencing tourism marketing. It explains how technology is affecting the way tourism firms operate, the impact and influence of environmental awareness, human resource strategy and service quality on tourism marketing.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0333717589"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780333717585"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 329,
+            "printType": "BOOK",
+            "categories": [
+              "Elektronisk handel"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_International_Marketing_of_Travel_an.html?hl=&id=Z8ZpQgAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Z8ZpQgAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "dR7ZDQAAQBAJ",
+          "etag": "vKV8hFmVIPk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/dR7ZDQAAQBAJ",
+          "volumeInfo": {
+            "title": "Manalive",
+            "authors": [
+              "G. K. Chesterton"
+            ],
+            "publisher": "Lindhardt og Ringhof",
+            "publishedDate": "2017-01-04",
+            "description": "\"I am going to hold a pistol to the head of the Modern Man. But I shall not use it to kill him – only to bring him to life.\" Innocent Smith, an \"allegorical practical joker\", turns everything upside down with his arrival at Beacon House, a London Boarding establishment. His passion and liveliness brightens up the place immediately, but at the height of the enjoyment, everyone is shocked when Smith tries to murder one of them. But in ‘Manalive’ (1912), Chesterton’s perhaps most joyful novel, nothing is as it appears, and the tenants will soon see life a whole new way. Gilbert Keith Chesterton (1874-1936) was one of the most prolific English writers of all time. He wrote poems, plays, essays, newspaper columns, and is especially known for his fictional priest detective Father Brown. His \"frenemy\", the author of Pygmalion, George Bernard Shaw, famously called him \"a man of colossal genius\" and the two of them would often engage in friendly public discussions with people like H.G. Wells and Clarence Darrow. Chesterton died in his home, and his last known words were a greeting to his wife, author Frances Blogg.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9789176393109"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "9176393100"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 128,
+            "printType": "BOOK",
+            "categories": [
+              "Philosophy"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.9.9.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=dR7ZDQAAQBAJ&printsec=frontcover&dq=subject:humor&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 371.36,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 259.95,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&rdid=book-dR7ZDQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 371360000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 259950000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Manalive-sample-epub.acsm?id=dR7ZDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dR7ZDQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5jaBK9RATS0C",
+          "etag": "rXbvC/YqGUU",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5jaBK9RATS0C",
+          "volumeInfo": {
+            "title": "Routledge Diccionario Técnico Inglés",
+            "authors": [
+              "Routledge"
+            ],
+            "publisher": "Psychology Press",
+            "publishedDate": "1997",
+            "description": "This collection of essays and reviews represents the most significant and comprehensive writing on Shakespeare's A Comedy of Errors. Miola's edited work also features a comprehensive critical history, coupled with a full bibliography and photographs of major productions of the play from around the world. In the collection, there are five previously unpublished essays. The topics covered in these new essays are women in the play, the play's debt to contemporary theater, its critical and performance histories in Germany and Japan, the metrical variety of the play, and the distinctly modern perspective on the play as containing dark and disturbing elements. To compliment these new essays, the collection features significant scholarship and commentary on The Comedy of Errors that is published in obscure and difficulty accessible journals, newspapers, and other sources. This collection brings together these essays for the first time.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0415112729"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780415112727"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 896,
+            "printType": "BOOK",
+            "categories": [
+              "English language"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.5.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&printsec=frontcover&dq=subject:technology&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&dq=subject:technology&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s.html?hl=&id=5jaBK9RATS0C"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s-sample-pdf.acsm?id=5jaBK9RATS0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5jaBK9RATS0C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "books#volumes",
+      "totalItems": 200,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "UOFEAQAAMAAJ",
+          "etag": "fUzU5JOgX5k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UOFEAQAAMAAJ",
+          "volumeInfo": {
+            "title": "The Jungle",
+            "authors": [
+              "Upton Sinclair"
+            ],
+            "publisher": "McLeod & Allen",
+            "publishedDate": "1906",
+            "description": "...Documents the brutal conditions in the Chicago stockyards at the turn of the century and brings into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share in the American dream...",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "OSU:32435078602422"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+              "Adventure"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.6.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Jungle.html?hl=&id=UOFEAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UOFEAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5FuUSQAACAAJ",
+          "etag": "DhfKBIsZFp4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5FuUSQAACAAJ",
+          "volumeInfo": {
+            "title": "Five Point Someone (telugu)",
+            "authors": [
+              "Chetan Bhagat"
+            ],
+            "publishedDate": "2009",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "8183510345"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9788183510349"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 268,
+            "printType": "BOOK",
+            "categories": [
+              "Novel"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Five_Point_Someone_telugu.html?hl=&id=5FuUSQAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5FuUSQAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "Z8ZpQgAACAAJ",
+          "etag": "vO1ym/LHUgo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Z8ZpQgAACAAJ",
+          "volumeInfo": {
+            "title": "The International Marketing of Travel and Tourism",
+            "subtitle": "A Strategic Approach",
+            "authors": [
+              "François Vellas",
+              "Lionel Bécherel"
+            ],
+            "publishedDate": "1999",
+            "description": "Tourism marketing has long been considered as a branch of traditional marketing. However, in recent years, tourism marketing has gone through fundamental changes: the pursuit of global strategies based on strategic alliances, the breakdown of commercial borders and advances in new technology have all facilitated the commercialization of tourism products. Setting out to examine the changes shaping the international marketing of tourism and travel this book begins by defining the role of national marketing in tourism and describes the strategic marketing process, from analysis and strategy formulation to implementation techniques. It provides the marketing theory for the rest of the text. Part two focuses on specific issues that are currently influencing tourism marketing. It explains how technology is affecting the way tourism firms operate, the impact and influence of environmental awareness, human resource strategy and service quality on tourism marketing.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0333717589"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780333717585"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 329,
+            "printType": "BOOK",
+            "categories": [
+              "Elektronisk handel"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_International_Marketing_of_Travel_an.html?hl=&id=Z8ZpQgAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Z8ZpQgAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "dR7ZDQAAQBAJ",
+          "etag": "vKV8hFmVIPk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/dR7ZDQAAQBAJ",
+          "volumeInfo": {
+            "title": "Manalive",
+            "authors": [
+              "G. K. Chesterton"
+            ],
+            "publisher": "Lindhardt og Ringhof",
+            "publishedDate": "2017-01-04",
+            "description": "\"I am going to hold a pistol to the head of the Modern Man. But I shall not use it to kill him – only to bring him to life.\" Innocent Smith, an \"allegorical practical joker\", turns everything upside down with his arrival at Beacon House, a London Boarding establishment. His passion and liveliness brightens up the place immediately, but at the height of the enjoyment, everyone is shocked when Smith tries to murder one of them. But in ‘Manalive’ (1912), Chesterton’s perhaps most joyful novel, nothing is as it appears, and the tenants will soon see life a whole new way. Gilbert Keith Chesterton (1874-1936) was one of the most prolific English writers of all time. He wrote poems, plays, essays, newspaper columns, and is especially known for his fictional priest detective Father Brown. His \"frenemy\", the author of Pygmalion, George Bernard Shaw, famously called him \"a man of colossal genius\" and the two of them would often engage in friendly public discussions with people like H.G. Wells and Clarence Darrow. Chesterton died in his home, and his last known words were a greeting to his wife, author Frances Blogg.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9789176393109"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "9176393100"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 128,
+            "printType": "BOOK",
+            "categories": [
+              "Philosophy"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.9.9.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=dR7ZDQAAQBAJ&printsec=frontcover&dq=subject:humor&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 371.36,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 259.95,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&rdid=book-dR7ZDQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 371360000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 259950000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Manalive-sample-epub.acsm?id=dR7ZDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dR7ZDQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5jaBK9RATS0C",
+          "etag": "rXbvC/YqGUU",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5jaBK9RATS0C",
+          "volumeInfo": {
+            "title": "Routledge Diccionario Técnico Inglés",
+            "authors": [
+              "Routledge"
+            ],
+            "publisher": "Psychology Press",
+            "publishedDate": "1997",
+            "description": "This collection of essays and reviews represents the most significant and comprehensive writing on Shakespeare's A Comedy of Errors. Miola's edited work also features a comprehensive critical history, coupled with a full bibliography and photographs of major productions of the play from around the world. In the collection, there are five previously unpublished essays. The topics covered in these new essays are women in the play, the play's debt to contemporary theater, its critical and performance histories in Germany and Japan, the metrical variety of the play, and the distinctly modern perspective on the play as containing dark and disturbing elements. To compliment these new essays, the collection features significant scholarship and commentary on The Comedy of Errors that is published in obscure and difficulty accessible journals, newspapers, and other sources. This collection brings together these essays for the first time.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0415112729"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780415112727"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 896,
+            "printType": "BOOK",
+            "categories": [
+              "English language"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.5.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&printsec=frontcover&dq=subject:technology&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&dq=subject:technology&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s.html?hl=&id=5jaBK9RATS0C"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s-sample-pdf.acsm?id=5jaBK9RATS0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5jaBK9RATS0C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "books#volumes",
+      "totalItems": 200,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "UOFEAQAAMAAJ",
+          "etag": "fUzU5JOgX5k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UOFEAQAAMAAJ",
+          "volumeInfo": {
+            "title": "The Jungle",
+            "authors": [
+              "Upton Sinclair"
+            ],
+            "publisher": "McLeod & Allen",
+            "publishedDate": "1906",
+            "description": "...Documents the brutal conditions in the Chicago stockyards at the turn of the century and brings into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share in the American dream...",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "OSU:32435078602422"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+              "Adventure"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.6.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Jungle.html?hl=&id=UOFEAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UOFEAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5FuUSQAACAAJ",
+          "etag": "DhfKBIsZFp4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5FuUSQAACAAJ",
+          "volumeInfo": {
+            "title": "Five Point Someone (telugu)",
+            "authors": [
+              "Chetan Bhagat"
+            ],
+            "publishedDate": "2009",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "8183510345"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9788183510349"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 268,
+            "printType": "BOOK",
+            "categories": [
+              "Novel"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Five_Point_Someone_telugu.html?hl=&id=5FuUSQAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5FuUSQAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "Z8ZpQgAACAAJ",
+          "etag": "vO1ym/LHUgo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Z8ZpQgAACAAJ",
+          "volumeInfo": {
+            "title": "The International Marketing of Travel and Tourism",
+            "subtitle": "A Strategic Approach",
+            "authors": [
+              "François Vellas",
+              "Lionel Bécherel"
+            ],
+            "publishedDate": "1999",
+            "description": "Tourism marketing has long been considered as a branch of traditional marketing. However, in recent years, tourism marketing has gone through fundamental changes: the pursuit of global strategies based on strategic alliances, the breakdown of commercial borders and advances in new technology have all facilitated the commercialization of tourism products. Setting out to examine the changes shaping the international marketing of tourism and travel this book begins by defining the role of national marketing in tourism and describes the strategic marketing process, from analysis and strategy formulation to implementation techniques. It provides the marketing theory for the rest of the text. Part two focuses on specific issues that are currently influencing tourism marketing. It explains how technology is affecting the way tourism firms operate, the impact and influence of environmental awareness, human resource strategy and service quality on tourism marketing.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0333717589"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780333717585"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 329,
+            "printType": "BOOK",
+            "categories": [
+              "Elektronisk handel"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_International_Marketing_of_Travel_an.html?hl=&id=Z8ZpQgAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Z8ZpQgAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "dR7ZDQAAQBAJ",
+          "etag": "vKV8hFmVIPk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/dR7ZDQAAQBAJ",
+          "volumeInfo": {
+            "title": "Manalive",
+            "authors": [
+              "G. K. Chesterton"
+            ],
+            "publisher": "Lindhardt og Ringhof",
+            "publishedDate": "2017-01-04",
+            "description": "\"I am going to hold a pistol to the head of the Modern Man. But I shall not use it to kill him – only to bring him to life.\" Innocent Smith, an \"allegorical practical joker\", turns everything upside down with his arrival at Beacon House, a London Boarding establishment. His passion and liveliness brightens up the place immediately, but at the height of the enjoyment, everyone is shocked when Smith tries to murder one of them. But in ‘Manalive’ (1912), Chesterton’s perhaps most joyful novel, nothing is as it appears, and the tenants will soon see life a whole new way. Gilbert Keith Chesterton (1874-1936) was one of the most prolific English writers of all time. He wrote poems, plays, essays, newspaper columns, and is especially known for his fictional priest detective Father Brown. His \"frenemy\", the author of Pygmalion, George Bernard Shaw, famously called him \"a man of colossal genius\" and the two of them would often engage in friendly public discussions with people like H.G. Wells and Clarence Darrow. Chesterton died in his home, and his last known words were a greeting to his wife, author Frances Blogg.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9789176393109"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "9176393100"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 128,
+            "printType": "BOOK",
+            "categories": [
+              "Philosophy"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.9.9.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=dR7ZDQAAQBAJ&printsec=frontcover&dq=subject:humor&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 371.36,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 259.95,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&rdid=book-dR7ZDQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 371360000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 259950000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Manalive-sample-epub.acsm?id=dR7ZDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dR7ZDQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5jaBK9RATS0C",
+          "etag": "rXbvC/YqGUU",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5jaBK9RATS0C",
+          "volumeInfo": {
+            "title": "Routledge Diccionario Técnico Inglés",
+            "authors": [
+              "Routledge"
+            ],
+            "publisher": "Psychology Press",
+            "publishedDate": "1997",
+            "description": "This collection of essays and reviews represents the most significant and comprehensive writing on Shakespeare's A Comedy of Errors. Miola's edited work also features a comprehensive critical history, coupled with a full bibliography and photographs of major productions of the play from around the world. In the collection, there are five previously unpublished essays. The topics covered in these new essays are women in the play, the play's debt to contemporary theater, its critical and performance histories in Germany and Japan, the metrical variety of the play, and the distinctly modern perspective on the play as containing dark and disturbing elements. To compliment these new essays, the collection features significant scholarship and commentary on The Comedy of Errors that is published in obscure and difficulty accessible journals, newspapers, and other sources. This collection brings together these essays for the first time.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0415112729"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780415112727"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 896,
+            "printType": "BOOK",
+            "categories": [
+              "English language"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.5.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&printsec=frontcover&dq=subject:technology&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&dq=subject:technology&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s.html?hl=&id=5jaBK9RATS0C"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s-sample-pdf.acsm?id=5jaBK9RATS0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5jaBK9RATS0C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        }
+      ]
+    },
+    {
+      "kind": "books#volumes",
+      "totalItems": 200,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "UOFEAQAAMAAJ",
+          "etag": "fUzU5JOgX5k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UOFEAQAAMAAJ",
+          "volumeInfo": {
+            "title": "The Jungle",
+            "authors": [
+              "Upton Sinclair"
+            ],
+            "publisher": "McLeod & Allen",
+            "publishedDate": "1906",
+            "description": "...Documents the brutal conditions in the Chicago stockyards at the turn of the century and brings into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share in the American dream...",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "OSU:32435078602422"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+              "Adventure"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.6.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Jungle.html?hl=&id=UOFEAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UOFEAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5FuUSQAACAAJ",
+          "etag": "DhfKBIsZFp4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5FuUSQAACAAJ",
+          "volumeInfo": {
+            "title": "Five Point Someone (telugu)",
+            "authors": [
+              "Chetan Bhagat"
+            ],
+            "publishedDate": "2009",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "8183510345"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9788183510349"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 268,
+            "printType": "BOOK",
+            "categories": [
+              "Novel"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Five_Point_Someone_telugu.html?hl=&id=5FuUSQAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5FuUSQAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "Z8ZpQgAACAAJ",
+          "etag": "vO1ym/LHUgo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Z8ZpQgAACAAJ",
+          "volumeInfo": {
+            "title": "The International Marketing of Travel and Tourism",
+            "subtitle": "A Strategic Approach",
+            "authors": [
+              "François Vellas",
+              "Lionel Bécherel"
+            ],
+            "publishedDate": "1999",
+            "description": "Tourism marketing has long been considered as a branch of traditional marketing. However, in recent years, tourism marketing has gone through fundamental changes: the pursuit of global strategies based on strategic alliances, the breakdown of commercial borders and advances in new technology have all facilitated the commercialization of tourism products. Setting out to examine the changes shaping the international marketing of tourism and travel this book begins by defining the role of national marketing in tourism and describes the strategic marketing process, from analysis and strategy formulation to implementation techniques. It provides the marketing theory for the rest of the text. Part two focuses on specific issues that are currently influencing tourism marketing. It explains how technology is affecting the way tourism firms operate, the impact and influence of environmental awareness, human resource strategy and service quality on tourism marketing.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0333717589"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780333717585"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 329,
+            "printType": "BOOK",
+            "categories": [
+              "Elektronisk handel"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_International_Marketing_of_Travel_an.html?hl=&id=Z8ZpQgAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Z8ZpQgAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "dR7ZDQAAQBAJ",
+          "etag": "vKV8hFmVIPk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/dR7ZDQAAQBAJ",
+          "volumeInfo": {
+            "title": "Manalive",
+            "authors": [
+              "G. K. Chesterton"
+            ],
+            "publisher": "Lindhardt og Ringhof",
+            "publishedDate": "2017-01-04",
+            "description": "\"I am going to hold a pistol to the head of the Modern Man. But I shall not use it to kill him – only to bring him to life.\" Innocent Smith, an \"allegorical practical joker\", turns everything upside down with his arrival at Beacon House, a London Boarding establishment. His passion and liveliness brightens up the place immediately, but at the height of the enjoyment, everyone is shocked when Smith tries to murder one of them. But in ‘Manalive’ (1912), Chesterton’s perhaps most joyful novel, nothing is as it appears, and the tenants will soon see life a whole new way. Gilbert Keith Chesterton (1874-1936) was one of the most prolific English writers of all time. He wrote poems, plays, essays, newspaper columns, and is especially known for his fictional priest detective Father Brown. His \"frenemy\", the author of Pygmalion, George Bernard Shaw, famously called him \"a man of colossal genius\" and the two of them would often engage in friendly public discussions with people like H.G. Wells and Clarence Darrow. Chesterton died in his home, and his last known words were a greeting to his wife, author Frances Blogg.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9789176393109"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "9176393100"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 128,
+            "printType": "BOOK",
+            "categories": [
+              "Philosophy"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.9.9.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=dR7ZDQAAQBAJ&printsec=frontcover&dq=subject:humor&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 371.36,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 259.95,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&rdid=book-dR7ZDQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 371360000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 259950000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Manalive-sample-epub.acsm?id=dR7ZDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dR7ZDQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5jaBK9RATS0C",
+          "etag": "rXbvC/YqGUU",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5jaBK9RATS0C",
+          "volumeInfo": {
+            "title": "Routledge Diccionario Técnico Inglés",
+            "authors": [
+              "Routledge"
+            ],
+            "publisher": "Psychology Press",
+            "publishedDate": "1997",
+            "description": "This collection of essays and reviews represents the most significant and comprehensive writing on Shakespeare's A Comedy of Errors. Miola's edited work also features a comprehensive critical history, coupled with a full bibliography and photographs of major productions of the play from around the world. In the collection, there are five previously unpublished essays. The topics covered in these new essays are women in the play, the play's debt to contemporary theater, its critical and performance histories in Germany and Japan, the metrical variety of the play, and the distinctly modern perspective on the play as containing dark and disturbing elements. To compliment these new essays, the collection features significant scholarship and commentary on The Comedy of Errors that is published in obscure and difficulty accessible journals, newspapers, and other sources. This collection brings together these essays for the first time.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0415112729"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780415112727"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 896,
+            "printType": "BOOK",
+            "categories": [
+              "English language"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.5.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&printsec=frontcover&dq=subject:technology&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&dq=subject:technology&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s.html?hl=&id=5jaBK9RATS0C"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s-sample-pdf.acsm?id=5jaBK9RATS0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5jaBK9RATS0C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        }
+      ]
+    }
+  ],
+  "novels": [
+    {
+      "kind": "books#volumes",
+      "totalItems": 200,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "UOFEAQAAMAAJ",
+          "etag": "fUzU5JOgX5k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UOFEAQAAMAAJ",
+          "volumeInfo": {
+            "title": "The Jungle",
+            "authors": [
+              "Upton Sinclair"
+            ],
+            "publisher": "McLeod & Allen",
+            "publishedDate": "1906",
+            "description": "...Documents the brutal conditions in the Chicago stockyards at the turn of the century and brings into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share in the American dream...",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "OSU:32435078602422"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+              "Adventure"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.6.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Jungle.html?hl=&id=UOFEAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UOFEAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5FuUSQAACAAJ",
+          "etag": "DhfKBIsZFp4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5FuUSQAACAAJ",
+          "volumeInfo": {
+            "title": "Five Point Someone (telugu)",
+            "authors": [
+              "Chetan Bhagat"
+            ],
+            "publishedDate": "2009",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "8183510345"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9788183510349"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 268,
+            "printType": "BOOK",
+            "categories": [
+              "Novel"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Five_Point_Someone_telugu.html?hl=&id=5FuUSQAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5FuUSQAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "Z8ZpQgAACAAJ",
+          "etag": "vO1ym/LHUgo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Z8ZpQgAACAAJ",
+          "volumeInfo": {
+            "title": "The International Marketing of Travel and Tourism",
+            "subtitle": "A Strategic Approach",
+            "authors": [
+              "François Vellas",
+              "Lionel Bécherel"
+            ],
+            "publishedDate": "1999",
+            "description": "Tourism marketing has long been considered as a branch of traditional marketing. However, in recent years, tourism marketing has gone through fundamental changes: the pursuit of global strategies based on strategic alliances, the breakdown of commercial borders and advances in new technology have all facilitated the commercialization of tourism products. Setting out to examine the changes shaping the international marketing of tourism and travel this book begins by defining the role of national marketing in tourism and describes the strategic marketing process, from analysis and strategy formulation to implementation techniques. It provides the marketing theory for the rest of the text. Part two focuses on specific issues that are currently influencing tourism marketing. It explains how technology is affecting the way tourism firms operate, the impact and influence of environmental awareness, human resource strategy and service quality on tourism marketing.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0333717589"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780333717585"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 329,
+            "printType": "BOOK",
+            "categories": [
+              "Elektronisk handel"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_International_Marketing_of_Travel_an.html?hl=&id=Z8ZpQgAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Z8ZpQgAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "dR7ZDQAAQBAJ",
+          "etag": "vKV8hFmVIPk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/dR7ZDQAAQBAJ",
+          "volumeInfo": {
+            "title": "Manalive",
+            "authors": [
+              "G. K. Chesterton"
+            ],
+            "publisher": "Lindhardt og Ringhof",
+            "publishedDate": "2017-01-04",
+            "description": "\"I am going to hold a pistol to the head of the Modern Man. But I shall not use it to kill him – only to bring him to life.\" Innocent Smith, an \"allegorical practical joker\", turns everything upside down with his arrival at Beacon House, a London Boarding establishment. His passion and liveliness brightens up the place immediately, but at the height of the enjoyment, everyone is shocked when Smith tries to murder one of them. But in ‘Manalive’ (1912), Chesterton’s perhaps most joyful novel, nothing is as it appears, and the tenants will soon see life a whole new way. Gilbert Keith Chesterton (1874-1936) was one of the most prolific English writers of all time. He wrote poems, plays, essays, newspaper columns, and is especially known for his fictional priest detective Father Brown. His \"frenemy\", the author of Pygmalion, George Bernard Shaw, famously called him \"a man of colossal genius\" and the two of them would often engage in friendly public discussions with people like H.G. Wells and Clarence Darrow. Chesterton died in his home, and his last known words were a greeting to his wife, author Frances Blogg.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9789176393109"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "9176393100"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 128,
+            "printType": "BOOK",
+            "categories": [
+              "Philosophy"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.9.9.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=dR7ZDQAAQBAJ&printsec=frontcover&dq=subject:humor&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 371.36,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 259.95,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&rdid=book-dR7ZDQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 371360000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 259950000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Manalive-sample-epub.acsm?id=dR7ZDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dR7ZDQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5jaBK9RATS0C",
+          "etag": "rXbvC/YqGUU",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5jaBK9RATS0C",
+          "volumeInfo": {
+            "title": "Routledge Diccionario Técnico Inglés",
+            "authors": [
+              "Routledge"
+            ],
+            "publisher": "Psychology Press",
+            "publishedDate": "1997",
+            "description": "This collection of essays and reviews represents the most significant and comprehensive writing on Shakespeare's A Comedy of Errors. Miola's edited work also features a comprehensive critical history, coupled with a full bibliography and photographs of major productions of the play from around the world. In the collection, there are five previously unpublished essays. The topics covered in these new essays are women in the play, the play's debt to contemporary theater, its critical and performance histories in Germany and Japan, the metrical variety of the play, and the distinctly modern perspective on the play as containing dark and disturbing elements. To compliment these new essays, the collection features significant scholarship and commentary on The Comedy of Errors that is published in obscure and difficulty accessible journals, newspapers, and other sources. This collection brings together these essays for the first time.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0415112729"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780415112727"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 896,
+            "printType": "BOOK",
+            "categories": [
+              "English language"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.5.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&printsec=frontcover&dq=subject:technology&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&dq=subject:technology&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s.html?hl=&id=5jaBK9RATS0C"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s-sample-pdf.acsm?id=5jaBK9RATS0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5jaBK9RATS0C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        }
+      ]
+    }
+  ],
+  "poetry": [
+    {
+      "kind": "books#volumes",
+      "totalItems": 200,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "UOFEAQAAMAAJ",
+          "etag": "fUzU5JOgX5k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UOFEAQAAMAAJ",
+          "volumeInfo": {
+            "title": "The Jungle",
+            "authors": [
+              "Upton Sinclair"
+            ],
+            "publisher": "McLeod & Allen",
+            "publishedDate": "1906",
+            "description": "...Documents the brutal conditions in the Chicago stockyards at the turn of the century and brings into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share in the American dream...",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "OSU:32435078602422"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+              "Adventure"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.6.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Jungle.html?hl=&id=UOFEAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UOFEAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5FuUSQAACAAJ",
+          "etag": "DhfKBIsZFp4",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5FuUSQAACAAJ",
+          "volumeInfo": {
+            "title": "Five Point Someone (telugu)",
+            "authors": [
+              "Chetan Bhagat"
+            ],
+            "publishedDate": "2009",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "8183510345"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9788183510349"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 268,
+            "printType": "BOOK",
+            "categories": [
+              "Novel"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5FuUSQAACAAJ&dq=subject:novel&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Five_Point_Someone_telugu.html?hl=&id=5FuUSQAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5FuUSQAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "Z8ZpQgAACAAJ",
+          "etag": "vO1ym/LHUgo",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/Z8ZpQgAACAAJ",
+          "volumeInfo": {
+            "title": "The International Marketing of Travel and Tourism",
+            "subtitle": "A Strategic Approach",
+            "authors": [
+              "François Vellas",
+              "Lionel Bécherel"
+            ],
+            "publishedDate": "1999",
+            "description": "Tourism marketing has long been considered as a branch of traditional marketing. However, in recent years, tourism marketing has gone through fundamental changes: the pursuit of global strategies based on strategic alliances, the breakdown of commercial borders and advances in new technology have all facilitated the commercialization of tourism products. Setting out to examine the changes shaping the international marketing of tourism and travel this book begins by defining the role of national marketing in tourism and describes the strategic marketing process, from analysis and strategy formulation to implementation techniques. It provides the marketing theory for the rest of the text. Part two focuses on specific issues that are currently influencing tourism marketing. It explains how technology is affecting the way tourism firms operate, the impact and influence of environmental awareness, human resource strategy and service quality on tourism marketing.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0333717589"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780333717585"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 329,
+            "printType": "BOOK",
+            "categories": [
+              "Elektronisk handel"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "preview-1.0.0",
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=Z8ZpQgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=Z8ZpQgAACAAJ&dq=subject:it&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_International_Marketing_of_Travel_an.html?hl=&id=Z8ZpQgAACAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=Z8ZpQgAACAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "dR7ZDQAAQBAJ",
+          "etag": "vKV8hFmVIPk",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/dR7ZDQAAQBAJ",
+          "volumeInfo": {
+            "title": "Manalive",
+            "authors": [
+              "G. K. Chesterton"
+            ],
+            "publisher": "Lindhardt og Ringhof",
+            "publishedDate": "2017-01-04",
+            "description": "\"I am going to hold a pistol to the head of the Modern Man. But I shall not use it to kill him – only to bring him to life.\" Innocent Smith, an \"allegorical practical joker\", turns everything upside down with his arrival at Beacon House, a London Boarding establishment. His passion and liveliness brightens up the place immediately, but at the height of the enjoyment, everyone is shocked when Smith tries to murder one of them. But in ‘Manalive’ (1912), Chesterton’s perhaps most joyful novel, nothing is as it appears, and the tenants will soon see life a whole new way. Gilbert Keith Chesterton (1874-1936) was one of the most prolific English writers of all time. He wrote poems, plays, essays, newspaper columns, and is especially known for his fictional priest detective Father Brown. His \"frenemy\", the author of Pygmalion, George Bernard Shaw, famously called him \"a man of colossal genius\" and the two of them would often engage in friendly public discussions with people like H.G. Wells and Clarence Darrow. Chesterton died in his home, and his last known words were a greeting to his wife, author Frances Blogg.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_13",
+                "identifier": "9789176393109"
+              },
+              {
+                "type": "ISBN_10",
+                "identifier": "9176393100"
+              }
+            ],
+            "readingModes": {
+              "text": true,
+              "image": false
+            },
+            "pageCount": 128,
+            "printType": "BOOK",
+            "categories": [
+              "Philosophy"
+            ],
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "1.9.9.0.preview.2",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=dR7ZDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=dR7ZDQAAQBAJ&printsec=frontcover&dq=subject:humor&hl=&cd=1&source=gbs_api",
+            "infoLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&source=gbs_api",
+            "canonicalVolumeLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "FOR_SALE",
+            "isEbook": true,
+            "listPrice": {
+              "amount": 371.36,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amount": 259.95,
+              "currencyCode": "INR"
+            },
+            "buyLink": "https://play.google.com/store/books/details?id=dR7ZDQAAQBAJ&rdid=book-dR7ZDQAAQBAJ&rdot=1&source=gbs_api",
+            "offers": [
+              {
+                "finskyOfferType": 1,
+                "listPrice": {
+                  "amountInMicros": 371360000,
+                  "currencyCode": "INR"
+                },
+                "retailPrice": {
+                  "amountInMicros": 259950000,
+                  "currencyCode": "INR"
+                }
+              }
+            ]
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Manalive-sample-epub.acsm?id=dR7ZDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=dR7ZDQAAQBAJ&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        },
+        {
+          "kind": "books#volume",
+          "id": "5jaBK9RATS0C",
+          "etag": "rXbvC/YqGUU",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/5jaBK9RATS0C",
+          "volumeInfo": {
+            "title": "Routledge Diccionario Técnico Inglés",
+            "authors": [
+              "Routledge"
+            ],
+            "publisher": "Psychology Press",
+            "publishedDate": "1997",
+            "description": "This collection of essays and reviews represents the most significant and comprehensive writing on Shakespeare's A Comedy of Errors. Miola's edited work also features a comprehensive critical history, coupled with a full bibliography and photographs of major productions of the play from around the world. In the collection, there are five previously unpublished essays. The topics covered in these new essays are women in the play, the play's debt to contemporary theater, its critical and performance histories in Germany and Japan, the metrical variety of the play, and the distinctly modern perspective on the play as containing dark and disturbing elements. To compliment these new essays, the collection features significant scholarship and commentary on The Comedy of Errors that is published in obscure and difficulty accessible journals, newspapers, and other sources. This collection brings together these essays for the first time.",
+            "industryIdentifiers": [
+              {
+                "type": "ISBN_10",
+                "identifier": "0415112729"
+              },
+              {
+                "type": "ISBN_13",
+                "identifier": "9780415112727"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": true
+            },
+            "pageCount": 896,
+            "printType": "BOOK",
+            "categories": [
+              "English language"
+            ],
+            "averageRating": 5,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.6.5.0.preview.1",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=5jaBK9RATS0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&printsec=frontcover&dq=subject:technology&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=5jaBK9RATS0C&dq=subject:technology&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s.html?hl=&id=5jaBK9RATS0C"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "PARTIAL",
+            "embeddable": true,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.in/books/download/Routledge_Diccionario_T%C3%A9cnico_Ingl%C3%A9s-sample-pdf.acsm?id=5jaBK9RATS0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=5jaBK9RATS0C&hl=&source=gbs_api",
+            "accessViewStatus": "SAMPLE",
+            "quoteSharingAllowed": false
+          }
+        }
+      ]
+    }
+  ],
+  "it": [
+    {
+      "kind": "books#volumes",
+      "totalItems": 200,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "UOFEAQAAMAAJ",
+          "etag": "fUzU5JOgX5k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UOFEAQAAMAAJ",
+          "volumeInfo": {
+            "title": "The Jungle",
+            "authors": [
+              "Upton Sinclair"
+            ],
+            "publisher": "McLeod & Allen",
+            "publishedDate": "1906",
+            "description": "...Documents the brutal conditions in the Chicago stockyards at the turn of the century and brings into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share in the American dream...",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "OSU:32435078602422"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+              "Adventure"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.6.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Jungle.html?hl=&id=UOFEAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UOFEAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        }
+      ]
+    }
+  ],
+  "technology": [
+    {
+      "kind": "books#volumes",
+      "totalItems": 200,
+      "items": [
+        {
+          "kind": "books#volume",
+          "id": "UOFEAQAAMAAJ",
+          "etag": "fUzU5JOgX5k",
+          "selfLink": "https://www.googleapis.com/books/v1/volumes/UOFEAQAAMAAJ",
+          "volumeInfo": {
+            "title": "The Jungle",
+            "authors": [
+              "Upton Sinclair"
+            ],
+            "publisher": "McLeod & Allen",
+            "publishedDate": "1906",
+            "description": "...Documents the brutal conditions in the Chicago stockyards at the turn of the century and brings into sharp moral focus the appalling odds against which immigrants and other working people struggled for their share in the American dream...",
+            "industryIdentifiers": [
+              {
+                "type": "OTHER",
+                "identifier": "OSU:32435078602422"
+              }
+            ],
+            "readingModes": {
+              "text": false,
+              "image": false
+            },
+            "pageCount": 432,
+            "printType": "BOOK",
+            "categories": [
+              "Adventure"
+            ],
+            "averageRating": 4,
+            "ratingsCount": 1,
+            "maturityRating": "NOT_MATURE",
+            "allowAnonLogging": false,
+            "contentVersion": "0.3.6.0.preview.0",
+            "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+            },
+            "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=UOFEAQAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+            },
+            "language": "en",
+            "previewLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api",
+            "infoLink": "http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&source=gbs_api",
+            "canonicalVolumeLink": "https://books.google.com/books/about/The_Jungle.html?hl=&id=UOFEAQAAMAAJ"
+          },
+          "saleInfo": {
+            "country": "IN",
+            "saleability": "NOT_FOR_SALE",
+            "isEbook": false
+          },
+          "accessInfo": {
+            "country": "IN",
+            "viewability": "NO_PAGES",
+            "embeddable": false,
+            "publicDomain": false,
+            "textToSpeechPermission": "ALLOWED",
+            "epub": {
+              "isAvailable": false
+            },
+            "pdf": {
+              "isAvailable": false
+            },
+            "webReaderLink": "http://play.google.com/books/reader?id=UOFEAQAAMAAJ&hl=&source=gbs_api",
+            "accessViewStatus": "NONE",
+            "quoteSharingAllowed": false
+          }
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "s@s.com",
+      "password": "123"
+    },
+    {
+      "email": "s@test.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "email": "test@bs.com",
+      "password": "123",
+      "id": 3
+    }
+  ]
+}
