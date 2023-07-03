@@ -1,5 +1,6 @@
 import {
   Autocomplete,
+  Avatar,
   Button,
   Grid,
   IconButton,
@@ -10,10 +11,7 @@ import {
 import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
 
-const AppHeader = ({
-  setSearchQuery,
-  searchResults,
-}) => {
+const AppHeader = ({ setSearchQuery, searchResults }) => {
   var bookTitle = searchResults?.map((book) => book.volumeInfo);
   return (
     <>
@@ -73,13 +71,14 @@ const AppHeader = ({
           <Autocomplete
             id="free-solo-demo"
             fullWidth
+            size="small"
             freeSolo
             options={bookTitle && bookTitle?.title}
             renderInput={(params) => (
               <TextField
                 {...params}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                label="freeSolo"
+                label="Search your book here..."
               />
             )}
           />
@@ -94,7 +93,10 @@ const AppHeader = ({
           justifyContent="flex-end"
           alignItems="center"
         >
-          <Button variant="contained">Sign In</Button>
+          <Button variant="contained" size="small" color="secondary">
+            My Bookshelf
+          </Button>
+          <Avatar sx={{ ml: 2, backgroundColor: "secondary.dark" }}>S</Avatar>
         </Grid>
       </Grid>
     </>

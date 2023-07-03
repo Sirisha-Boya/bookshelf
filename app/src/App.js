@@ -11,7 +11,7 @@ function App() {
         <Route index path="/" element={<LandingScreen />} />
         <Route path="/signin" element={<LoginScreen />} />
         <Route path="/home" element={<HomePage />} />
-        <Route path="/preview" element={<PreviewBook />} />
+        <Route path="/preview/:id" element={<PreviewBook />} />
         <Route path="*" element={<Navigate to="/home" replace />} />
       </Routes>
     </BrowserRouter>

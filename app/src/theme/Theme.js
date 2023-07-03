@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material";
-import { grey } from "@mui/material/colors";
+import { amber, grey, yellow } from "@mui/material/colors";
 
 const theme = createTheme({
   palette: {
@@ -8,6 +8,10 @@ const theme = createTheme({
       main: grey[500],
       //dark: grey[900],
       light: grey[200],
+    },
+    secondary: {
+      main: yellow[500],
+      dark: amber[500],
     },
   },
   typography: {
