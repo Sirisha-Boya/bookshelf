@@ -4,14 +4,19 @@ import {
   Button,
   Grid,
   IconButton,
-  InputAdornment,
   TextField,
   Typography,
 } from "@mui/material";
-import React from "react";
-import SearchIcon from "@mui/icons-material/Search";
+import React, { useContext } from "react";
+import Brightness4Icon from "@mui/icons-material/Brightness4";
+import Brightness7Icon from "@mui/icons-material/Brightness7";
+import { ThemeContext } from "../theme/Theme";
+import { useTheme } from "@mui/material";
 
 const AppHeader = ({ setSearchQuery, searchResults }) => {
+  const theme = useTheme();
+  //console.log("theme", theme);
+  const { toggleTheme } = useContext(ThemeContext);
   var bookTitle = searchResults?.map((book) => book.volumeInfo);
   return (
     <>
@@ -83,6 +88,7 @@ const AppHeader = ({ setSearchQuery, searchResults }) => {
             )}
           />
         </Grid>
+
         <Grid
           item
           xs={6}
@@ -93,6 +99,13 @@ const AppHeader = ({ setSearchQuery, searchResults }) => {
           justifyContent="flex-end"
           alignItems="center"
         >
+          <IconButton onClick={toggleTheme}>
+            {theme.palette.mode === "light" ? (
+              <Brightness4Icon />
+            ) : (
+              <Brightness7Icon />
+            )}
+          </IconButton>
           <Button variant="contained" size="small" color="secondary">
             My Bookshelf
           </Button>

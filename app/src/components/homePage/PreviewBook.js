@@ -6,6 +6,7 @@ import {
   Grid,
   IconButton,
   Paper,
+  Rating,
   Typography,
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
@@ -18,6 +19,7 @@ import CloseIcon from "@mui/icons-material/Close";
 const PreviewBook = (props) => {
   const [bookData, setBookData] = useState({});
   const [addBook, setAddBook] = useState(false);
+
   const navigate = useNavigate();
   const location = useLocation();
   async function getBookData() {
@@ -29,6 +31,10 @@ const PreviewBook = (props) => {
     getBookData();
   }, [props.id]);
   var data = bookData?.volumeInfo;
+
+  const [rating, setRating] = useState(data?.averageRating);
+
+  console.log("Rating", data?.averageRating);
   return (
     <Container>
       {bookData && (
@@ -66,17 +72,26 @@ const PreviewBook = (props) => {
             {data?.authors?.map((obj) => {
               return <Typography variant="h6">Author: {obj}</Typography>;
             })}
-            <Typography color="secondary.dark"> Publisher: </Typography>
+            <Typography color="secondary"> Publisher: </Typography>
             <Typography>
               <li>{data?.publisher}</li>
             </Typography>
-            <Typography color="secondary.dark"> Published Date: </Typography>
+            <Typography color="secondary"> Published Date: </Typography>
             <Typography>
               <li>{data?.publishedDate}</li>
             </Typography>
-
-            <Typography>Avg. Rating: {data?.averageRating}</Typography>
-
+            <Box display="flex" alignItems="center">
+              <Typography>Avg. Rating:</Typography>
+              <Rating
+                sx={{ ml: "5px" }}
+                size="small"
+                name="half-rating"
+                defaultValue={data && data.averageRating}
+                // value={rating}
+                // onChange={(e, newValue) => setRating(newValue)}
+                // precision={0.5}
+              />
+            </Box>
             <Box sx={{ mt: "5px" }}>
               <Button
                 size="small"
@@ -87,23 +102,14 @@ const PreviewBook = (props) => {
               >
                 {addBook === true ? "Added" : "My BookShelf"}
               </Button>
-              {/* <Button
-                sx={{ ml: "5px" }}
-                size="small"
-                variant="contained"
-                color="secondary"
-                startIcon={<VisibilityIcon />}
-              >
-                Preview
-              </Button> */}
             </Box>
           </Grid>
 
           <Grid item xs={12} sm={12} md={12} lg={12}>
-            <Divider variant="middle" sx={{ borderColor: "secondary.dark" }} />
+            <Divider variant="middle" sx={{ borderColor: "secondary.main" }} />
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12}>
-            <Typography color="secondary.dark" marginBottom="10px" variant="h5">
+            <Typography color="secondary" marginBottom="10px" variant="h5">
               Description:
             </Typography>
             <Typography>{data?.description}</Typography>

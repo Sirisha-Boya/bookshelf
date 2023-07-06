@@ -4,7 +4,7 @@ import BodyContent from "../../utilities/BodyContent";
 import axios from "axios";
 import { searchBooks } from "../../services/Requests";
 
-const HomePage = () => {
+const HomePage = ({ toggleTheme, isDarkMode }) => {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
 
@@ -23,6 +23,8 @@ const HomePage = () => {
   return (
     <>
       <AppHeader
+        toggleTheme={toggleTheme}
+        isDarkMode={isDarkMode}
         setSearchQuery={setSearchQuery}
         // searchResults={searchResults}
       />

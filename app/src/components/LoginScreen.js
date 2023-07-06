@@ -4,6 +4,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useSnackbar } from "notistack";
 import { useNavigate } from "react-router-dom";
+import { Login, Users } from "../services/UsersApi";
 
 const LoginScreen = (props) => {
   const snackbar = useSnackbar();
@@ -21,62 +22,49 @@ const LoginScreen = (props) => {
       password: Yup.string().required("Password is required!"),
     }),
     onSubmit: async (values) => {
-      console.log("formik event triggered!", values);
+      var payload = {
+        email: values.email,
+        password: values.password,
+      };
       try {
-        const response = await UserLogin();
-        const users = response;
+        const response = await Login(payload);
+        // const users = response;
+        console.log("response", response);
 
-        // Find the user with matching credentials
-        const user = users.find(
-          (user) =>
-            user.email === values.email && user.password === values.password
-        );
-
-        if (user) {
-          // Handle successful login
-          console.log("Login successful:", user);
-          snackbar.enqueueSnackbar("Login Success!", { variant: "success" });
-          navigate("/home");
-        } else {
-          const obj = {
-            email: values.email,
-            password: values.password,
-          };
-          var res = await Register(obj);
-          if (res.email !== "" && res.password !== "") {
-            snackbar.enqueueSnackbar("Registration Success!", {
-              variant: "success",
-            });
+        if (response.status === 200) {
+          snackbar.enqueueSnackbar(response.message, { variant: "success" });
+          setTimeout(() => {
             navigate("/home");
-          } else {
-            snackbar.enqueueSnackbar("Please Enter all required fields", {
-              variant: "error",
-            });
-          }
-          console.log("res", res);
+          }, 1000);
+        } else if (response.status === 404) {
+          snackbar.enqueueSnackbar(response.message, { variant: "error" });
+        } else if (response.status === 401) {
+          snackbar.enqueueSnackbar(response.message, { variant: "error" });
+        } else {
+          snackbar.enqueueSnackbar(response.message, { variant: "error" });
         }
       } catch (error) {
-        console.error("Login failed:", error);
         snackbar.enqueueSnackbar("Something went wrong!", { variant: "error" });
       }
     },
   });
   return (
-    <Dialog open={props.Open} onClose={props.Close}>
+    <Dialog open={props.Open} onClose={props.Close} maxWidth="xs">
       <form onSubmit={formik.handleSubmit}>
-        <Grid container padding={3}>
+        <Grid container spacing={3} padding={2}>
           <Grid item xs={12} sm={12} md={12} lg={12}>
-            <Typography variant="h5">Enter your details</Typography>
+            <Typography variant="h5">Enter Login details</Typography>
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12}>
             <TextField
+              {...formik.getFieldProps("email")}
+              fullWidth
+              size="small"
               id="email"
               name="email"
               label="Email Address*"
               value={formik.values.email}
               onChange={formik.handleChange}
-              fullWidth
-              variant="standard"
               helperText={
                 formik.errors.email &&
                 formik.touched.email &&
@@ -87,14 +75,15 @@ const LoginScreen = (props) => {
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12}>
             <TextField
-              // {...formik.getFieldProps("name")}
+              {...formik.getFieldProps("password")}
+              fullWidth
+              size="small"
+              autoComplete="off"
               id="password"
               name="password"
               label="Password*"
               value={formik.values.password}
               onChange={formik.handleChange}
-              fullWidth
-              variant="standard"
               helperText={
                 formik.errors.password &&
                 formik.touched.password &&
@@ -111,10 +100,24 @@ const LoginScreen = (props) => {
             lg={12}
             display="flex"
             justifyContent="flex-end"
-            marginTop={2}
           >
-            <Button onClick={props.Close}>Cancel</Button>
-            <Button type="submit">Confirm</Button>
+            <Button
+              size="small"
+              color="secondary"
+              variant="outlined"
+              onClick={props.Close}
+              sx={{ mr: 1 }}
+            >
+              Cancel
+            </Button>
+            <Button
+              size="small"
+              color="secondary"
+              variant="contained"
+              type="submit"
+            >
+              Confirm
+            </Button>
           </Grid>
         </Grid>
       </form>
