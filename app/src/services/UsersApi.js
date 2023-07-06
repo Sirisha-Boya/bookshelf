@@ -35,7 +35,7 @@ export const Users = async () => {
       return response.data;
     })
     .catch((error) => {
-      throw error.response.data;
+      return error.response.data;
     });
   return res;
 };

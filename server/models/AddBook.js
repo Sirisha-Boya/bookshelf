@@ -26,6 +26,6 @@ const AddBook = new mongoose.Schema({
   },
 });
 
-const BookAdd = mongoose.model("users-watchlist", AddBook);
+const BookAdd = mongoose.model("users-watchlists", AddBook);
 
 module.exports = BookAdd;

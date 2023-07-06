@@ -11,21 +11,27 @@ import {
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { PreviewBookById } from "../../services/BooksApi";
+import { AddBookToBookshelf, PreviewBookById } from "../../services/BooksApi";
 import AddIcon from "@mui/icons-material/Add";
 import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
 import CloseIcon from "@mui/icons-material/Close";
+import { useSelector } from "react-redux";
+import { useSnackbar } from "notistack";
 
 const PreviewBook = (props) => {
+  var userDetails = useSelector((x) => x);
+  const snackbar = useSnackbar();
+  console.log("userData", userDetails);
   const [bookData, setBookData] = useState({});
-  const [addBook, setAddBook] = useState(false);
+  const [addBook, setAddBook] = useState([]);
+  const [addButton, setAddButton] = useState(false);
 
   const navigate = useNavigate();
   const location = useLocation();
   async function getBookData() {
     var data = await PreviewBookById(location.state.id);
     setBookData(data);
-    console.log("bookData", data);
+    //console.log("bookData", data);
   }
   useEffect(() => {
     getBookData();
@@ -33,8 +39,23 @@ const PreviewBook = (props) => {
   var data = bookData?.volumeInfo;
 
   const [rating, setRating] = useState(data?.averageRating);
+  const addBookToBookshelf = async () => {
+    var res = await AddBookToBookshelf(userDetails.userId, location.state.id);
+    if (res.status === 200) {
+      snackbar.enqueueSnackbar(res.message, { variant: "success" });
+      setAddButton(true);
+    } else if (res.status === 404) {
+      snackbar.enqueueSnackbar(res.message, { variant: "error" });
+      setAddButton(false);
+    } else {
+      snackbar.enqueueSnackbar(res.message, { variant: "error" });
+      setAddButton(false);
+    }
 
-  console.log("Rating", data?.averageRating);
+    console.log("res", res);
+    setAddBook(res);
+  };
+  //console.log("Rating", data?.averageRating);
   return (
     <Container>
       {bookData && (
@@ -95,12 +116,12 @@ const PreviewBook = (props) => {
             <Box sx={{ mt: "5px" }}>
               <Button
                 size="small"
-                onClick={() => setAddBook(!addBook)}
-                startIcon={addBook ? <ThumbUpAltIcon /> : <AddIcon />}
+                onClick={addBookToBookshelf}
+                startIcon={addButton ? <ThumbUpAltIcon /> : <AddIcon />}
                 variant="contained"
                 color="secondary"
               >
-                {addBook === true ? "Added" : "My BookShelf"}
+                {addButton === true ? "Added" : "My BookShelf"}
               </Button>
             </Box>
           </Grid>

@@ -3,23 +3,22 @@ import AppHeader from "../../utilities/AppHeader";
 import BodyContent from "../../utilities/BodyContent";
 import axios from "axios";
 import { searchBooks } from "../../services/Requests";
+import { GetBooks } from "../../services/BooksApi";
 
 const HomePage = ({ toggleTheme, isDarkMode }) => {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState([]);
+  const [bookList, setBookList] = useState([]);
 
-  // const getSearchBooks = async () => {
-  //   var res = await searchBooks();
-  //   console.log("search", res);
-  //   setSearchResults(res);
-  // };
+  const getBookList = async () => {
+    var res = await GetBooks();
+    console.log("search", res);
+    setBookList(res);
+  };
 
-  // useEffect(() => {
-  //   if (searchQuery.length > 2) {
-  //     getSearchBooks();
-  //   }
-  // }, [searchQuery]);
-  //console.log("search Query:", searchQuery);
+  useEffect(() => {
+    getBookList();
+  }, []);
   return (
     <>
       <AppHeader
@@ -28,7 +27,7 @@ const HomePage = ({ toggleTheme, isDarkMode }) => {
         setSearchQuery={setSearchQuery}
         // searchResults={searchResults}
       />
-      <BodyContent />
+      <BodyContent bookList={bookList} />
 
       {/* searchResults={searchResults} /> */}
     </>

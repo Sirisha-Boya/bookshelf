@@ -14,7 +14,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { PreviewBookById } from "../../services/BooksApi";
 
-const BookCard = ({ title, fetchUrl, searchResults }) => {
+const BookCard = ({ title, fetchBooks }) => {
   const navigate = useNavigate();
   const [books, setBooks] = useState([]);
   const [isHovered, setIsHovered] = useState(false);
@@ -49,63 +49,62 @@ const BookCard = ({ title, fetchUrl, searchResults }) => {
   //     getBooks();
   //   }, []);
 
-  useEffect(() => {
-    async function fetchData() {
-      const request = await axios.get(fetchUrl);
-      //console.log("data", request.data);
-      setBooks(request.data);
-      return request;
-    }
-    fetchData();
-  }, [fetchUrl]);
+  // useEffect(() => {
+  //   async function fetchData() {
+  //     const request = await axios.get(fetchUrl);
+  //     //console.log("data", request.data);
+  //     setBooks(request.data);
+  //     return request;
+  //   }
+  //   fetchData();
+  // }, [fetchUrl]);
 
   // const handleBookChange = (id) => {
   //   console.log("id", id);
   // };
-  var bookInfo = books.map((book) => book.items[0]);
-  console.log("bookInfo", bookInfo);
+  // var bookInfo = books.map((book) => book.items[0]);
+  console.log("bookList", fetchBooks);
   return (
     <Grid container spacing={2} display="flex" direction="row">
       <Grid item xs={12} sm={12} md={12} lg={12} display="flex" marginTop={2}>
-        <Typography variant="h4">{title}</Typography>
+        <Typography variant="h4"></Typography>
       </Grid>
-      {bookInfo.map((book) => {
-        let pic = `/images/tempcover.jpg`;
+      {fetchBooks.map((book) => {
+        //let pic = `/images/tempcover.jpg`;
         //console.log("hulk", book);
-        if (pic != undefined) {
-          return (
-            <Grid item xs={12} sm={6} md={3} lg={1} display="flex">
-              <Card
-                // onMouseEnter={() => setIsHovered(true)}
-                // onMouseLeave={() => setIsHovered(false)}
-                onClick={() => previewBook(book.id)}
-                sx={{
-                  minWidth: 100,
-                  maxWidth: 100,
-                  backgroundColor: "cream",
 
-                  ":hover": {
-                    boxShadow: 20,
-                    transform: "scale(1.09)",
-                    opacity: 0.5,
-                    transition: "transform 450ms",
-                  },
-                }}
-                key={book.id}
-              >
-                <CardActionArea>
-                  <CardMedia
-                    sx={{ objectFit: "fill", maxWidth: 200 }}
-                    component="img"
-                    height={150}
-                    image={pic}
-                    alt={pic}
-                  />
-                </CardActionArea>
-              </Card>
-            </Grid>
-          );
-        }
+        return (
+          <Grid item xs={12} sm={6} md={3} lg={1} display="flex">
+            <Card
+              // onMouseEnter={() => setIsHovered(true)}
+              // onMouseLeave={() => setIsHovered(false)}
+              onClick={() => previewBook(book.id)}
+              sx={{
+                minWidth: 100,
+                maxWidth: 100,
+                backgroundColor: "cream",
+
+                ":hover": {
+                  boxShadow: 20,
+                  transform: "scale(1.09)",
+                  opacity: 0.5,
+                  transition: "transform 450ms",
+                },
+              }}
+              key={book.id}
+            >
+              <CardActionArea>
+                <CardMedia
+                  sx={{ objectFit: "fill", maxWidth: 200 }}
+                  component="img"
+                  height={150}
+                  image={book?.thumbnail}
+                  alt="Book Cover"
+                />
+              </CardActionArea>
+            </Card>
+          </Grid>
+        );
       })}
     </Grid>
   );

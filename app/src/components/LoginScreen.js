@@ -5,11 +5,17 @@ import * as Yup from "yup";
 import { useSnackbar } from "notistack";
 import { useNavigate } from "react-router-dom";
 import { Login, Users } from "../services/UsersApi";
+import { useDispatch } from "react-redux";
+import {
+  fetchLoginFailure,
+  fetchLoginRequest,
+  fetchLoginSuccess,
+} from "../redux/actions/UserActions";
 
 const LoginScreen = (props) => {
   const snackbar = useSnackbar();
   const navigate = useNavigate();
-
+  const dispatch = useDispatch();
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -27,11 +33,13 @@ const LoginScreen = (props) => {
         password: values.password,
       };
       try {
+        dispatch(fetchLoginRequest());
         const response = await Login(payload);
         // const users = response;
         console.log("response", response);
 
         if (response.status === 200) {
+          dispatch(fetchLoginSuccess(response.data));
           snackbar.enqueueSnackbar(response.message, { variant: "success" });
           setTimeout(() => {
             navigate("/home");
@@ -44,6 +52,7 @@ const LoginScreen = (props) => {
           snackbar.enqueueSnackbar(response.message, { variant: "error" });
         }
       } catch (error) {
+        dispatch(fetchLoginFailure(error));
         snackbar.enqueueSnackbar("Something went wrong!", { variant: "error" });
       }
     },
@@ -116,7 +125,7 @@ const LoginScreen = (props) => {
               variant="contained"
               type="submit"
             >
-              Confirm
+              Sign In
             </Button>
           </Grid>
         </Grid>

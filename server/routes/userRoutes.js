@@ -3,7 +3,7 @@ const router = express.Router();
 
 const NewUser = require("../models/NewUser");
 
-router.post("/api/register", async (req, res) => {
+router.post("/register", async (req, res) => {
   const { username, userid, email, password } = req.body;
   try {
     // Create a new user object
@@ -28,7 +28,7 @@ router.post("/api/register", async (req, res) => {
 });
 
 // Get all users
-router.get("/api/users", async (req, res) => {
+router.get("/users", async (req, res) => {
   try {
     const users = await NewUser.find();
 
@@ -39,7 +39,7 @@ router.get("/api/users", async (req, res) => {
   }
 });
 
-router.post("/api/login", async (req, res) => {
+router.post("/login", async (req, res) => {
   const { email, password } = req.body;
 
   try {
@@ -63,9 +63,13 @@ router.post("/api/login", async (req, res) => {
         .status(401)
         .json({ message: "Invalid credentials", status: 401 });
     }
-    if (user.email === email) {
-      res.json({ message: "Login successful", status: 200 });
-    }
+    const userDetails = {
+      id: user.userid,
+      name: user.username,
+      email: user.email,
+    };
+      res.json({ message: "Login successful", status: 200, data: userDetails });
+   
     // User login successful
     // You can generate and send a token for authentication or handle the login response in your desired way
   } catch (error) {

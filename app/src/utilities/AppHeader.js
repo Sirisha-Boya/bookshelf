@@ -12,10 +12,11 @@ import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import { ThemeContext } from "../theme/Theme";
 import { useTheme } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const AppHeader = ({ setSearchQuery, searchResults }) => {
   const theme = useTheme();
-  //console.log("theme", theme);
+  const navigate = useNavigate();
   const { toggleTheme } = useContext(ThemeContext);
   var bookTitle = searchResults?.map((book) => book.volumeInfo);
   return (
@@ -38,7 +39,7 @@ const AppHeader = ({ setSearchQuery, searchResults }) => {
           alignItems="center"
         >
           <img src="images/books.png" height={30} alt="logo" />
-          <Typography variant="h6">
+          <Typography variant="h6" sx={{ cursor: "pointer" }}>
             <strong>BookShelf</strong>
           </Typography>
         </Grid>
@@ -106,7 +107,12 @@ const AppHeader = ({ setSearchQuery, searchResults }) => {
               <Brightness7Icon />
             )}
           </IconButton>
-          <Button variant="contained" size="small" color="secondary">
+          <Button
+            variant="contained"
+            size="small"
+            color="secondary"
+            onClick={() => navigate(`mybookshelf`)}
+          >
             My Bookshelf
           </Button>
           <Avatar sx={{ ml: 2, backgroundColor: "secondary.dark" }}>S</Avatar>

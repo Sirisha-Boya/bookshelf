@@ -35,75 +35,70 @@ const LandingScreen = () => {
   };
 
   return (
-    <Container maxWidth="xl">
-      <header
-        style={{
-          backgroundSize: "cover",
-          backgroundImage: `url("/images/banner.jpg")`,
-          backgroundPosition: "center center",
-          height: "925px",
-          color: "white",
-        }}
+    <header
+      style={{
+        backgroundSize: "cover",
+        backgroundImage: `url("/images/banner.jpg")`,
+        backgroundPosition: "center center",
+        height: "713px",
+        color: "white",
+      }}
+    >
+      <Grid
+        container
+        xs={12}
+        sm={12}
+        md={12}
+        lg={12}
+        display="flex"
+        flexDirection="column"
+        justifyContent="center"
+        alignItems="center"
       >
         <Grid
-          container
+          item
           xs={12}
           sm={12}
           md={12}
           lg={12}
-          display="flex"
-          flexDirection="column"
-          justifyContent="center"
-          alignItems="center"
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+          marginTop={25}
         >
-          <Grid
-            item
-            xs={12}
-            sm={12}
-            md={12}
-            lg={12}
-            sx={{
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              justifyContent: "center",
+          <Typography variant="h3">Welcome to the Bookshelf</Typography>
+          <Typography variant="h4">Unlock Your Imagination</Typography>
+          <Button
+            variant="contained"
+            size="medium"
+            id="login"
+            color="secondary"
+            onClick={() => {
+              setLoginOpen(true);
             }}
-            marginTop={25}
+            sx={{ mb: "2px", mt: "2px" }}
           >
-            <Typography variant="h3">Welcome to the Bookshelf</Typography>
-            <Typography variant="h4">Unlock Your Imagination</Typography>
-            <Button
-              variant="contained"
-              size="medium"
-              id="login"
-              color="secondary"
-              onClick={() => {
-                setLoginOpen(true);
-              }}
-              sx={{ mb: "2px", mt: "2px" }}
-            >
-              Sign In to explore
-            </Button>
-            <Link
-              component="button"
-              id="register"
-              variant="body2"
-              onClick={() => {
-                setRegisterOpen(true);
-              }}
-              color="secondary"
-            >
-              New User? Register
-            </Link>
-          </Grid>
-          <LoginScreen Open={loginOpen} Close={handleLoginClose} />
-          <NewUserRegistration
-            Open={registerOpen}
-            Close={handleRegisterClose}
-          />
+            Sign In to explore
+          </Button>
+          <Link
+            component="button"
+            id="register"
+            variant="body2"
+            onClick={() => {
+              setRegisterOpen(true);
+            }}
+            color="secondary"
+          >
+            New User? Register
+          </Link>
         </Grid>
-      </header>
-    </Container>
+        <LoginScreen Open={loginOpen} Close={handleLoginClose} />
+        <NewUserRegistration Open={registerOpen} Close={handleRegisterClose} />
+      </Grid>
+    </header>
   );
 };
 

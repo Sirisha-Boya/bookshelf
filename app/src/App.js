@@ -3,6 +3,8 @@ import HomePage from "./components/homePage/HomePage";
 import LandingScreen from "./components/LandingScreen";
 import LoginScreen from "./components/LoginScreen";
 import PreviewBook from "./components/homePage/PreviewBook";
+import BookShelf from "./components/myBookshelf/BookShelf";
+import NotFound from "./utilities/NotFound";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
         <Route path="/signin" element={<LoginScreen />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/preview/:id" element={<PreviewBook />} />
-        <Route path="*" element={<Navigate to="/home" replace />} />
+        {/* <Route path="*" element={<Navigate to="/home" replace />} /> */}
+        <Route path="*" element={<NotFound/>} />
+        <Route path="/home/mybookshelf" element={<BookShelf />} />
       </Routes>
     </BrowserRouter>
   );
