@@ -15,7 +15,7 @@ const initialstate = {
 };
 const userReducer = (state = initialstate, action) => {
   if (action.type == FETCH_LOGIN_SUCCESS) {
-    console.log("red", action.payload);
+    
     var { id, email, name } = action.payload;
   }
 
@@ -46,6 +46,9 @@ const userReducer = (state = initialstate, action) => {
         ...state,
         isLoading: false,
         error: "",
+        userId: "",
+        name: "",
+        email: "",
       };
     default:
       return state;

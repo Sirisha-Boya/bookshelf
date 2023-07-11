@@ -1,37 +1,19 @@
 import React, { useEffect, useState } from "react";
-import AppHeader from "../../utilities/AppHeader";
-import BodyContent from "../../utilities/BodyContent";
-import axios from "axios";
-import { searchBooks } from "../../services/Requests";
+import BookCard from "./BookCard";
 import { GetBooks } from "../../services/BooksApi";
+import { useSelector } from "react-redux";
 
-const HomePage = ({ toggleTheme, isDarkMode }) => {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
-  const [bookList, setBookList] = useState([]);
-
-  const getBookList = async () => {
-    var res = await GetBooks();
-    console.log("search", res);
-    setBookList(res);
-  };
+const HomePage = () => {
+  var data = useSelector((state) => state.books);
+  //console.log("redux book data", data.books);
+  const getBookList = async() => {
+    await GetBooks();
+  }
 
   useEffect(() => {
     getBookList();
   }, []);
-  return (
-    <>
-      <AppHeader
-        toggleTheme={toggleTheme}
-        isDarkMode={isDarkMode}
-        setSearchQuery={setSearchQuery}
-        // searchResults={searchResults}
-      />
-      <BodyContent bookList={bookList} />
-
-      {/* searchResults={searchResults} /> */}
-    </>
-  );
+  return <BookCard fetchBooks={data.books} />;
 };
 
 export default HomePage;

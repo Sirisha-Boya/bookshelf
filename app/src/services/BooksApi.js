@@ -1,14 +1,24 @@
 import axios from "axios";
+import store from "../redux/store";
+import {
+  fetchBookFailure,
+  fetchBookRequest,
+  fetchBookSuccess,
+} from "../redux/actions/BookActions";
 
 const baseUrl = "http://localhost:3002/api";
 export const GetBooks = async () => {
+  store.dispatch(fetchBookRequest());
   var res = await axios
     .get(`${baseUrl}/books`)
     .then((response) => {
+      store.dispatch(fetchBookSuccess(response.data));
+      console.log("response", response.data);
       return response.data;
     })
     .catch((error) => {
-      return error.response.data;
+      store.dispatch(fetchBookFailure(error.message));
+      return error.message;
     });
 
   return res;

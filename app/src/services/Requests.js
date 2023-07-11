@@ -10,13 +10,13 @@
 //   humor: `${baseURL}=subject:humor&key=${API_KEY}&langRestrict=en&maxResults=40`,
 // };
 // https://www.googleapis.com/books/v1/volumes?q=subject:technology&key=AIzaSyAGp1hTQjtZEqFDya1Q-r6fdw_gD-FIgno&langRestrict=en&maxResults=40
-export const requests = {
-  technology: `http://www.localhost:3004/technology`,
-  novels: `http://www.localhost:3004/novels`,
-  it: `http://www.localhost:3004/it`,
-  poetry: `http://www.localhost:3004/poetry`,
-  humor: `http://www.localhost:3004/humor`,
-};
+// export const requests = {
+//   technology: `http://www.localhost:3004/technology`,
+//   novels: `http://www.localhost:3004/novels`,
+//   it: `http://www.localhost:3004/it`,
+//   poetry: `http://www.localhost:3004/poetry`,
+//   humor: `http://www.localhost:3004/humor`,
+// };
 
 // export const searchBooks = () => {
 //   const bookSearch = [

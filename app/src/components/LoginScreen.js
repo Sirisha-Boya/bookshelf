@@ -36,13 +36,13 @@ const LoginScreen = (props) => {
         dispatch(fetchLoginRequest());
         const response = await Login(payload);
         // const users = response;
-        console.log("response", response);
+        //console.log("response", response);
 
         if (response.status === 200) {
           dispatch(fetchLoginSuccess(response.data));
           snackbar.enqueueSnackbar(response.message, { variant: "success" });
           setTimeout(() => {
-            navigate("/home");
+            navigate("/");
           }, 1000);
         } else if (response.status === 404) {
           snackbar.enqueueSnackbar(response.message, { variant: "error" });

@@ -19,9 +19,10 @@ import { useSelector } from "react-redux";
 import { useSnackbar } from "notistack";
 
 const PreviewBook = (props) => {
-  var userDetails = useSelector((x) => x);
+  var userDetails = useSelector((x) => x.users);
+  var bookDetails = useSelector((state) => state.books);
   const snackbar = useSnackbar();
-  console.log("userData", userDetails);
+  console.log("bookD", bookDetails.books);
   const [bookData, setBookData] = useState({});
   const [addBook, setAddBook] = useState([]);
   const [addButton, setAddButton] = useState(false);
@@ -31,14 +32,35 @@ const PreviewBook = (props) => {
   async function getBookData() {
     var data = await PreviewBookById(location.state.id);
     setBookData(data);
-    //console.log("bookData", data);
+    console.log("bookData", data);
   }
   useEffect(() => {
     getBookData();
   }, [props.id]);
   var data = bookData?.volumeInfo;
 
-  const [rating, setRating] = useState(data?.averageRating);
+  const [rating, setRating] = useState(0);
+  const [initialRating, setInitialRating] = useState(0);
+  const [ratingCount, setRatingCount] = useState(0);
+  //console.log("data.averageRating:", data?.averageRating);
+  //console.log("rating:", rating);
+  useEffect(() => {
+    if (bookData?.volumeInfo?.averageRating) {
+      setRating(bookData.volumeInfo.averageRating);
+    }
+    if (bookData?.volumeInfo?.ratingsCount) {
+      setRatingCount(bookData.volumeInfo.ratingsCount);
+    }
+  }, [bookData]);
+  const handleRatingChange = (event, newValue) => {
+    setRating(newValue);
+    if (initialRating === 0) {
+      setRatingCount((prevCount) => prevCount + 1);
+      setInitialRating(newValue);
+      // Additional logic here to update the rating in your backend
+    }
+  };
+
   const addBookToBookshelf = async () => {
     var res = await AddBookToBookshelf(userDetails.userId, location.state.id);
     if (res.status === 200) {
@@ -80,18 +102,42 @@ const PreviewBook = (props) => {
             lg={1}
             marginTop={5}
             display="flex"
-            justifyContent="center "
+            justifyContent="flex-end"
           >
-            <IconButton onClick={() => navigate(-1)}>
-              <CloseIcon />
-            </IconButton>
+            <Button
+              size="small"
+              onClick={() => navigate(-1)}
+              variant="contained"
+              color="secondary"
+            >
+              Back
+            </Button>
           </Grid>
           <Grid item xs={12} sm={2.5} md={2} lg={1.5}>
             <img src={data?.imageLinks?.thumbnail} alt="Book Logo" />
+            <div style={{ display: "flex", flexDirection: "row" }}>
+              <Typography color="secondary" sx={{ ml: 0.5, mr: 0.5 }}>
+                Price:
+              </Typography>
+              {bookData?.saleInfo?.retailPrice ? (
+                <Typography>
+                  {bookData?.saleInfo?.retailPrice?.amount}{" "}
+                  {bookData?.saleInfo?.retailPrice?.currencyCode}
+                </Typography>
+              ) : (
+                "Not available"
+              )}
+            </div>
           </Grid>
+          {/* <Grid item xs={12} sm={2.5} md={2} lg={1.5}>
+           
+          </Grid> */}
           <Grid item xs={12} sm={9.5} md={10} lg={10.5}>
+            <Typography color="secondary" variant="h6">
+              Author:
+            </Typography>
             {data?.authors?.map((obj) => {
-              return <Typography variant="h6">Author: {obj}</Typography>;
+              return <Typography>{obj}</Typography>;
             })}
             <Typography color="secondary"> Publisher: </Typography>
             <Typography>
@@ -102,16 +148,20 @@ const PreviewBook = (props) => {
               <li>{data?.publishedDate}</li>
             </Typography>
             <Box display="flex" alignItems="center">
-              <Typography>Avg. Rating:</Typography>
+              <Typography color="secondary">Avg. Rating:</Typography>
               <Rating
                 sx={{ ml: "5px" }}
                 size="small"
                 name="half-rating"
-                defaultValue={data && data.averageRating}
-                // value={rating}
-                // onChange={(e, newValue) => setRating(newValue)}
-                // precision={0.5}
+                //defaultValue={data && data.averageRating}
+                //defaultValue={rating}
+                value={rating}
+                onChange={handleRatingChange}
+                precision={0.5}
               />
+              <span>
+                {ratingCount} {ratingCount === 1 ? "rating" : "ratings"}
+              </span>
             </Box>
             <Box sx={{ mt: "5px" }}>
               <Button
@@ -123,6 +173,17 @@ const PreviewBook = (props) => {
               >
                 {addButton === true ? "Added" : "My BookShelf"}
               </Button>
+              <Button
+                sx={{ ml: 2 }}
+                onClick={() =>
+                  (window.location.href = bookData?.saleInfo?.buyLink)
+                }
+                size="small"
+                variant="contained"
+                color="secondary"
+              >
+                Buy
+              </Button>
             </Box>
           </Grid>
 
@@ -133,7 +194,7 @@ const PreviewBook = (props) => {
             <Typography color="secondary" marginBottom="10px" variant="h5">
               Description:
             </Typography>
-            <Typography>{data?.description}</Typography>
+            <div dangerouslySetInnerHTML={{ __html: data?.description }} />
           </Grid>
         </Grid>
       )}

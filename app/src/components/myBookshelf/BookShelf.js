@@ -6,12 +6,12 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
-import AppHeader from "../../utilities/AppHeader";
+import AppHeader from "../layout/AppHeader";
 import { BookshelfBooks } from "../../services/BooksApi";
 import { useSelector } from "react-redux";
 
 const BookShelf = () => {
-  var userDetails = useSelector((x) => x);
+  var userDetails = useSelector((x) => x.users);
   const [bookshelf, setBookshelf] = useState([]);
 
   const GetBookShelfBooks = async () => {
@@ -24,15 +24,15 @@ const BookShelf = () => {
   },[])
   return (
     <>
-      <AppHeader />
-      <Grid container spacing={2} marginTop={2} marginLeft={5} marginRight={5}>
+      {/* <AppHeader /> */}
+      <Grid container spacing={2} marginTop={2} marginLeft={5} marginRight={5} display="flex" direction="row">
         <Grid item xs={12} sm={12} md={12} lg={12}>
           <Typography variant="body1" color="secondary">
             Recently added Books...
           </Typography>
         </Grid>
         {bookshelf && bookshelf?.map((book) => (
-          <Grid item xs={12} sm={12} md={12} lg={12} display="flex">
+          <Grid item xs={2} sm={2} md={1} lg={1}>
           <Card
             // onMouseEnter={() => setIsHovered(true)}
             // onMouseLeave={() => setIsHovered(false)}
@@ -55,7 +55,7 @@ const BookShelf = () => {
                 sx={{ objectFit: "fill", maxWidth: 200 }}
                 component="img"
                 height={150}
-                image={book?.thumbnail}
+                image={book?.volumeInfo?.imageLinks?.thumbnail}
                 alt="Book Cover"
               />
             </CardActionArea>

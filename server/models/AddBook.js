@@ -4,6 +4,7 @@ const AddBook = new mongoose.Schema({
   user_id: {
     type: String,
     required: true,
+    index: false
   },
   book_id: {
     type: String,
@@ -26,6 +27,6 @@ const AddBook = new mongoose.Schema({
   },
 });
 
-const BookAdd = mongoose.model("users-watchlists", AddBook);
+const BookAdd = mongoose.model("users-bookshelf", AddBook);
 
 module.exports = BookAdd;

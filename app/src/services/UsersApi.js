@@ -19,6 +19,7 @@ export const Login = async (obj) => {
     .post("http://localhost:3002/api/login", obj)
     .then((response) => {
       //console.log("stark",response)
+  
       return response.data;
     })
     .catch((error) => {

@@ -4,21 +4,28 @@ import {
   Button,
   Grid,
   IconButton,
+  InputAdornment,
   TextField,
   Typography,
 } from "@mui/material";
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
-import { ThemeContext } from "../theme/Theme";
+import { ThemeContext } from "../../theme/Theme";
 import { useTheme } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { GetBooks } from "../../services/BooksApi";
+import { searchBook } from "../../redux/actions/BookActions";
+import SearchIcon from "@mui/icons-material/Search";
+import { logoutUser } from "../../redux/actions/UserActions";
 
-const AppHeader = ({ setSearchQuery, searchResults }) => {
+const AppHeader = () => {
   const theme = useTheme();
+  const dispatch = useDispatch();
   const navigate = useNavigate();
   const { toggleTheme } = useContext(ThemeContext);
-  var bookTitle = searchResults?.map((book) => book.volumeInfo);
+
   return (
     <>
       <Grid
@@ -54,15 +61,13 @@ const AppHeader = ({ setSearchQuery, searchResults }) => {
           justifyContent="center"
           alignItems="center"
         >
-          {/* <TextField
+          <TextField
             fullWidth
             variant="outlined"
             placeholder="Search your book here..."
             size="small"
-            value={searchQuery}
-            onChange={(e) => {
-              handleSearch();
-              setSearchQuery(e.target.value);
+            onChange={(event) => {
+              dispatch(searchBook(event.target.value));
             }}
             InputProps={{
               endAdornment: (
@@ -73,21 +78,29 @@ const AppHeader = ({ setSearchQuery, searchResults }) => {
                 </InputAdornment>
               ),
             }}
-          /> */}
-          <Autocomplete
+          />
+          {/* <Autocomplete
             id="free-solo-demo"
             fullWidth
             size="small"
             freeSolo
-            options={bookTitle && bookTitle?.title}
+            options={data?.books?.map(
+              (option) => option?.volumeInfo?.title || ""
+            )}
+            onChange={(e) => {
+              console.log("panther", e);
+              dispatch(searchBook(e.target.value));
+            }}
+            // getOptionLabel={(option) => option?.volumeInfo?.title || ""}
+
             renderInput={(params) => (
               <TextField
                 {...params}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                //onChange={(e) => setSearchQuery(e.target.value)}
                 label="Search your book here..."
               />
             )}
-          />
+          /> */}
         </Grid>
 
         <Grid
@@ -115,7 +128,18 @@ const AppHeader = ({ setSearchQuery, searchResults }) => {
           >
             My Bookshelf
           </Button>
-          <Avatar sx={{ ml: 2, backgroundColor: "secondary.dark" }}>S</Avatar>
+          <Button
+            sx={{ ml: 1 }}
+            onClick={() => {
+              dispatch(logoutUser());
+              navigate("/login");
+            }}
+            variant="contained"
+            size="small"
+            color="secondary"
+          >
+            Log Out
+          </Button>
         </Grid>
       </Grid>
     </>

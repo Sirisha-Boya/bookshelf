@@ -1,19 +1,18 @@
 import { configureStore } from "@reduxjs/toolkit";
-import userReducer from "./reducers/UserReducer";
-import storage from "redux-persist/lib/storage"; // defaults to localStorage for web
+import storage from "redux-persist/lib/storage";
 import logger from "redux-logger";
 import { persistReducer } from "redux-persist";
+import RootReducer from "./reducers/RootReducer";
 
-
-const persistConfig = {
+const persisterConfig = {
   key: "root",
   storage,
 };
-const persistreducer = persistReducer(persistConfig, userReducer);
+const persistreducer = persistReducer(persisterConfig, RootReducer);
 
 const store = configureStore({
   reducer: persistreducer,
-  devTools: process.env.NODE_ENV !== "production",
+   devTools: process.env.NODE_ENV !== "production",
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({ serializableCheck: false }).concat(logger),
 });

@@ -11,14 +11,14 @@ router.post("/addbook/:user_id/:book_id", async (req, res) => {
   try {
     // Check if the user exists
     let userid = user_id;
-    const userExists = await NewUser.find({userid});
+    const userExists = await NewUser.find({ userid });
     if (!userExists) {
       return res.status(404).json({ message: "User not found", status: 404 });
     }
 
     // Check if the book exists
     let id = book_id;
-    const bookExists = await BookList.find({id});
+    const bookExists = await BookList.find({ id });
     if (!bookExists) {
       return res.status(404).json({ message: "Book not found", status: 404 });
     }
@@ -31,7 +31,7 @@ router.post("/addbook/:user_id/:book_id", async (req, res) => {
       created_on: new Date(),
       created_by: user_id,
     });
-    console.log("obj",readingListEntry)
+    console.log("obj", readingListEntry);
 
     // Save the reading list entry
     await readingListEntry.save();
@@ -52,14 +52,12 @@ router.get("/books", async (req, res) => {
     res.json(books);
     //console.log("books", books);
   } catch (error) {
-    console.error("Error getting users:", error);
+    console.error("Error getting books:", error);
     res.status(500).json({ message: "Internal server error", status: 500 });
   }
 });
 
-
-
-router.get('/bookshelfbooks/:userId', async (req, res) => {
+router.get("/bookshelfbooks/:userId", async (req, res) => {
   const userId = req.params.userId;
 
   try {
@@ -68,17 +66,20 @@ router.get('/bookshelfbooks/:userId', async (req, res) => {
 
     // Extract book IDs from the userBooks
     const bookIds = userBooks.map((book) => book.book_id);
-
+    console.log("api bookIds", bookIds);
     // Retrieve book information based on the book IDs from the booklist collection
     const books = await BookList.find({ id: bookIds });
 
     // Return the books to the frontend
+    //console.log("api books", books);
     res.json(books);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: 'An error occurred while retrieving books.', status: 500 });
+    res.status(500).json({
+      message: "An error occurred while retrieving books.",
+      status: 500,
+    });
   }
 });
-
 
 module.exports = router;

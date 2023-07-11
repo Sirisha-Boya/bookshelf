@@ -50,7 +50,7 @@ const NewUserRegistration = (props) => {
           variant: "success",
         });
         setTimeout(() => {
-          navigate(`/home`);
+          navigate(`/`);
         }, 1000);
       } else if (res.status === 400) {
         snackbar.enqueueSnackbar("Email already exists!", {
