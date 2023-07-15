@@ -39,6 +39,15 @@ const ThemeProviderWrapper = ({ children }) => {
     typography: {
       fontFamily: "Lato",
     },
+    components: {
+      MuiButton: {
+        styleOverrides: {
+          root: {
+            textTransform: "none",
+          },
+        },
+      },
+    },
   });
 
   return (

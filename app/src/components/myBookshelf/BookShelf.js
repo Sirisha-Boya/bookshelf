@@ -1,68 +1,111 @@
 import {
+  Button,
   Card,
   CardActionArea,
+  CardActions,
+  CardContent,
   CardMedia,
   Grid,
   Typography,
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import AppHeader from "../layout/AppHeader";
-import { BookshelfBooks } from "../../services/BooksApi";
+import { BookshelfBooksStatusCheck, UpdateBook } from "../../services/BooksApi";
 import { useSelector } from "react-redux";
+import { useSnackbar } from "notistack";
+import { useNavigate } from "react-router-dom";
+import PageLoader from "../../utilities/PageLoader";
+import NoData from "../../utilities/NoData";
 
 const BookShelf = () => {
   var userDetails = useSelector((x) => x.users);
+  var bookDetails = useSelector((state) => state.books);
+  const navigate = useNavigate();
+  const snackbar = useSnackbar();
   const [bookshelf, setBookshelf] = useState([]);
 
   const GetBookShelfBooks = async () => {
-    var res = await BookshelfBooks(userDetails.userId);
-    console.log("bookshelf",res)
-    setBookshelf(res)
+    var status = 0; //Want to Read status
+    await BookshelfBooksStatusCheck(userDetails.userId, status);
+    //console.log("res",res)
+    // setBookshelf(res);
   };
   useEffect(() => {
     GetBookShelfBooks();
-  },[])
+  }, []);
+
+  const handleReadNow = async (bookid) => {
+    var obj = {
+      bookprogress: 0,
+      status: 1,
+      //status: 1 ===> Currently Reading
+    };
+    var res = await UpdateBook(userDetails.userId, bookid, obj);
+    if (res.status === 200) {
+      snackbar.enqueueSnackbar(res.message, { variant: "success" });
+      navigate("/");
+    } else if (res.status === 404) {
+      snackbar.enqueueSnackbar(res.message, { variant: "error" });
+    } else {
+      snackbar.enqueueSnackbar(res.message, { variant: "error" });
+    }
+  };
+  //console.log("book",bookDetails)
   return (
     <>
       {/* <AppHeader /> */}
-      <Grid container spacing={2} marginTop={2} marginLeft={5} marginRight={5} display="flex" direction="row">
+      <Grid
+        container
+        spacing={2}
+        marginTop={2}
+        marginLeft={5}
+        marginRight={5}
+        display="flex"
+        direction="row"
+      >
         <Grid item xs={12} sm={12} md={12} lg={12}>
           <Typography variant="body1" color="secondary">
             Recently added Books...
           </Typography>
         </Grid>
-        {bookshelf && bookshelf?.map((book) => (
-          <Grid item xs={2} sm={2} md={1} lg={1}>
-          <Card
-            // onMouseEnter={() => setIsHovered(true)}
-            // onMouseLeave={() => setIsHovered(false)}
-            sx={{
-              minWidth: 100,
-              maxWidth: 100,
-              backgroundColor: "cream",
-
-              ":hover": {
-                boxShadow: 20,
-                transform: "scale(1.09)",
-                opacity: 0.5,
-                transition: "transform 450ms",
-              },
-            }}
-            key={book.id}
-          >
-            <CardActionArea>
+        {/* {bookDetails?.isLoading && <PageLoader />} */}
+        {bookDetails?.bookshelfBooks &&
+          bookDetails?.bookshelfBooks?.map((book) => (
+            <Grid item xs={2} sm={2} md={2} lg={2}>
               <CardMedia
-                sx={{ objectFit: "fill", maxWidth: 200 }}
+                //sx={{ objectFit: "fill", maxWidth: 200 }}
                 component="img"
-                height={150}
+                sx={{ mb: 1 }}
+                //height={200}
                 image={book?.volumeInfo?.imageLinks?.thumbnail}
                 alt="Book Cover"
               />
-            </CardActionArea>
-          </Card>
-        </Grid>
-        ))}
-        
+
+              <Button
+                fullWidth
+                size="small"
+                variant="contained"
+                color="secondary"
+                onClick={() => handleReadNow(book.id)}
+              >
+                Read Now
+              </Button>
+            </Grid>
+          ))}
+        {bookDetails?.error && (
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={12}
+            lg={12}
+            display="flex"
+            alignItems="center"
+          >
+            <NoData />
+            <Typography variant="h5">No Books Found!</Typography>
+          </Grid>
+        )}
       </Grid>
     </>
   );

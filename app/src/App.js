@@ -17,7 +17,8 @@ function App() {
           maxSnack={2}
           anchorOrigin={{ vertical: "top", horizontal: "right" }}
           TransitionComponent={Slide}
-          transitionDuration={1000}
+          //transitionDuration={2000}
+          autoHideDuration={2000}
         >
           <CssBaseline />
           <PageLoader />

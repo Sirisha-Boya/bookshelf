@@ -32,7 +32,7 @@ const userReducer = (state = initialstate, action) => {
         userId: id,
         name: name,
         email: email,
-        temp: action.payload,
+        //temp: action.payload,
       };
 
     case FETCH_LOGIN_FAILURE:

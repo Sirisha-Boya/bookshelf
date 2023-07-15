@@ -5684,6 +5684,863 @@
         "searchInfo": {
           "textSnippet": "According to the Encyclopedia of Religion, exorcism “implies the driving out of evil powers or spirits by solemn adjuration or the performance of rituals.”20 Written accounts of exorcism typically contain a combination of the following&nbsp;..."
         }
+      },
+      {
+        "kind": "books#volume",
+        "id": "KNEbAQAAIAAJ",
+        "etag": "SeeUZQFtZu4",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/KNEbAQAAIAAJ",
+        "volumeInfo": {
+          "title": "Poetry Comics",
+          "subtitle": "An Animated Anthology",
+          "authors": [
+            "Dave Morice"
+          ],
+          "publisher": "Teachers & Writers Collaborative",
+          "publishedDate": "2002",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "STANFORD:36105113025220"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 140,
+          "printType": "BOOK",
+          "categories": [
+            "American poetry"
+          ],
+          "genre" : "Comics",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.6.2.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=KNEbAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=KNEbAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=KNEbAQAAIAAJ&q=comics&dq=comics&hl=&cd=20&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=KNEbAQAAIAAJ&dq=comics&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Poetry_Comics.html?hl=&id=KNEbAQAAIAAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=KNEbAQAAIAAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "ave Morice &#39; s Poetry \u003cb\u003eComics\u003c/b\u003e is the English 101 of \u003cb\u003ecomic\u003c/b\u003e books . It offers literary mavens and students of all ages a look at the canon in a new and hilarious light . This anthology brings together classics such as Shakespeare &#39; s&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "Ggy0DQAAQBAJ",
+        "etag": "aMuinzXmwvI",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Ggy0DQAAQBAJ",
+        "volumeInfo": {
+          "title": "Movie Comics",
+          "subtitle": "Page to Screen/Screen to Page",
+          "authors": [
+            "Blair Davis"
+          ],
+          "publisher": "Rutgers University Press",
+          "publishedDate": "2017-01-03",
+          "description": "As Christopher Nolan’s Batman films and releases from the Marvel Cinematic Universe have regularly topped the box office charts, fans and critics alike might assume that the “comic book movie” is a distinctly twenty-first-century form. Yet adaptations of comics have been an integral part of American cinema from its very inception, with comics characters regularly leaping from the page to the screen and cinematic icons spawning comics of their own. Movie Comics is the first book to study the long history of both comics-to-film and film-to-comics adaptations, covering everything from silent films starring Happy Hooligan to sound films and serials featuring Dick Tracy and Superman to comic books starring John Wayne, Gene Autry, Bob Hope, Abbott & Costello, Alan Ladd, and Dean Martin and Jerry Lewis. With a special focus on the Classical Hollywood era, Blair Davis investigates the factors that spurred this media convergence, as the film and comics industries joined forces to expand the reach of their various brands. While analyzing this production history, he also tracks the artistic coevolution of films and comics, considering the many formal elements that each medium adopted and adapted from the other. As it explores our abiding desire to experience the same characters and stories in multiple forms, Movie Comics gives readers a new appreciation for the unique qualities of the illustrated page and the cinematic moving image.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780813572277"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0813572274"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 288,
+          "printType": "BOOK",
+          "categories": [
+            "Performing Arts"
+          ],
+          "genre": "Comics",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.5.4.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Ggy0DQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Ggy0DQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=Ggy0DQAAQBAJ&pg=PT18&dq=comics&hl=&cd=21&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=Ggy0DQAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Ggy0DQAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 2728.85,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 2728.85,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=Ggy0DQAAQBAJ&rdid=book-Ggy0DQAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 2728850000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 2728850000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Movie_Comics-sample-epub.acsm?id=Ggy0DQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Movie_Comics-sample-pdf.acsm?id=Ggy0DQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=Ggy0DQAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "scholarly work being done on \u003cb\u003ecomics\u003c/b\u003e looks at Hollywood adaptations of popular \u003cb\u003ecomic\u003c/b\u003e book heroes—specifically, modern superhero blockbuster cinema. Such attention is certainly warranted given how \u003cb\u003ecomic\u003c/b\u003e book properties have become a&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "Ufv_DwAAQBAJ",
+        "etag": "+GjINuiaCzw",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/Ufv_DwAAQBAJ",
+        "volumeInfo": {
+          "title": "The Unbearable Lightness of Being",
+          "authors": [
+            "Milan Kundera"
+          ],
+          "publisher": "Faber & Faber",
+          "publishedDate": "2020-11-09",
+          "description": "'A cult figure.' Guardian'A dark and brilliant achievement.' Ian McEwan'Shamelessly clever ... Exhilaratingly subversive and funny.' Independent'A modern classic ... As relevant now as when it was first published. ' John BanvilleA young woman is in love with a successful surgeon; a man torn between his love for her and his womanising. His mistress, a free-spirited artist, lives her life as a series of betrayals; while her other lover stands to lose everything because of his noble qualities. In a world where lives are shaped by choices and events, and everything occurs but once, existence seems to lose its substance and weight - and we feel 'the unbearable lightness of being'.The Unbearable Lightness of Being encompasses passion and philosophy, infidelity and ideas, the Prague Spring and modern America, political acts and private desires, comedy and tragedy - in fact, all of human existence.What readers are saying:'Some books change your mind, some change your heart, the very best change your whole world ... A mighty piece of work, that will shape your life forever.''One of the best books I've ever read ... A book about love and life, full of surprises. Beautiful.''This book is going to change your life ... It definitely leaves you with a hangover after you're done reading.''A must read - loved it, such beautiful observations on life, love and sexuality.''Kundera writes about love as if in a trance so the beauty of it is enchanting and dreamy ... Will stay with you forever.''A beautiful novel that helps you understand life better ... Loved it.''One of those rare novels full of depth and insight into the human condition ... Got me reading Camus and Sartre.''One of the best books I have ever read ... An intellectual love story if ever there was one.'",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780571367641"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "057136764X"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 309,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "genre": "Novels",
+          "averageRating": 3.5,
+          "ratingsCount": 102,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.3.3.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=Ufv_DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=Ufv_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=Ufv_DwAAQBAJ&printsec=frontcover&dq=novels&hl=&cd=30&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=Ufv_DwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Ufv_DwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 399,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 279.3,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=Ufv_DwAAQBAJ&rdid=book-Ufv_DwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 399000000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 279300000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Unbearable_Lightness_of_Being-sample-epub.acsm?id=Ufv_DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Unbearable_Lightness_of_Being-sample-pdf.acsm?id=Ufv_DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=Ufv_DwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "A mighty piece of work, that will shape your life forever.&#39; &#39;One of the best books I&#39;ve ever read ... A book about love and life, full of surprises. Beautiful.&#39; &#39;This book is going to change your life ."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "SswAEAAAQBAJ",
+        "etag": "N3GdJe7blo0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/SswAEAAAQBAJ",
+        "volumeInfo": {
+          "title": "The American Novel After Ideology, 1961\u00962000",
+          "authors": [
+            "Laurie Rodrigues"
+          ],
+          "publisher": "Bloomsbury Publishing USA",
+          "publishedDate": "2020-12-10",
+          "description": "Claims of ideology's end are, on the one hand, performative denials of ideology's inability to end; while, on the other hand, paradoxically, they also reiterate an idea that 'ending' is simply what all ideologies eventually do. Situating her work around the intersecting publications of Daniel Bell's The End of Ideology (1960) and J.D. Salinger's Franny and Zooey (1961), Laurie Rodrigues argues that American novels express this paradox through nuanced applications of non-realist strategies, distorting realism in manners similar to ideology's distortions of reality, history, and belief. Reflecting the astonishing cultural variety of this period, The American Novel After Ideology, 1961 - 2000 examines Franny and Zooey, Carlene Hatcher Polite's The Flagellants (1967), Leslie Marmon Silko's Almanac of the Dead (1991), and Philip Roth's The Human Stain (2001) alongside the various discussions around ideology with which they intersect. Each novel's plotless narratives, dissolving subjectivities, and cultural codes organize the texts' peculiar relations to the post-ideological age, suggesting an aesthetic return of the repressed.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781501361876"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1501361872"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 232,
+          "printType": "BOOK",
+          "categories": [
+            "Literary Criticism"
+          ],
+          "genre": "Novels",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "1.1.1.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=SswAEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=SswAEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=SswAEAAAQBAJ&pg=PT252&dq=novels&hl=&cd=31&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=SswAEAAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=SswAEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 2861,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 2861,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=SswAEAAAQBAJ&rdid=book-SswAEAAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 2861000000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 2861000000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_American_Novel_After_Ideology_1961_2-sample-epub.acsm?id=SswAEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_American_Novel_After_Ideology_1961_2-sample-pdf.acsm?id=SswAEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=SswAEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "114 See, Fabi, Passing and the Rise of the African American \u003cb\u003eNovel\u003c/b\u003e, 3. 115 Interestingly, the 1960s through the 1980s (i.e., likely as they are defined by his marriage to Iris) are left uncovered in Zuckerman&#39;s account."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "PGR2AwAAQBAJ",
+        "etag": "zhiNARWnxKc",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/PGR2AwAAQBAJ",
+        "volumeInfo": {
+          "title": "To Kill a Mockingbird",
+          "authors": [
+            "Harper Lee"
+          ],
+          "publisher": "Harper Collins",
+          "publishedDate": "2014-07-08",
+          "description": "Voted America's Best-Loved Novel in PBS's The Great American Read Harper Lee's Pulitzer Prize-winning masterwork of honor and injustice in the deep South—and the heroism of one man in the face of blind and violent hatred One of the most cherished stories of all time, To Kill a Mockingbird has been translated into more than forty languages, sold more than forty million copies worldwide, served as the basis for an enormously popular motion picture, and was voted one of the best novels of the twentieth century by librarians across the country. A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice, it views a world of great beauty and savage inequities through the eyes of a young girl, as her father—a crusading local lawyer—risks everything to defend a black man unjustly accused of a terrible crime.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780062368683"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0062368680"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 336,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "genre": "Novels",
+          "averageRating": 4.5,
+          "ratingsCount": 2162,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.26.24.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=PGR2AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=PGR2AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=PGR2AwAAQBAJ&printsec=frontcover&dq=novels&hl=&cd=32&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=PGR2AwAAQBAJ&dq=novels&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/To_Kill_a_Mockingbird.html?hl=&id=PGR2AwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/To_Kill_a_Mockingbird-sample-epub.acsm?id=PGR2AwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=PGR2AwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Voted America&#39;s Best-Loved Novel in PBS&#39;s The Great American Read Harper Lee&#39;s Pulitzer Prize-winning masterwork of honor and injustice in the deep South—and the heroism of one man in the face of blind and violent hatred One of the most ..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "yDfPDwAAQBAJ",
+        "etag": "LOnP9TSOiBA",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/yDfPDwAAQBAJ",
+        "volumeInfo": {
+          "title": "The Bright Book of Life",
+          "subtitle": "Novels to Read and Reread",
+          "authors": [
+            "Harold Bloom"
+          ],
+          "publisher": "Vintage",
+          "publishedDate": "2020-11-24",
+          "description": "America's most original and controversial literary critic writes trenchantly about forty-eight masterworks spanning the Western tradition—from Don Quixote to Wuthering Heights to Invisible Man—in his first book devoted exclusively to narrative fiction. In this valedictory volume, Yale professor Harold Bloom—who for more than half a century was regarded as America's most daringly original and controversial literary critic—gives us his only book devoted entirely to the art of the novel. With his hallmark percipience, remarkable scholarship, and extraordinary devotion to sublimity, Bloom offers meditations on forty-eight essential works spanning the Western canon, from Don Quixote to Book of Numbers; from Wuthering Heights to Absalom, Absalom!; from Les Misérables to Blood Meridian; from Vanity Fair to Invisible Man. Here are trenchant appreciations of fiction by, among many others, Austen, Balzac, Dickens, Tolstoy, James, Conrad, Lawrence, Le Guin, and Sebald. Whether you have already read these books, plan to, or simply care about the importance and power of fiction, Harold Bloom is your unparalleled guide to understanding literature with new intimacy.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9780525657279"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "0525657274"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 544,
+          "printType": "BOOK",
+          "categories": [
+            "Literary Criticism"
+          ],
+          "genre": "Novels",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.4.4.0.preview.2",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=yDfPDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=yDfPDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=yDfPDwAAQBAJ&printsec=frontcover&dq=novels&hl=&cd=33&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=yDfPDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=yDfPDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 746.94,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 373.47,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=yDfPDwAAQBAJ&rdid=book-yDfPDwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 746940000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 373470000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/The_Bright_Book_of_Life-sample-epub.acsm?id=yDfPDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=yDfPDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "Whether you have already read these books, plan to, or simply care about the importance and power of fiction, Harold Bloom is your unparalleled guide to understanding literature with new intimacy."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "WpWHDwAAQBAJ",
+        "etag": "O543RsRKDx0",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/WpWHDwAAQBAJ",
+        "volumeInfo": {
+          "title": "Something I Never Told You",
+          "authors": [
+            "Shravya Bhinder"
+          ],
+          "publisher": "Penguin Random House India Private Limited",
+          "publishedDate": "2019-02-14",
+          "description": "When in love, you tend to take each other for granted, and sometimes, that can cost you a lifetime of togetherness . . . Ronnie knew that his first crush was way out of his league, and yet he pursued and wooed Adira. Shyly and from a distance in the beginning, and more persuasively later. He couldn't believe it when the beautiful Adira actually began to reciprocate, falling in love with him for his simplicity and honesty. Slowly, as they get close and comfortable with each other, life takes on another hue. From truly magical it becomes routine. There are fights and then making-up sessions-a clash of egos and doubts. Things begin to change for the worst. It is too late. Ronnie and Adira will probably never find their forever after . . .",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9789353054755"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "9353054753"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": true
+          },
+          "pageCount": 256,
+          "printType": "BOOK",
+          "categories": [
+            "Fiction"
+          ],
+          "genre": "Novels",
+          "averageRating": 4,
+          "ratingsCount": 3,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": true,
+          "contentVersion": "1.1.1.0.preview.3",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=WpWHDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=WpWHDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=WpWHDwAAQBAJ&printsec=frontcover&dq=novels&hl=&cd=34&source=gbs_api",
+          "infoLink": "https://play.google.com/store/books/details?id=WpWHDwAAQBAJ&source=gbs_api",
+          "canonicalVolumeLink": "https://play.google.com/store/books/details?id=WpWHDwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "FOR_SALE",
+          "isEbook": true,
+          "listPrice": {
+            "amount": 224.77,
+            "currencyCode": "INR"
+          },
+          "retailPrice": {
+            "amount": 157.34,
+            "currencyCode": "INR"
+          },
+          "buyLink": "https://play.google.com/store/books/details?id=WpWHDwAAQBAJ&rdid=book-WpWHDwAAQBAJ&rdot=1&source=gbs_api",
+          "offers": [
+            {
+              "finskyOfferType": 1,
+              "listPrice": {
+                "amountInMicros": 224770000,
+                "currencyCode": "INR"
+              },
+              "retailPrice": {
+                "amountInMicros": 157340000,
+                "currencyCode": "INR"
+              }
+            }
+          ]
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Something_I_Never_Told_You-sample-epub.acsm?id=WpWHDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Something_I_Never_Told_You-sample-pdf.acsm?id=WpWHDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=WpWHDwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "When in love, you tend to take each other for granted, and sometimes, that can cost you a lifetime of togetherness ."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "n8djAwAAQBAJ",
+        "etag": "JC9PVZlYbBU",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/n8djAwAAQBAJ",
+        "volumeInfo": {
+          "title": "Breath - Poetry",
+          "authors": [
+            "Jeton Kelmendi"
+          ],
+          "publisher": "Lulu.com",
+          "publishedDate": "2011",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781447865506"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1447865502"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": true
+          },
+          "pageCount": 132,
+          "printType": "BOOK",
+          "genre": "Poetry",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=n8djAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=n8djAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=n8djAwAAQBAJ&pg=PA4&dq=poetry&hl=&cd=22&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=n8djAwAAQBAJ&dq=poetry&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Breath_Poetry.html?hl=&id=n8djAwAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "PARTIAL",
+          "embeddable": true,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": true,
+            "acsTokenLink": "http://books.google.co.in/books/download/Breath_Poetry-sample-pdf.acsm?id=n8djAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=n8djAwAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "SAMPLE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "images aimed at becoming a thematic modus: (Northrop Frye) in Kelmendi‟s \u003cb\u003epoetry\u003c/b\u003e as well. This thematic modus featuring his poetics is built of elaborated figures through sweet verse of an internal rhythm and impulsive tonality often&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "nZBIAQAAIAAJ",
+        "etag": "mHZMm3lCoOs",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/nZBIAQAAIAAJ",
+        "volumeInfo": {
+          "title": "Poetry and the Poets",
+          "authors": [
+            "Reginald Brimley Johnson"
+          ],
+          "publishedDate": "1973",
+          "industryIdentifiers": [
+            {
+              "type": "OTHER",
+              "identifier": "UCAL:B5181838"
+            }
+          ],
+          "readingModes": {
+            "text": false,
+            "image": false
+          },
+          "pageCount": 396,
+          "printType": "BOOK",
+          "categories": [
+            "Poetry"
+          ],
+          "genre": "Poetry",
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "0.2.2.0.preview.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=nZBIAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=nZBIAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=nZBIAQAAIAAJ&q=poetry&dq=poetry&hl=&cd=23&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=nZBIAQAAIAAJ&dq=poetry&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/Poetry_and_the_Poets.html?hl=&id=nZBIAQAAIAAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=nZBIAQAAIAAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "acter in the observed effects &quot;, conveniently summarized in the epigram that &quot; \u003cb\u003ePoetry\u003c/b\u003e transforms facts into truths&quot;. It would seem that, in England, \u003cb\u003epoetry\u003c/b\u003e became self- conscious just before the genius of our great Immortals awoke&nbsp;..."
+        }
+      },
+      {
+        "kind": "books#volume",
+        "id": "ju-PEAAAQBAJ",
+        "etag": "i5quoZCWT8w",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/ju-PEAAAQBAJ",
+        "volumeInfo": {
+          "title": "What Is Poetry?: The Essential Guide to Reading and Writing Poems",
+          "authors": [
+            "Michael Rosen"
+          ],
+          "publisher": "National Geographic Books",
+          "publishedDate": "2019-01-08",
+          "description": "Celebrated poet and critic Michael Rosen takes readers on a whirlwind tour exploring what poems are, what they can do, and the joys of reading and writing them. For thousands of years, people have been writing poetry. But what is poetry? Award-winning wordsmith Michael Rosen has spent decades thinking about that question, and in this helpful guide he shares his insights with humor, knowledge, and appreciation — appreciation for poetry and appreciation for twenty-first-century children embarking on their own poetic journeys. Young readers are invited to join him on a welcoming exploration of the British poetic canon, replete with personal insights into what the renowned poet thinks about as he writes and advice on writing their own poetry. When he’s finished, readers will be able to say with confidence: this is poetry. Included in this accessible handbook are writing tips, analyses of classic poems, and an appendix of poets and useful websites.",
+          "industryIdentifiers": [
+            {
+              "type": "ISBN_13",
+              "identifier": "9781536201598"
+            },
+            {
+              "type": "ISBN_10",
+              "identifier": "1536201596"
+            }
+          ],
+          "readingModes": {
+            "text": true,
+            "image": false
+          },
+          "pageCount": 0,
+          "printType": "BOOK",
+          "categories": [
+            "Juvenile Nonfiction"
+          ],
+          "genre": "Poetry",
+          "averageRating": 3.5,
+          "ratingsCount": 10,
+          "maturityRating": "NOT_MATURE",
+          "allowAnonLogging": false,
+          "contentVersion": "preview-1.0.0",
+          "panelizationSummary": {
+            "containsEpubBubbles": false,
+            "containsImageBubbles": false
+          },
+          "imageLinks": {
+            "smallThumbnail": "http://books.google.com/books/content?id=ju-PEAAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+            "thumbnail": "http://books.google.com/books/content?id=ju-PEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+          },
+          "language": "en",
+          "previewLink": "http://books.google.co.in/books?id=ju-PEAAAQBAJ&dq=poetry&hl=&cd=24&source=gbs_api",
+          "infoLink": "http://books.google.co.in/books?id=ju-PEAAAQBAJ&dq=poetry&hl=&source=gbs_api",
+          "canonicalVolumeLink": "https://books.google.com/books/about/What_Is_Poetry_The_Essential_Guide_to_Re.html?hl=&id=ju-PEAAAQBAJ"
+        },
+        "saleInfo": {
+          "country": "IN",
+          "saleability": "NOT_FOR_SALE",
+          "isEbook": false
+        },
+        "accessInfo": {
+          "country": "IN",
+          "viewability": "NO_PAGES",
+          "embeddable": false,
+          "publicDomain": false,
+          "textToSpeechPermission": "ALLOWED",
+          "epub": {
+            "isAvailable": false
+          },
+          "pdf": {
+            "isAvailable": false
+          },
+          "webReaderLink": "http://play.google.com/books/reader?id=ju-PEAAAQBAJ&hl=&source=gbs_api",
+          "accessViewStatus": "NONE",
+          "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+          "textSnippet": "When he’s finished, readers will be able to say with confidence: this is poetry. Included in this accessible handbook are writing tips, analyses of classic poems, and an appendix of poets and useful websites."
+        }
       }
     ]
   }

@@ -4,14 +4,18 @@ const AddBook = new mongoose.Schema({
   user_id: {
     type: String,
     required: true,
-    index: false
   },
   book_id: {
     type: String,
     required: true,
   },
+  status: {
+    type: Number,
+    default: 0,
+  },
   progress: {
     type: Number,
+    default: 0,
   },
   created_on: {
     type: Date,
@@ -27,6 +31,6 @@ const AddBook = new mongoose.Schema({
   },
 });
 
-const BookAdd = mongoose.model("users-bookshelf", AddBook);
+const UserBooks = mongoose.model("user-books", AddBook);
 
-module.exports = BookAdd;
+module.exports = UserBooks;

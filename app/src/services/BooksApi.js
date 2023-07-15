@@ -4,6 +4,9 @@ import {
   fetchBookFailure,
   fetchBookRequest,
   fetchBookSuccess,
+  fetchBookshelf,
+  fetchBookshelfFailure,
+  fetchBookshelfSuccess,
 } from "../redux/actions/BookActions";
 
 const baseUrl = "http://localhost:3002/api";
@@ -17,8 +20,8 @@ export const GetBooks = async () => {
       return response.data;
     })
     .catch((error) => {
-      store.dispatch(fetchBookFailure(error.message));
-      return error.message;
+      store.dispatch(fetchBookFailure(error.response.data));
+      return error.response.data;
     });
 
   return res;
@@ -51,11 +54,27 @@ export const AddBookToBookshelf = async (userId, bookId) => {
   return res;
 };
 
-export const BookshelfBooks = async (userId) => {
+export const BookshelfBooksStatusCheck = async (userId, status) => {
+  store.dispatch(fetchBookRequest());
   var res = await axios
-    .get(`${baseUrl}/bookshelfbooks/${userId}`)
+    .get(`${baseUrl}/bookshelfbooksstatus/${userId}/${status}`)
     .then((response) => {
       //console.log("redres", response);
+      store.dispatch(fetchBookshelfSuccess(response.data));
+      return response.data;
+    })
+    .catch((error) => {
+      store.dispatch(fetchBookshelfFailure(error.response.data));
+      return error.response.data;
+    });
+
+  return res;
+};
+
+export const UpdateBook = async (userId, bookId, obj) => {
+  var res = await axios
+    .put(`${baseUrl}/updateBookProgress/${userId}/${bookId}`, obj)
+    .then((response) => {
       return response.data;
     })
     .catch((error) => {
@@ -64,5 +83,21 @@ export const BookshelfBooks = async (userId) => {
 
   return res;
 };
+
+// export const BookshelfBooks = async (bookId, userId) => {
+//   store.dispatch(fetchBookRequest());
+//   var res = await axios
+//     .get(`${baseUrl}/bookshelfBooks/${bookId}/${userId}`)
+//     .then((response) => {
+//       //store.dispatch(fetchBookshelfSuccess(response.data));
+//       return response.data;
+//     })
+//     .catch((error) => {
+//       //store.dispatch(fetchBookshelfFailure(error.response.data));
+//       return error.response.data;
+//     });
+
+//   return res;
+// };
 
 // ("http://books.google.co.in/books?id=UOFEAQAAMAAJ&dq=subject:adventure&hl=&cd=1&source=gbs_api");

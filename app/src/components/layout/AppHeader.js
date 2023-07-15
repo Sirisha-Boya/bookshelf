@@ -13,7 +13,7 @@ import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import { ThemeContext } from "../../theme/Theme";
 import { useTheme } from "@mui/material";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { GetBooks } from "../../services/BooksApi";
 import { searchBook } from "../../redux/actions/BookActions";
@@ -46,9 +46,22 @@ const AppHeader = () => {
           alignItems="center"
         >
           <img src="images/books.png" height={30} alt="logo" />
-          <Typography variant="h6" sx={{ cursor: "pointer" }}>
-            <strong>BookShelf</strong>
-          </Typography>
+          <div onClick={() => navigate("/")} style={{ marginRight: 5 }}>
+            <Typography variant="h6" sx={{ cursor: "pointer" }}>
+              <strong>BookShelf</strong>
+            </Typography>
+          </div>
+          <div onClick={() => navigate("/")}>
+            <Typography variant="body1" sx={{ cursor: "pointer", ml: 5 }}>
+              Home
+            </Typography>
+          </div>
+
+          <div onClick={() => navigate("/library")}>
+            <Typography variant="body1" sx={{ cursor: "pointer", ml: 5 }}>
+              Library
+            </Typography>
+          </div>
         </Grid>
 
         <Grid

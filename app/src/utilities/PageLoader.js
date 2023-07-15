@@ -7,7 +7,7 @@ const PageLoader = () => {
   const loader = data.isLoading;
   return (
     <Backdrop
-      sx={{ color: "#fff", zIndex: (theme) => theme.zIndex.drawer + 1 }}
+      sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}
       open={loader}
     >
       <CircularProgress color="inherit" />
