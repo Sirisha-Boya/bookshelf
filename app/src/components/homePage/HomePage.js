@@ -32,29 +32,29 @@ const HomePage = () => {
   var bookData = useSelector((state) => state.books);
   const [open, setOpen] = useState(false);
   const [percentage, setPercentage] = useState(0);
-  //const [currentlyReading, setCurrentlyReading] = useState([]);
+  const [id, setId] = useState("");
 
   const bookshelfBooks = async () => {
     var status = 1; // Currently Reading status
     await BookshelfBooksStatusCheck(userData.userId, status);
-    // setCurrentlyReading(res);
   };
 
   const handleProgressChange = async (bookid) => {
     var obj;
     if (parseFloat(percentage) === 100) {
       obj = {
-        bookProgress: parseFloat(percentage),
+        bookprogress: parseFloat(percentage),
         status: 2, //Finished reading
       };
     } else {
       obj = {
-        bookProgress: parseFloat(percentage),
+        bookprogress: parseFloat(percentage),
         status: 1, //currently reading
       };
     }
     setOpen(false);
     var res = await UpdateBook(userData.userId, bookid, obj);
+    dispatch(updateBookProgress(bookid));
     console.log("green", res);
     if (res.status === 200) {
       snackbar.enqueueSnackbar(res.message, { variant: "success" });
@@ -65,55 +65,54 @@ const HomePage = () => {
     }
   };
 
-  const bookDetails = bookData?.bookshelfBooks?.filter(
+  const bookDetails = bookData?.bookshelfBooks?.books?.filter(
     (obj) => obj.id === bookData?.selectedBookId
   )[0];
-
-  //console.log("Stark", bookDetails);
-  // const handleProgressChange = async (bookid) => {
-  //   var obj = {
-
-  //   }
-  //   var res = await UpdateBook(userData.userId, bookid);
-  //   console.log("green", res);
-  // };
-
+console.log("bbb",bookDetails)
   useEffect(() => {
     bookshelfBooks();
   }, []);
   return (
     <>
       <Grid container spacing={2}>
-        <Grid item xs={2} sm={2} md={2} lg={2}>
+        <Grid item xs={12} sm={12} md={12} lg={12}>
           <Typography variant="h6" color="secondary">
             <strong>Currently Reading ...</strong>
           </Typography>
         </Grid>
-        {bookData?.bookshelfBooks &&
-          bookData?.bookshelfBooks?.map((book) => (
+        {bookData?.bookshelfBooks?.books &&
+          bookData?.bookshelfBooks?.books.map((book) => (
             <Grid item xs={2} sm={2} md={2} lg={2}>
               <CardMedia
-                sx={{ objectFit: "fill", maxWidth: 150, mb: 1 }}
+                sx={{
+                  objectFit: "fill",
+                  mb: 1,
+                  borderRadius: "20px",
+                  border: "1px solid #ffc107",
+                }}
                 component="img"
                 //sx={{ mb: 1 }}
-                //height={250}
+                height={300}
                 image={book?.volumeInfo?.imageLinks?.thumbnail}
                 alt="Book Cover"
               />
 
               <Button
                 //sx={{ maxWidth: 150 }}
+                fullWidth
+                sx={{ borderRadius: "20px", mb: 1 }}
                 size="small"
                 variant="outlined"
                 color="secondary"
                 onClick={() => {
-                  dispatch(updateBookProgress(book.id));
+                  dispatch(updateBookProgress(book.id)); //to get book id in selectedBookId redux state
+                  setId(book.id);
                   setOpen(true);
                 }}
+                startIcon={<BookProgress bookId={book.id} />}
               >
                 Update Progress
               </Button>
-              <BookProgress />
             </Grid>
           ))}
 
@@ -167,7 +166,7 @@ const HomePage = () => {
                   size="small"
                   variant="contained"
                   color="secondary"
-                  onClick={() => handleProgressChange(bookData?.selectedBookId)}
+                  onClick={() => handleProgressChange(id)}
                 >
                   Update Progress
                 </Button>
@@ -176,6 +175,7 @@ const HomePage = () => {
                   size="small"
                   variant="outlined"
                   color="secondary"
+                  onClick={() => handleProgressChange(id)}
                 >
                   I've Finished
                 </Button>

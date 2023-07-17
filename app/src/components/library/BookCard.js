@@ -14,12 +14,12 @@ import { PreviewBookById } from "../../services/BooksApi";
 import { useSelector } from "react-redux";
 import Slider from "react-slick";
 
-const BookCard = ({ title, genre }) => {
-  console.log("genre", genre);
+const BookCard = ({ title, genre, filteredBooks }) => {
+  //console.log("genre", genre);
   const navigate = useNavigate();
   const theme = useTheme();
   const bookData = useSelector((state) => state.books);
-  console.log("bookData ", bookData);
+  //console.log("bookData ", bookData);
   const [preview, setPreview] = useState({});
   const [tempId, setId] = useState("");
   //const [filterBooks, setFilterBooks] = useState(searchData?.books);
@@ -41,20 +41,14 @@ const BookCard = ({ title, genre }) => {
   const isScreenSizeDownMd = useMediaQuery(theme.breakpoints.down("md"));
   var settings = {
     dots: false,
-    infinite: true,
+    infinite: (filteredBooks.length > 9 ? true : false),
     speed: 1000,
     slidesToShow: isScreenSizeDownSm ? 2 : isScreenSizeDownMd ? 5 : 9,
     slidesToScroll: 4,
     autoplay: true,
     //className: "slider"
   };
-  const filteredBooks =
-    genre &&
-    genre.filter(
-      (books) =>
-        books.volumeInfo.title.toLowerCase() ===
-        bookData?.searchText.toLowerCase()
-    );
+
   // useEffect(() => {}, [bookData?.searchText]);
   return (
     <>
@@ -64,15 +58,14 @@ const BookCard = ({ title, genre }) => {
       </div>
       {/* </Grid> */}
       <Slider {...settings}>
-        {/* {filteredBooks
+        {filteredBooks
           ? filteredBooks?.map((book) => {
               let pic =
                 book?.volumeInfo?.imageLinks &&
                 book?.volumeInfo?.imageLinks?.thumbnail;
               return (
                 <Card
-                  // onMouseEnter={() => setIsHovered(true)}
-                  // onMouseLeave={() => setIsHovered(false)}
+                  key={book.id}
                   onClick={() => previewBook(book.id)}
                   sx={{
                     minWidth: 100,
@@ -99,43 +92,42 @@ const BookCard = ({ title, genre }) => {
                   </CardActionArea>
                 </Card>
               );
-            }) */}
-        {genre &&
-          genre?.map((book) => {
-            let pic =
-              book?.volumeInfo?.imageLinks &&
-              book?.volumeInfo?.imageLinks?.thumbnail;
-            return (
-              <Card
-                // onMouseEnter={() => setIsHovered(true)}
-                // onMouseLeave={() => setIsHovered(false)}
-                onClick={() => previewBook(book.id)}
-                sx={{
-                  minWidth: 100,
-                  maxWidth: 100,
-                  backgroundColor: "cream",
-                  mb: 4,
+            })
+          : bookData?.books &&
+          bookData?.books?.map((book) => {
+              let pic =
+                book?.volumeInfo?.imageLinks &&
+                book?.volumeInfo?.imageLinks?.thumbnail;
+              return (
+                <Card
+                  key={book.id}
+                  onClick={() => previewBook(book.id)}
+                  sx={{
+                    minWidth: 100,
+                    maxWidth: 100,
+                    backgroundColor: "cream",
+                    mb: 4,
 
-                  ":hover": {
-                    boxShadow: 20,
-                    transform: "scale(1.09)",
-                    opacity: 0.5,
-                    transition: "transform 450ms",
-                  },
-                }}
-              >
-                <CardActionArea>
-                  <CardMedia
-                    sx={{ objectFit: "fill", maxWidth: 200 }}
-                    component="img"
-                    height={150}
-                    image={pic}
-                    alt="Book Cover"
-                  />
-                </CardActionArea>
-              </Card>
-            );
-          })}
+                    ":hover": {
+                      boxShadow: 20,
+                      transform: "scale(1.09)",
+                      opacity: 0.5,
+                      transition: "transform 450ms",
+                    },
+                  }}
+                >
+                  <CardActionArea>
+                    <CardMedia
+                      sx={{ objectFit: "fill", maxWidth: 200 }}
+                      component="img"
+                      height={150}
+                      image={pic}
+                      alt="Book Cover"
+                    />
+                  </CardActionArea>
+                </Card>
+              );
+            })}
       </Slider>
     </>
 

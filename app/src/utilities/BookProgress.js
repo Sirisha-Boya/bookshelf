@@ -9,30 +9,51 @@ import { useSelector } from "react-redux";
 export default function BookProgress(props) {
   //const { percentage, bookId } = props;
   //const [progress, setProgress] = useState(percentage);
-  //const bookData = useSelector((state) => state.books);
+  const bookData = useSelector((state) => state.books);
+  var progress = bookData?.bookshelfBooks?.bookProgress.filter(
+    (book) => book.bookId === props.bookId
+  );
+  //React.useEffect(() => {}, [progress]);
+  //const matchingIds = bookData?.bookshelfBooks?.bookProgress.map((book) => book.bookId).filter((id) => bookData?.bookshelfBooks?.books.map((book) => book.id).includes(id));
+  console.log("progress", progress);
   return (
     <Box sx={{ position: "relative", display: "inline-flex" }}>
-      <>
-        <CircularProgress variant="determinate" {...props} />
-        <Box
-          sx={{
-            top: 0,
-            left: 0,
-            bottom: 0,
-            right: 0,
-            position: "absolute",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <Typography
-            variant="caption"
-            component="div"
-            color="secondary"
-          >{`${props.percentage ? props.percentage : 0}%`}</Typography>
-        </Box>
-      </>
+      {progress &&
+        progress?.map((book) => (
+          <>
+            <CircularProgress
+              variant="determinate"
+              color={
+                book.progress <= 25
+                  ? "info"
+                  : book.progress <= 50
+                  ? "success"
+                  : book.progress <= 75
+                  ? "error"
+                  : "warning"
+              }
+              value={book.progress}
+            />
+            <Box
+              sx={{
+                top: 0,
+                left: 0,
+                bottom: 0,
+                right: 0,
+                position: "absolute",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Typography
+                variant="caption"
+                component="div"
+                color="secondary"
+              >{`${book.progress}%`}</Typography>
+            </Box>
+          </>
+        ))}
     </Box>
   );
 }

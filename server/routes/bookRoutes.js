@@ -11,7 +11,7 @@ router.post("/addbook/:userid/:bookid", async (req, res) => {
   try {
     // Check if the user exists
     //let user_id = userid;
-    const userExists = await NewUser.find({ userid: userid});
+    const userExists = await NewUser.find({ userid: userid });
     if (!userExists) {
       return res.status(404).json({ message: "User not found", status: 404 });
     }
@@ -81,7 +81,7 @@ router.get("/books", async (req, res) => {
   try {
     const books = await BookList.find();
 
-    res.json({ books, status: 200 });
+    res.json(books);
     //console.log("books", books);
   } catch (error) {
     console.error("Error getting books:", error);
@@ -99,7 +99,11 @@ router.get("/bookshelfbooksstatus/:userId/:bookStatus", async (req, res) => {
       user_id: userId,
       status: bookStatus,
     });
-
+    const bookProgress = userBooks.map((book) => ({
+      bookId: book.book_id,
+      progress: book.progress,
+    }));
+    console.log("book progress", bookProgress);
     // Extract book IDs from the userBooks
     const bookIds = userBooks.map((book) => book.book_id);
     console.log("api bookIds", bookIds);
@@ -107,7 +111,7 @@ router.get("/bookshelfbooksstatus/:userId/:bookStatus", async (req, res) => {
     const books = await BookList.find({ id: bookIds });
     console.log("books", books);
     if (books.length > 0) {
-      res.json(books);
+      res.json({ books, bookProgress });
     } else if (books.length === 0) {
       res.status(404).json({ message: "No Books found!", status: 404 });
     } else {

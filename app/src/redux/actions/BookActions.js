@@ -7,6 +7,7 @@ import {
   BOOKSHELF_FAILURE,
   UPDATE_PROGRESS,
   UPDATE_PROGRESS_RESET,
+  CLEAR_SEARCH,
 } from "../constants/BookConstants";
 
 export const fetchBookRequest = () => {
@@ -30,6 +31,11 @@ export const searchBook = (query) => {
   return {
     type: SEARCH_BOOK,
     payload: query,
+  };
+};
+export const clearSearch = () => {
+  return {
+    type: CLEAR_SEARCH,
   };
 };
 export const fetchBookshelfSuccess = (data) => {

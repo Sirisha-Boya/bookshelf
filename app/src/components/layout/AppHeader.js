@@ -2,6 +2,7 @@ import {
   Autocomplete,
   Avatar,
   Button,
+  Divider,
   Grid,
   IconButton,
   InputAdornment,
@@ -13,10 +14,10 @@ import Brightness4Icon from "@mui/icons-material/Brightness4";
 import Brightness7Icon from "@mui/icons-material/Brightness7";
 import { ThemeContext } from "../../theme/Theme";
 import { useTheme } from "@mui/material";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { GetBooks } from "../../services/BooksApi";
-import { searchBook } from "../../redux/actions/BookActions";
+import { clearSearch, searchBook } from "../../redux/actions/BookActions";
 import SearchIcon from "@mui/icons-material/Search";
 import { logoutUser } from "../../redux/actions/UserActions";
 
@@ -25,7 +26,15 @@ const AppHeader = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { toggleTheme } = useContext(ThemeContext);
+  const handleSearchChange = (event) => {
+    const searchText = event.target.value;
 
+    if (searchText) {
+      dispatch(searchBook(searchText));
+    } else {
+      dispatch(clearSearch());
+    }
+  };
   return (
     <>
       <Grid
@@ -51,17 +60,39 @@ const AppHeader = () => {
               <strong>BookShelf</strong>
             </Typography>
           </div>
-          <div onClick={() => navigate("/")}>
-            <Typography variant="body1" sx={{ cursor: "pointer", ml: 5 }}>
-              Home
-            </Typography>
-          </div>
+          <NavLink
+            exact
+            to="/"
+            style={({ isActive }) => ({
+              color: isActive ? "#ffc107" : "inherit",
+              textDecoration: "none",
+              marginLeft: 10,
+            })}
+          >
+            Home
+          </NavLink>
 
-          <div onClick={() => navigate("/library")}>
-            <Typography variant="body1" sx={{ cursor: "pointer", ml: 5 }}>
-              Library
-            </Typography>
-          </div>
+          <NavLink
+            to="/library"
+            style={({ isActive }) => ({
+              color: isActive ? "#ffc107" : "inherit",
+              textDecoration: "none",
+              marginLeft: 10,
+            })}
+          >
+            Library
+          </NavLink>
+
+          <NavLink
+            to="/mybookshelf"
+            style={({ isActive }) => ({
+              color: isActive ? "#ffc107" : "inherit",
+              textDecoration: "none",
+              marginLeft: 10,
+            })}
+          >
+            My Bookshelf
+          </NavLink>
         </Grid>
 
         <Grid
@@ -79,9 +110,7 @@ const AppHeader = () => {
             variant="outlined"
             placeholder="Search your book here..."
             size="small"
-            onChange={(event) => {
-              dispatch(searchBook(event.target.value));
-            }}
+            onChange={handleSearchChange}
             InputProps={{
               endAdornment: (
                 <InputAdornment position="end">
@@ -133,14 +162,14 @@ const AppHeader = () => {
               <Brightness7Icon />
             )}
           </IconButton>
-          <Button
+          {/* <Button
             variant="contained"
             size="small"
             color="secondary"
             onClick={() => navigate(`mybookshelf`)}
           >
             My Bookshelf
-          </Button>
+          </Button> */}
           <Button
             sx={{ ml: 1 }}
             onClick={() => {
@@ -155,6 +184,10 @@ const AppHeader = () => {
           </Button>
         </Grid>
       </Grid>
+      <Divider
+        variant="middle"
+        sx={{ mt: 2.5, borderColor: "secondary.main" }}
+      />
     </>
   );
 };

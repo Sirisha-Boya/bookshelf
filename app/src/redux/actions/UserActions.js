@@ -1,4 +1,4 @@
-import { FETCH_LOGIN_FAILURE, FETCH_LOGIN_REQUEST, FETCH_LOGIN_SUCCESS, USER_LOGOUT } from "../constants/UserConstants";
+import { FETCH_LOGIN_FAILURE, FETCH_LOGIN_REQUEST, FETCH_LOGIN_SUCCESS, REGISTER_USER, USER_LOGOUT } from "../constants/UserConstants";
 
   
   export const fetchLoginRequest = () => {
@@ -16,6 +16,13 @@ import { FETCH_LOGIN_FAILURE, FETCH_LOGIN_REQUEST, FETCH_LOGIN_SUCCESS, USER_LOG
     return {
       type: FETCH_LOGIN_FAILURE,
       payload: error,
+    };
+  };
+
+  export const registerUser = (userData) => {
+    return {
+      type: REGISTER_USER,
+      payload: userData,
     };
   };
   

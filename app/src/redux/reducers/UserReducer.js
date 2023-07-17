@@ -2,11 +2,13 @@ import {
   FETCH_LOGIN_FAILURE,
   FETCH_LOGIN_REQUEST,
   FETCH_LOGIN_SUCCESS,
+  REGISTER_USER,
   USER_LOGOUT,
 } from "../constants/UserConstants";
 
 const initialstate = {
   isLoading: false,
+  user: {},
   error: "",
   userId: null,
   name: null,
@@ -15,11 +17,15 @@ const initialstate = {
 };
 const userReducer = (state = initialstate, action) => {
   if (action.type == FETCH_LOGIN_SUCCESS) {
-    
     var { id, email, name } = action.payload;
   }
 
   switch (action.type) {
+    case REGISTER_USER:
+      return {
+        ...state,
+        user: action.payload,
+      };
     case FETCH_LOGIN_REQUEST:
       return {
         ...state,

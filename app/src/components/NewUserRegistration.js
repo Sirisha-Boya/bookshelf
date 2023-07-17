@@ -7,16 +7,19 @@ import {
   Typography,
 } from "@mui/material";
 import { useFormik } from "formik";
-import React from "react";
+import React, { useState } from "react";
 import * as Yup from "yup";
 import { v4 as uuid } from "uuid";
 import { useSnackbar } from "notistack";
 import { Register } from "../services/UsersApi";
 import { useNavigate } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { registerUser } from "../redux/actions/UserActions";
 
 const NewUserRegistration = (props) => {
   const snackbar = useSnackbar();
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const formik = useFormik({
     initialValues: {
       username: "",
@@ -44,13 +47,16 @@ const NewUserRegistration = (props) => {
       };
       //console.log("payload", payload);
       var res = await Register(payload);
+      dispatch(registerUser(payload));
       //console.log("res", res);
       if (res.status === 200) {
         snackbar.enqueueSnackbar(res.message, {
           variant: "success",
         });
         setTimeout(() => {
-          navigate(`/`);
+          navigate(`/login`);
+          snackbar.enqueueSnackbar("Please login to continue", {
+            variant: "success",})
         }, 1000);
       } else if (res.status === 400) {
         snackbar.enqueueSnackbar("Email already exists!", {

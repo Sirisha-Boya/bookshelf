@@ -153,8 +153,6 @@ const PreviewBook = (props) => {
                 sx={{ ml: "5px" }}
                 size="small"
                 name="half-rating"
-                //defaultValue={data && data.averageRating}
-                //defaultValue={rating}
                 value={rating}
                 onChange={handleRatingChange}
                 precision={0.5}

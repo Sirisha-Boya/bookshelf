@@ -59,7 +59,7 @@ export const BookshelfBooksStatusCheck = async (userId, status) => {
   var res = await axios
     .get(`${baseUrl}/bookshelfbooksstatus/${userId}/${status}`)
     .then((response) => {
-      //console.log("redres", response);
+      console.log("starkAxios", response.data);
       store.dispatch(fetchBookshelfSuccess(response.data));
       return response.data;
     })

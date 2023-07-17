@@ -12,3 +12,10 @@ body {
   max-width: "100%";
   height: auto;
 }
+
+.userBooks {
+  object-fit: "fill";
+  margin-bottom: 1;
+  border-radius: "20px";
+  border: "1px solid #ffc107";
+}

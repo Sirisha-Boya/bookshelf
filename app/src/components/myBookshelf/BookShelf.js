@@ -30,6 +30,7 @@ const BookShelf = () => {
     //console.log("res",res)
     // setBookshelf(res);
   };
+  console.log("bookHulk", bookDetails);
   useEffect(() => {
     GetBookShelfBooks();
   }, []);
@@ -54,38 +55,38 @@ const BookShelf = () => {
   return (
     <>
       {/* <AppHeader /> */}
-      <Grid
-        container
-        spacing={2}
-        marginTop={2}
-        marginLeft={5}
-        marginRight={5}
-        display="flex"
-        direction="row"
-      >
+      <Grid container spacing={2} display="flex" direction="row">
         <Grid item xs={12} sm={12} md={12} lg={12}>
           <Typography variant="body1" color="secondary">
-            Recently added Books...
+            <strong>Recently added Books...</strong>
           </Typography>
         </Grid>
         {/* {bookDetails?.isLoading && <PageLoader />} */}
-        {bookDetails?.bookshelfBooks &&
-          bookDetails?.bookshelfBooks?.map((book) => (
+        {bookDetails?.bookshelfBooks?.books &&
+          bookDetails?.bookshelfBooks?.books.map((book) => (
             <Grid item xs={2} sm={2} md={2} lg={2}>
               <CardMedia
-                //sx={{ objectFit: "fill", maxWidth: 200 }}
+              
+                sx={{
+                  objectFit: "fill",
+                  mb: 1,
+                  borderRadius: "20px",
+                  border: "1px solid #ffc107",
+                }}
                 component="img"
-                sx={{ mb: 1 }}
-                //height={200}
+                //sx={{ mb: 1 }}
+                height={300}
                 image={book?.volumeInfo?.imageLinks?.thumbnail}
                 alt="Book Cover"
               />
 
               <Button
+             
                 fullWidth
                 size="small"
                 variant="contained"
                 color="secondary"
+                sx={{ borderRadius: "20px", mb: 1 }}
                 onClick={() => handleReadNow(book.id)}
               >
                 Read Now

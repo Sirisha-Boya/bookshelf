@@ -25,6 +25,7 @@ const ThemeProviderWrapper = ({ children }) => {
   }, [isDarkMode]);
 
   const theme = createTheme({
+    //color code for amber #ffc107
     palette: {
       primary: {
         main: grey[500],
