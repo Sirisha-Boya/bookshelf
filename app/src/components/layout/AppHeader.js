@@ -20,21 +20,13 @@ import { GetBooks } from "../../services/BooksApi";
 import { clearSearch, searchBook } from "../../redux/actions/BookActions";
 import SearchIcon from "@mui/icons-material/Search";
 import { logoutUser } from "../../redux/actions/UserActions";
+import Search from "../../utilities/Search";
 
 const AppHeader = () => {
   const theme = useTheme();
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { toggleTheme } = useContext(ThemeContext);
-  const handleSearchChange = (event) => {
-    const searchText = event.target.value;
-
-    if (searchText) {
-      dispatch(searchBook(searchText));
-    } else {
-      dispatch(clearSearch());
-    }
-  };
   return (
     <>
       <Grid
@@ -105,44 +97,7 @@ const AppHeader = () => {
           justifyContent="center"
           alignItems="center"
         >
-          <TextField
-            fullWidth
-            variant="outlined"
-            placeholder="Search your book here..."
-            size="small"
-            onChange={handleSearchChange}
-            InputProps={{
-              endAdornment: (
-                <InputAdornment position="end">
-                  <IconButton>
-                    <SearchIcon />
-                  </IconButton>
-                </InputAdornment>
-              ),
-            }}
-          />
-          {/* <Autocomplete
-            id="free-solo-demo"
-            fullWidth
-            size="small"
-            freeSolo
-            options={data?.books?.map(
-              (option) => option?.volumeInfo?.title || ""
-            )}
-            onChange={(e) => {
-              console.log("panther", e);
-              dispatch(searchBook(e.target.value));
-            }}
-            // getOptionLabel={(option) => option?.volumeInfo?.title || ""}
-
-            renderInput={(params) => (
-              <TextField
-                {...params}
-                //onChange={(e) => setSearchQuery(e.target.value)}
-                label="Search your book here..."
-              />
-            )}
-          /> */}
+          <Search />
         </Grid>
 
         <Grid

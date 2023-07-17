@@ -12,36 +12,17 @@ const Library = () => {
     };
     fetchLibrary();
   }, []);
-  // const HorrorGenre = bookData?.books?.filter(
-  //   (horror) => horror?.volumeInfo?.genre === "Horror"
-  // );
-  // const TechnologyGenre = bookData?.books?.filter(
-  //   (tech) => tech?.volumeInfo?.genre === "Technologies"
-  // );
-  // const ComicsGenre = bookData?.books?.filter(
-  //   (comic) => comic?.volumeInfo?.genre === "Comics"
-  // );
-  // const NovelsGenre = bookData?.books?.filter(
-  //   (novel) => novel?.volumeInfo?.genre === "Novels"
-  // );
-  // const OthersGenre = bookData?.books?.filter(
-  //   (other) => other?.volumeInfo?.genre === "Other"
-  // );
-  // const PoetryGenre = bookData?.books?.filter(
-  //   (poetry) => poetry?.volumeInfo?.genre === "Poetry"
-  // );
+ 
   const filteredBooks = bookData?.books?.filter((book) =>
     book?.volumeInfo?.title
       .toLowerCase()
       .includes(bookData?.searchText?.toLowerCase())
   );
-  // useEffect(() => {}, [bookData?.searchText]);
   // Filter books based on genres
-  console.log("filter", filteredBooks);
+  //console.log("filter", filteredBooks);
   const getBooksByGenre = (genre) => {
     return filteredBooks?.filter((book) => book?.volumeInfo?.genre === genre);
   };
-  //console.log("genre", getBooksByGenre("Technologies"));
 
   return (
     <>

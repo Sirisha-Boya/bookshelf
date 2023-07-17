@@ -51,6 +51,11 @@ const BookShelf = () => {
       snackbar.enqueueSnackbar(res.message, { variant: "error" });
     }
   };
+  const filteredBooks = bookDetails?.bookshelfBooks?.books?.filter((book) =>
+  book?.volumeInfo?.title
+    .toLowerCase()
+    .includes(bookDetails?.searchText?.toLowerCase())
+);
   //console.log("book",bookDetails)
   return (
     <>
@@ -62,8 +67,8 @@ const BookShelf = () => {
           </Typography>
         </Grid>
         {/* {bookDetails?.isLoading && <PageLoader />} */}
-        {bookDetails?.bookshelfBooks?.books &&
-          bookDetails?.bookshelfBooks?.books.map((book) => (
+        {filteredBooks &&
+          filteredBooks.map((book) => (
             <Grid item xs={8} sm={5} md={3} lg={2}>
               <CardMedia
               

@@ -78,7 +78,7 @@ Bookshelf application starts with a landing page which have Register/login scree
 - ***Library***: Explore different genre books in here. Click on a book and here we can add a rating to the book and we can `Add to Bookshelf`. 
 - ***My Bookshelf***: Books added in library will be added in here.Now click on `Read Now`. This will add book to currently reading status and navigate to home page where we see currently reading books.
 -  ***Home Page***: Here we can see book with progress and button to update progress. Click on it and update progress by entering percentage or if it is 100% then click on `I've Finished`. Now update and refresh the page to see updated progress for that book.
-- ***Search***: We can search for books in library and add it to our bookshelf.
+- ***Search***: We can search for books all over the application.
 - ***Theme Change***: Here we have light and dark theme available to the application.
 We can change it according to our preference by clicking on the theme icon present beside logout button.
 - ***Logout***: User can logout by clicking on `logout` button on App Header and it redirect to default Landing screen.

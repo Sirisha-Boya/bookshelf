@@ -68,10 +68,17 @@ const HomePage = () => {
   const bookDetails = bookData?.bookshelfBooks?.books?.filter(
     (obj) => obj.id === bookData?.selectedBookId
   )[0];
-console.log("bbb",bookDetails)
+
+  //console.log("bbb", bookDetails);
   useEffect(() => {
     bookshelfBooks();
   }, []);
+
+  const filteredBooks = bookData?.bookshelfBooks?.books?.filter((book) =>
+    book?.volumeInfo?.title
+      .toLowerCase()
+      .includes(bookData?.searchText?.toLowerCase())
+  );
   return (
     <>
       <Grid container spacing={2}>
@@ -80,8 +87,8 @@ console.log("bbb",bookDetails)
             <strong>Currently Reading ...</strong>
           </Typography>
         </Grid>
-        {bookData?.bookshelfBooks?.books &&
-          bookData?.bookshelfBooks?.books.map((book) => (
+        {filteredBooks &&
+          filteredBooks.map((book) => (
             <Grid item xs={8} sm={5} md={3} lg={2}>
               <CardMedia
                 sx={{
