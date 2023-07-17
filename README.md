@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-The Bookshelf project is a web application that allows users to organize and manage their book collections. It provides features for adding, and read books, as well as tracking reading progress.
+The Bookshelf project is a web application that allows users to organize and manage their book collections. It provides features for adding and reading books, as well as tracking reading progress.
 
 ### **Features:**
 
@@ -11,6 +11,12 @@ The Bookshelf project is a web application that allows users to organize and man
 - ***My Bookshelf***: Books added in home page will be added here.
 - ***Theming***: Users have provision to change themes from light to dark mode and vice versa.
 
+## Tech Stack used in this application
+
+- ***Frontend***: React Js, Redux, Material UI
+- ***Backend***: Node Js, Express
+- ***Database***: MongoDb, Mongoose
+- ***Cloud***: AWS
 ## **Dependencies to be installed for frontend(app)**
 
 After cloning project change to app folder in the terminal and type the command below so that all dependencies in ***package.json*** will be installed.

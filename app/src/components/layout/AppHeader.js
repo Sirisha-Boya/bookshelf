@@ -97,8 +97,8 @@ const AppHeader = () => {
 
         <Grid
           item
-          xs={6}
-          sm={6}
+          xs={12}
+          sm={12}
           md={4}
           lg={4}
           display="flex"

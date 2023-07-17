@@ -64,7 +64,7 @@ const BookShelf = () => {
         {/* {bookDetails?.isLoading && <PageLoader />} */}
         {bookDetails?.bookshelfBooks?.books &&
           bookDetails?.bookshelfBooks?.books.map((book) => (
-            <Grid item xs={2} sm={2} md={2} lg={2}>
+            <Grid item xs={8} sm={5} md={3} lg={2}>
               <CardMedia
               
                 sx={{
