@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import {
   Button,
+  Container,
   Dialog,
   DialogActions,
   DialogContent,
   DialogTitle,
   Grid,
+  Link,
   TextField,
   Typography,
 } from "@mui/material";
@@ -13,18 +15,23 @@ import "./LandingScreen.css";
 import { Register, UserLogin } from "../services/BooksApi";
 import { useNavigate } from "react-router-dom";
 import LoginScreen from "./LoginScreen";
+import NewUserRegistration from "./NewUserRegistration";
 
 const LandingScreen = () => {
   const navigate = useNavigate();
-  const [open, setOpen] = useState(false);
+  const [loginOpen, setLoginOpen] = useState(false);
+  const [registerOpen, setRegisterOpen] = useState(false);
 
   // const handleOpen = () => {
   //   e.preventDefault();
   //   setOpen(true);
   // };
 
-  const handleClose = () => {
-    setOpen(false);
+  const handleLoginClose = () => {
+    setLoginOpen(false);
+  };
+  const handleRegisterClose = () => {
+    setRegisterOpen(false);
   };
 
   return (
@@ -39,10 +46,6 @@ const LandingScreen = () => {
     >
       <Grid
         container
-        xs={12}
-        sm={12}
-        md={12}
-        lg={12}
         display="flex"
         flexDirection="column"
         justifyContent="center"
@@ -68,14 +71,28 @@ const LandingScreen = () => {
             variant="contained"
             size="medium"
             id="login"
+            color="secondary"
             onClick={() => {
-              setOpen(true);
+              setLoginOpen(true);
             }}
+            sx={{ mb: "2px", mt: "2px" }}
           >
-            Register/Sign In
+            Sign In to explore
           </Button>
+          <Link
+            component="button"
+            id="register"
+            variant="body2"
+            onClick={() => {
+              setRegisterOpen(true);
+            }}
+            color="secondary"
+          >
+            New User? Register
+          </Link>
         </Grid>
-        <LoginScreen Open={open} Close={handleClose} />
+        <LoginScreen Open={loginOpen} Close={handleLoginClose} />
+        <NewUserRegistration Open={registerOpen} Close={handleRegisterClose} />
       </Grid>
     </header>
   );

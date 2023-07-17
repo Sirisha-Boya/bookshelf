@@ -1,20 +1,31 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import HomePage from "./components/homePage/HomePage";
-import LandingScreen from "./components/LandingScreen";
-import LoginScreen from "./components/LoginScreen";
-import PreviewBook from "./components/homePage/PreviewBook";
+import { RouterProvider } from "react-router-dom";
+import { CssBaseline, Fade, Slide } from "@mui/material";
+import { Provider } from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
+import { SnackbarProvider } from "notistack";
+import RoutesIndex from "./components/routes/RoutesIndex";
+import store from "./redux/store";
+import { persistStore } from "redux-persist";
+import { ThemeProvider } from "./theme/Theme";
+import PageLoader from "./utilities/PageLoader";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route index path="/" element={<LandingScreen />} />
-        <Route path="/signin" element={<LoginScreen />} />
-        <Route path="/home" element={<HomePage />} />
-        <Route path="/preview/:id" element={<PreviewBook />} />
-        <Route path="*" element={<Navigate to="/home" replace />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <ThemeProvider>
+        <SnackbarProvider
+          maxSnack={2}
+          anchorOrigin={{ vertical: "top", horizontal: "right" }}
+          TransitionComponent={Slide}
+          //transitionDuration={2000}
+          autoHideDuration={2000}
+        >
+          <CssBaseline />
+          <PageLoader />
+          <RouterProvider router={RoutesIndex} />
+        </SnackbarProvider>
+      </ThemeProvider>
+    </>
   );
 }
 

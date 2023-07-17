@@ -1,24 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import { Container, CssBaseline, Fade, ThemeProvider } from "@mui/material";
-import theme from "./theme/Theme";
 import "./index.css";
-import { SnackbarProvider } from "notistack";
+import { PersistGate } from "redux-persist/integration/react";
+import { persistStore } from "redux-persist";
+import { Provider } from "react-redux";
+import store from "./redux/store";
 
+let persistor = persistStore(store);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <ThemeProvider theme={theme}>
-    <React.StrictMode>
-      <SnackbarProvider
-        maxSnack={2}
-        anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
-        TransitionComponent={Fade}
-        transitionDuration={2000}
-      >
-        <CssBaseline />
+  <Provider store={store}>
+    <PersistGate persistor={persistor}>
+      <React.StrictMode>
         <App />
-      </SnackbarProvider>
-    </React.StrictMode>
-  </ThemeProvider>
+      </React.StrictMode>
+    </PersistGate>
+  </Provider>
 );
