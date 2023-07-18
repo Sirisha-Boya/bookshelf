@@ -9,7 +9,7 @@ import {
   fetchBookshelfSuccess,
 } from "../redux/actions/BookActions";
 
-const baseUrl = "http://localhost:3002/api";
+const baseUrl = "http://16.171.26.66:80/api";
 export const GetBooks = async () => {
   store.dispatch(fetchBookRequest());
   var res = await axios
