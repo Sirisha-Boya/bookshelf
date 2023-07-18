@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
-const dotenv = require("dotenv");
-dotenv.config();
+// const dotenv = require("dotenv");
+// dotenv.config();
+const CONSTANTS = require("./Constants.json");
 const connectDB = async () => {
   try {
-    const mongoURI = process.env.MONGO_URI;
+    const mongoURI = CONSTANTS.MONGO_URI;
 
     await mongoose.connect(mongoURI, {
       useNewUrlParser: true,

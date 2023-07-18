@@ -1,7 +1,13 @@
 import {
   Button,
   Dialog,
+  FormControl,
+  FormHelperText,
   Grid,
+  IconButton,
+  InputAdornment,
+  InputLabel,
+  OutlinedInput,
   Stack,
   TextField,
   Typography,
@@ -15,11 +21,20 @@ import { Register } from "../services/UsersApi";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { registerUser } from "../redux/actions/UserActions";
+import Visibility from "@mui/icons-material/Visibility";
+import VisibilityOff from "@mui/icons-material/VisibilityOff";
 
 const NewUserRegistration = (props) => {
   const snackbar = useSnackbar();
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const [showPassword, setShowPassword] = useState(false);
+
+  const handleClickShowPassword = () => setShowPassword((show) => !show);
+
+  const handleMouseDownPassword = (event) => {
+    event.preventDefault();
+  };
   const formik = useFormik({
     initialValues: {
       username: "",
@@ -38,7 +53,7 @@ const NewUserRegistration = (props) => {
         .required("Please confirm your password!")
         .oneOf([Yup.ref("password")], "Passwords Should match!"),
     }),
-    onSubmit: async (values) => {
+    onSubmit: async (values, { resetForm }) => {
       var payload = {
         username: values.username,
         userid: uuid(),
@@ -48,6 +63,7 @@ const NewUserRegistration = (props) => {
       //console.log("payload", payload);
       var res = await Register(payload);
       dispatch(registerUser(payload));
+      resetForm();
       //console.log("res", res);
       if (res.status === 200) {
         snackbar.enqueueSnackbar(res.message, {
@@ -56,7 +72,8 @@ const NewUserRegistration = (props) => {
         setTimeout(() => {
           navigate(`/login`);
           snackbar.enqueueSnackbar("Please login to continue", {
-            variant: "success",})
+            variant: "success",
+          });
         }, 1000);
       } else if (res.status === 400) {
         snackbar.enqueueSnackbar("Email already exists!", {
@@ -134,44 +151,84 @@ const NewUserRegistration = (props) => {
             />
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12}>
-            <TextField
-              {...formik.getFieldProps("password")}
+            <FormControl
+              variant="outlined"
               fullWidth
-              autoComplete="off"
-              id="password"
-              name="password"
-              label="Password*"
-              size="small"
-              value={formik.values.password}
-              onChange={formik.handleChange}
-              helperText={
-                formik.errors.password &&
-                formik.touched.password &&
-                `${formik.errors.password}`
-              }
               error={formik.errors.password && formik.touched.password}
-            />
+            >
+              <InputLabel htmlFor="outlined-adornment-password">
+                Password*
+              </InputLabel>
+              <OutlinedInput
+                {...formik.getFieldProps("password")}
+                autoComplete="off"
+                size="small"
+                id="password"
+                name="password"
+                label="Password*"
+                type={showPassword ? "text" : "password"}
+                endAdornment={
+                  <InputAdornment position="end">
+                    <IconButton
+                      aria-label="toggle password visibility"
+                      onClick={handleClickShowPassword}
+                      onMouseDown={handleMouseDownPassword}
+                      edge="end"
+                    >
+                      {showPassword ? <VisibilityOff /> : <Visibility />}
+                    </IconButton>
+                  </InputAdornment>
+                }
+                value={formik.values.password}
+                onChange={formik.handleChange}
+              />
+              <FormHelperText>
+                {formik.errors.password &&
+                  formik.touched.password &&
+                  `${formik.errors.password}`}
+              </FormHelperText>
+            </FormControl>
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12}>
-            <TextField
-              {...formik.getFieldProps("confirmpassword")}
+            <FormControl
+              variant="outlined"
               fullWidth
-              autoComplete="off"
-              id="confirmpassword"
-              name="confirmpassword"
-              label="Confirm Password*"
-              size="small"
-              value={formik.values.confirmpassword}
-              onChange={formik.handleChange}
-              helperText={
-                formik.errors.confirmpassword &&
-                formik.touched.confirmpassword &&
-                `${formik.errors.confirmpassword}`
-              }
               error={
                 formik.errors.confirmpassword && formik.touched.confirmpassword
               }
-            />
+            >
+              <InputLabel htmlFor="outlined-adornment-password">
+                Confirm password*
+              </InputLabel>
+              <OutlinedInput
+                {...formik.getFieldProps("confirmpassword")}
+                autoComplete="off"
+                size="small"
+                id="confirmpassword"
+                name="confirmpassword"
+                label="Confirm password*"
+                type={showPassword ? "text" : "password"}
+                endAdornment={
+                  <InputAdornment position="end">
+                    <IconButton
+                      aria-label="toggle password visibility"
+                      onClick={handleClickShowPassword}
+                      onMouseDown={handleMouseDownPassword}
+                      edge="end"
+                    >
+                      {showPassword ? <VisibilityOff /> : <Visibility />}
+                    </IconButton>
+                  </InputAdornment>
+                }
+                value={formik.values.confirmpassword}
+                onChange={formik.handleChange}
+              />
+              <FormHelperText>
+                {formik.errors.confirmpassword &&
+                  formik.touched.confirmpassword &&
+                  `${formik.errors.confirmpassword}`}
+              </FormHelperText>
+            </FormControl>
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12}>
             <Stack direction="row" justifyContent="flex-end">
@@ -189,6 +246,7 @@ const NewUserRegistration = (props) => {
                 color="secondary"
                 size="small"
                 type="submit"
+                onClick={props.Close}
               >
                 Submit
               </Button>

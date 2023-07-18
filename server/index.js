@@ -17,20 +17,16 @@ app.use(cors());
 app.use("/api", userRoutes);
 app.use("/api", bookRoutes);
 
-const buildPath = path.join(__dirname, "../app/build");
+const buildPath = path.join(__dirname, "./build");
 app.use(express.static(buildPath));
 app.get("/*", function (req, res) {
-  res.sendFile(path.join(__dirname, "../app/build/index.html"), function (err) {
+  res.sendFile(path.join(__dirname, "./build/index.html"), function (err) {
     if (err) {
       res.status(500).send(err);
     }
   });
 });
 
-// Start the server
-// app.listen(process.env.PORT, process.env.IP_ADDRESS, () => {
-//   console.log(`Server is running on port ${process.env.PORT}`);
-// });
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
