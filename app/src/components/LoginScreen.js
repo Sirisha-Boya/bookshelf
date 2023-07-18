@@ -1,5 +1,17 @@
-import { Button, Dialog, Grid, TextField, Typography } from "@mui/material";
-import React from "react";
+import {
+  Button,
+  Dialog,
+  FormControl,
+  FormHelperText,
+  Grid,
+  IconButton,
+  InputAdornment,
+  InputLabel,
+  OutlinedInput,
+  TextField,
+  Typography,
+} from "@mui/material";
+import React, { useState } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useSnackbar } from "notistack";
@@ -11,11 +23,20 @@ import {
   fetchLoginRequest,
   fetchLoginSuccess,
 } from "../redux/actions/UserActions";
+import Visibility from "@mui/icons-material/Visibility";
+import VisibilityOff from "@mui/icons-material/VisibilityOff";
 
 const LoginScreen = (props) => {
   const snackbar = useSnackbar();
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const [showPassword, setShowPassword] = useState(false);
+
+  const handleClickShowPassword = () => setShowPassword((show) => !show);
+
+  const handleMouseDownPassword = (event) => {
+    event.preventDefault();
+  };
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -83,7 +104,40 @@ const LoginScreen = (props) => {
             />
           </Grid>
           <Grid item xs={12} sm={12} md={12} lg={12}>
-            <TextField
+            <FormControl variant="outlined" fullWidth error={formik.errors.password && formik.touched.password}>
+              <InputLabel htmlFor="outlined-adornment-password">
+                Password*
+              </InputLabel>
+              <OutlinedInput
+                {...formik.getFieldProps("password")}
+                autoComplete="off"
+                size="small"
+                id="password"
+                name="password"
+                label="Password"
+                type={showPassword ? "text" : "password"}
+                endAdornment={
+                  <InputAdornment position="end">
+                    <IconButton
+                      aria-label="toggle password visibility"
+                      onClick={handleClickShowPassword}
+                      onMouseDown={handleMouseDownPassword}
+                      edge="end"
+                    >
+                      {showPassword ? <VisibilityOff /> : <Visibility />}
+                    </IconButton>
+                  </InputAdornment>
+                }
+                value={formik.values.password}
+                onChange={formik.handleChange}
+              />
+              <FormHelperText>{
+                  formik.errors.password &&
+                  formik.touched.password &&
+                  `${formik.errors.password}`
+                }</FormHelperText>
+            </FormControl>
+            {/* <TextField
               {...formik.getFieldProps("password")}
               fullWidth
               size="small"
@@ -99,7 +153,7 @@ const LoginScreen = (props) => {
                 `${formik.errors.password}`
               }
               error={formik.errors.password && formik.touched.password}
-            />
+            /> */}
           </Grid>
           <Grid
             item
