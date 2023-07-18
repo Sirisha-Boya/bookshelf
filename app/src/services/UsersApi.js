@@ -1,5 +1,5 @@
 import axios from "axios";
-import URL from "../Config.json";
+import URL from "../Constants.json";
 
 export const Register = async (obj) => {
   var res = await axios

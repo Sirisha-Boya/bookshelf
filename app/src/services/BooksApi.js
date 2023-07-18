@@ -7,7 +7,7 @@ import {
   fetchBookshelfFailure,
   fetchBookshelfSuccess,
 } from "../redux/actions/BookActions";
-import URL from "../Config.json";
+import URL from "../Constants.json";
 
 
 export const GetBooks = async () => {
