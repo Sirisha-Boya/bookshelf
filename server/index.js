@@ -3,8 +3,9 @@ const cors = require("cors");
 const connectDB = require("./dbConfig");
 const userRoutes = require("./routes/userRoutes");
 const bookRoutes = require("./routes/bookRoutes");
+const CONSTANTS = require("./Constants.json");
 const path = require("path");
-const PORT = 3002;
+
 connectDB();
 
 const app = express();
@@ -14,8 +15,8 @@ app.use(express.json());
 app.use(cors());
 
 // Mount routes
-app.use("/api", userRoutes);
-app.use("/api", bookRoutes);
+app.use("/", userRoutes);
+app.use("/", bookRoutes);
 
 const buildPath = path.join(__dirname, "./build");
 app.use(express.static(buildPath));
@@ -27,6 +28,6 @@ app.get("/*", function (req, res) {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+app.listen(CONSTANTS.PORT, () => {
+  console.log(`Server is running on port ${CONSTANTS.PORT}`);
 });
