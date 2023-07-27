@@ -11,7 +11,12 @@ import {
 } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { AddBookToBookshelf, PreviewBookById } from "../../services/BooksApi";
+import {
+  AddBookToBookshelf,
+  AllUserBooks,
+  BookshelfBooksStatusCheck,
+  PreviewBookById,
+} from "../../services/BooksApi";
 import AddIcon from "@mui/icons-material/Add";
 import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
 import CloseIcon from "@mui/icons-material/Close";
@@ -26,14 +31,23 @@ const PreviewBook = (props) => {
   const [bookData, setBookData] = useState({});
   const [addBook, setAddBook] = useState([]);
   const [addButton, setAddButton] = useState(false);
+  const [bookStatus, setBookStatus] = useState([]);
 
   const navigate = useNavigate();
   const location = useLocation();
   async function getBookData() {
     var data = await PreviewBookById(location.state.id);
     setBookData(data);
-    console.log("bookData", data);
+    //console.log("bookData", data);
   }
+  async function getBookStatus() {
+    var data = await AllUserBooks(userDetails.userId);
+    setBookStatus(data);
+    console.log("BookStatus", data);
+  }
+  useEffect(() => {
+    getBookStatus();
+  }, []);
   useEffect(() => {
     getBookData();
   }, [props.id]);
@@ -165,12 +179,15 @@ const PreviewBook = (props) => {
               <Button
                 size="small"
                 onClick={addBookToBookshelf}
-                startIcon={addButton ? <ThumbUpAltIcon /> : <AddIcon />}
+                startIcon={
+                  bookStatus.length === 0 && addButton === false ? <AddIcon /> : <ThumbUpAltIcon /> 
+                }
                 variant="contained"
                 color="secondary"
               >
-                {addButton === true ? "Added" : "My BookShelf"}
+                {bookStatus.length === 0 && addButton === false ? "My Bookshelf" : "Added"}
               </Button>
+
               <Button
                 sx={{ ml: 2 }}
                 onClick={() =>

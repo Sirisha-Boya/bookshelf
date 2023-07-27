@@ -126,6 +126,31 @@ router.get("/bookshelfbooksstatus/:userId/:bookStatus", async (req, res) => {
   }
 });
 
+router.get("/alluserbooks/:userId", async (req, res) => {
+  const userId = req.params.userId;
+  try {
+    const userBooks = await UserBooks.find({
+      user_id: userId,
+    });
+    const bookIds = userBooks.map((book) => ({
+      bookId: book.book_id,
+    }));
+    const books = await BookList.find({ id: bookIds });
+    if (books.length > 0) {
+      res.json(books);
+    } else if (books.length === 0) {
+      res.status(404).json({ message: "No Books found!", status: 404 });
+    } else {
+      res.json({ message: "Unknown error!" });
+    }
+
+    //console.log("books", books);
+  } catch (error) {
+    console.error("Error getting books:", error);
+    res.status(500).json({ message: "Internal server error", status: 500 });
+  }
+});
+
 // router.get("/bookshelfBooks/:bookid/:userid", (req, res) => {
 //   const bookId = req.params.bookid;
 //   const userId = req.params.userid;

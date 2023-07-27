@@ -39,17 +39,24 @@ const HomePage = () => {
     await BookshelfBooksStatusCheck(userData.userId, status);
   };
 
-  const handleProgressChange = async (bookid) => {
+  const handleProgressChange = async (event, bookid) => {
+    var buttonId = event.currentTarget.id;
+    //console.log("buttonId", event);
     var obj;
-    if (parseFloat(percentage) === 100) {
+    if (buttonId === "finished") {
       obj = {
-        bookprogress: parseFloat(percentage),
+        bookprogress: parseFloat(100),
+        status: 2, //Finished reading
+      };
+    } else if (buttonId === "update" && parseFloat(percentage) === 100) {
+      obj = {
+        bookprogress: parseFloat(100),
         status: 2, //Finished reading
       };
     } else {
       obj = {
         bookprogress: parseFloat(percentage),
-        status: 1, //currently reading
+        status: 1, //Currently Reading
       };
     }
     setOpen(false);
@@ -105,7 +112,6 @@ const HomePage = () => {
               />
 
               <Button
-                //sx={{ maxWidth: 150 }}
                 fullWidth
                 sx={{ borderRadius: "20px", mb: 1 }}
                 size="small"
@@ -164,6 +170,7 @@ const HomePage = () => {
                   id="percentage"
                   name="percentage"
                   label="Completed (%) of 100%"
+                  type="number"
                   value={percentage}
                   onChange={(e) => setPercentage(e.target.value)}
                 />
@@ -173,7 +180,8 @@ const HomePage = () => {
                   size="small"
                   variant="contained"
                   color="secondary"
-                  onClick={() => handleProgressChange(id)}
+                  id="update"
+                  onClick={(e) => handleProgressChange(e, id)}
                 >
                   Update Progress
                 </Button>
@@ -182,7 +190,8 @@ const HomePage = () => {
                   size="small"
                   variant="outlined"
                   color="secondary"
-                  onClick={() => handleProgressChange(id)}
+                  id="finished"
+                  onClick={(e) => handleProgressChange(e, id)}
                 >
                   I've Finished
                 </Button>

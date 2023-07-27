@@ -70,6 +70,23 @@ export const BookshelfBooksStatusCheck = async (userId, status) => {
   return res;
 };
 
+export const AllUserBooks = async (userId) => {
+  store.dispatch(fetchBookRequest());
+  var res = await axios
+    .get(`https://bookshelf-xx4y.onrender.com/api/alluserbooks/${userId}`)
+    .then((response) => {
+      console.log("starkAxios", response.data);
+      store.dispatch(fetchBookshelfSuccess(response.data));
+      return response.data;
+    })
+    .catch((error) => {
+      store.dispatch(fetchBookshelfFailure(error.response.data));
+      return error.response.data;
+    });
+
+  return res;
+};
+
 export const UpdateBook = async (userId, bookId, obj) => {
   var res = await axios
     .put(`https://bookshelf-xx4y.onrender.com/api/updateBookProgress/${userId}/${bookId}`, obj)
