@@ -1,5 +1,5 @@
 {
-  "MONGO_URI": "mongodb://16.171.142.127:27017/bookshelf",
+  "MONGO_URI": "mongodb+srv://sirishab431:Ishaan321@cluster0.9axs1qe.mongodb.net/bookshelf",
   "IPADDRESS": "16.171.142.127",
-  "PORT": "80"
+  "PORT": "4000"
 }
