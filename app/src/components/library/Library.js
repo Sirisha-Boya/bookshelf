@@ -54,7 +54,7 @@ const Library = () => {
       <BookCard
         title="Others"
         //genre={getBooksByGenre("Poetry")}
-        filteredBooks={getBooksByGenre("Other")}
+        filteredBooks={getBooksByGenre("Others")}
       />
     </>
   );
