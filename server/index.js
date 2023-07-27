@@ -7,7 +7,7 @@ const CONSTANTS = require("./Constants.json");
 const path = require("path");
 
 connectDB();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 8000;
 const app = express();
 
 // Middleware
@@ -17,7 +17,7 @@ app.use(cors());
 // Mount routes
 app.use("/api", userRoutes);
 app.use("/api", bookRoutes);
-app.set("trust proxy", 1);
+//app.set("trust proxy", 1);
 const buildPath = path.join(__dirname, "build");
 app.use(express.static(buildPath));
 app.get("/", function (req, res) {

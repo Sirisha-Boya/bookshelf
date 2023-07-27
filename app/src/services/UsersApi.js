@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const Register = async (obj) => {
   var res = await axios
-    .post(`/api/register`, obj)
+    .post(`https://bookshelf-xx4y.onrender.com/api/register`, obj)
     .then((response) => {
       //console.log("stark",response)
       return response.data;
@@ -16,7 +16,7 @@ export const Register = async (obj) => {
 
 export const Login = async (obj) => {
   var res = await axios
-    .post(`/api/login`, obj)
+    .post(`https://bookshelf-xx4y.onrender.com/api/login`, obj)
     .then((response) => {
       //console.log("stark",response)
   
@@ -31,7 +31,7 @@ export const Login = async (obj) => {
 
 export const Users = async () => {
   var res = await axios
-    .get(`/api/users`)
+    .get(`https://bookshelf-xx4y.onrender.com/api/users`)
     .then((response) => {
       return response.data;
     })
