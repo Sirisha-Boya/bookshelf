@@ -28,6 +28,6 @@ app.get("/", function (req, res) {
   });
 });
 
-app.listen(CONSTANTS.PORT, () => {
+app.listen(CONSTANTS.PORT || 4000, () => {
   console.log(`Server is running on port ${CONSTANTS.PORT}`);
 });
