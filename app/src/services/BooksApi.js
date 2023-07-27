@@ -13,7 +13,7 @@ import URL from "../Constants.json";
 export const GetBooks = async () => {
   store.dispatch(fetchBookRequest());
   var res = await axios
-    .get(`${URL.API_BASE_URL}/books`)
+    .get(`/api/books`)
     .then((response) => {
       store.dispatch(fetchBookSuccess(response.data));
       console.log("response", response.data);
@@ -43,7 +43,7 @@ export const PreviewBookById = async (bookId) => {
 
 export const AddBookToBookshelf = async (userId, bookId) => {
   var res = await axios
-    .post(`${URL.API_BASE_URL}/addbook/${userId}/${bookId}`)
+    .post(`/api/addbook/${userId}/${bookId}`)
     .then((response) => {
       return response.data;
     })
@@ -57,7 +57,7 @@ export const AddBookToBookshelf = async (userId, bookId) => {
 export const BookshelfBooksStatusCheck = async (userId, status) => {
   store.dispatch(fetchBookRequest());
   var res = await axios
-    .get(`${URL.API_BASE_URL}/bookshelfbooksstatus/${userId}/${status}`)
+    .get(`/api/bookshelfbooksstatus/${userId}/${status}`)
     .then((response) => {
       console.log("starkAxios", response.data);
       store.dispatch(fetchBookshelfSuccess(response.data));
@@ -73,7 +73,7 @@ export const BookshelfBooksStatusCheck = async (userId, status) => {
 
 export const UpdateBook = async (userId, bookId, obj) => {
   var res = await axios
-    .put(`${URL.API_BASE_URL}/updateBookProgress/${userId}/${bookId}`, obj)
+    .put(`/api/updateBookProgress/${userId}/${bookId}`, obj)
     .then((response) => {
       return response.data;
     })

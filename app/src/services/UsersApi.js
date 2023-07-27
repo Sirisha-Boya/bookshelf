@@ -3,7 +3,7 @@ import URL from "../Constants.json";
 
 export const Register = async (obj) => {
   var res = await axios
-    .post(`${URL.API_BASE_URL}/register`, obj)
+    .post(`/api/register`, obj)
     .then((response) => {
       //console.log("stark",response)
       return response.data;
@@ -17,7 +17,7 @@ export const Register = async (obj) => {
 
 export const Login = async (obj) => {
   var res = await axios
-    .post(`${URL.API_BASE_URL}/login`, obj)
+    .post(`/api/login`, obj)
     .then((response) => {
       //console.log("stark",response)
   
@@ -32,7 +32,7 @@ export const Login = async (obj) => {
 
 export const Users = async () => {
   var res = await axios
-    .get(`${URL.API_BASE_URL}/users`)
+    .get(`/api/users`)
     .then((response) => {
       return response.data;
     })
