@@ -15,13 +15,13 @@ app.use(express.json());
 app.use(cors());
 
 // Mount routes
-app.use("/", userRoutes);
-app.use("/", bookRoutes);
+app.use("/api", userRoutes);
+app.use("/api", bookRoutes);
 
-const buildPath = path.join(__dirname, "./build");
+const buildPath = path.join(__dirname, "build");
 app.use(express.static(buildPath));
-app.get("/*", function (req, res) {
-  res.sendFile(path.join(__dirname, "./build/index.html"), function (err) {
+app.get("/", function (req, res) {
+  res.sendFile(path.join(__dirname, "build", "index.html"), function (err) {
     if (err) {
       res.status(500).send(err);
     }
