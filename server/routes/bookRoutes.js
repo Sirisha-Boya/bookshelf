@@ -132,9 +132,7 @@ router.get("/alluserbooks/:userId", async (req, res) => {
     const userBooks = await UserBooks.find({
       user_id: userId,
     });
-    const bookIds = userBooks.map((book) => ({
-      bookId: book.book_id,
-    }));
+    const bookIds = userBooks.map((book) => book.book_id);
     const books = await BookList.find({ id: bookIds });
     if (books.length > 0) {
       res.json(books);
