@@ -3,7 +3,7 @@ const cors = require("cors");
 const connectDB = require("./dbConfig");
 const userRoutes = require("./routes/userRoutes");
 const bookRoutes = require("./routes/bookRoutes");
-const CONSTANTS = require("./Constants.json");
+//const CONSTANTS = require("./Constants.json");
 const path = require("path");
 
 connectDB();
