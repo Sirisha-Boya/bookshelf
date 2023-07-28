@@ -42,12 +42,12 @@ const HomePage = () => {
     await BookshelfBooksStatusCheck(userData.userId, status);
   };
 
-  const completedBooks = async () => {
-    var status = 2; // Completed Reading Status
-    var res = await BookshelfBooksStatusCheck(userData.userId, status);
-    setCompleteBooks(res.books);
-    //console.log(res.books)
-  };
+  // const completedBooks = async () => {
+  //   var status = 2; // Completed Reading Status
+  //   var res = await BookshelfBooksStatusCheck(userData.userId, status);
+  //   setCompleteBooks(res.books);
+  //   //console.log(res.books)
+  // };
 
   const handleProgressChange = async (event, bookid) => {
     var buttonId = event.currentTarget.id;
@@ -92,7 +92,7 @@ const HomePage = () => {
   //console.log("bbb", bookDetails);
   useEffect(() => {
     bookshelfBooks();
-    completedBooks();
+   // completedBooks();
   }, []);
 
   const handleReadNow = async (bookid) => {
@@ -260,7 +260,7 @@ const HomePage = () => {
           </Grid>
         )}
       </Grid>
-      <Grid container spacing={2}>
+      {/* <Grid container spacing={2}>
         <Grid item xs={12} sm={12} md={12} lg={12}>
           <Typography variant="h6" color="secondary">
             <strong>Completed Books </strong>
@@ -295,7 +295,7 @@ const HomePage = () => {
               </Button>
             </Grid>
           )) : <Typography>No Books completed!</Typography>}
-      </Grid>
+      </Grid> */}
     </>
   );
 };
