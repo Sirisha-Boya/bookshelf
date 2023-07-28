@@ -27,7 +27,7 @@ const PreviewBook = (props) => {
   var userDetails = useSelector((x) => x.users);
   var bookDetails = useSelector((state) => state.books);
   const snackbar = useSnackbar();
-  console.log("bookD", bookDetails.books);
+  console.log("bookDetails in preview book", bookDetails.books);
   const [bookData, setBookData] = useState({});
   const [addBook, setAddBook] = useState([]);
   const [addButton, setAddButton] = useState(false);
@@ -91,6 +91,7 @@ const PreviewBook = (props) => {
     console.log("res", res);
     setAddBook(res);
   };
+  const filterBooks = bookStatus?.filter((book) => book.id);
   //console.log("Rating", data?.averageRating);
   return (
     <Container>
@@ -180,12 +181,18 @@ const PreviewBook = (props) => {
                 size="small"
                 onClick={addBookToBookshelf}
                 startIcon={
-                  bookStatus.length === 0 && addButton === false ? <AddIcon /> : <ThumbUpAltIcon /> 
+                  bookStatus.some((book) => book.id === bookData.id) ? (
+                    <ThumbUpAltIcon />
+                  ) : (
+                    <AddIcon />
+                  )
                 }
                 variant="contained"
                 color="secondary"
               >
-                {bookStatus.length === 0 && addButton === false ? "My Bookshelf" : "Added"}
+                {bookStatus.some((book) => book.id === bookData.id)
+                  ? "Added"
+                  : "My Bookshelf"}
               </Button>
 
               <Button
