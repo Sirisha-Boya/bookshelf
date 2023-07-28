@@ -44,7 +44,7 @@ const BookShelf = () => {
     var res = await UpdateBook(userDetails.userId, bookid, obj);
     if (res.status === 200) {
       snackbar.enqueueSnackbar(res.message, { variant: "success" });
-      navigate("/");
+      navigate("/home");
     } else if (res.status === 404) {
       snackbar.enqueueSnackbar(res.message, { variant: "error" });
     } else {

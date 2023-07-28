@@ -13,6 +13,7 @@ import {
   Dialog,
   DialogTitle,
   Grid,
+  IconButton,
   TextField,
   Typography,
 } from "@mui/material";
@@ -24,6 +25,7 @@ import {
 } from "../../redux/actions/BookActions";
 import { useSnackbar } from "notistack";
 import NoData from "../../utilities/NoData";
+import CloseIcon from "@mui/icons-material/Close";
 
 const HomePage = () => {
   const dispatch = useDispatch();
@@ -146,12 +148,13 @@ const HomePage = () => {
                 height={200}
               />
             </Grid>
+
             <Grid
               item
               xs={12}
               sm={12}
-              md={8}
-              lg={8}
+              md={7}
+              lg={7}
               // display="flex"
               // flexDirection="column"
               marginLeft="30px"
@@ -159,6 +162,7 @@ const HomePage = () => {
               <Typography variant="h6">
                 <strong>{bookDetails?.volumeInfo?.title}</strong>
               </Typography>
+
               <Box
                 marginTop="30px"
                 maxWidth={200}
@@ -196,6 +200,19 @@ const HomePage = () => {
                   I've Finished
                 </Button>
               </Box>
+            </Grid>
+            <Grid
+              item
+              xs={12}
+              sm={12}
+              md={1}
+              lg={1}
+              display="flex"
+              alignItems="flex-start"
+            >
+              <IconButton onClick={() => setOpen(false)}>
+                <CloseIcon />
+              </IconButton>
             </Grid>
           </Grid>
         </Dialog>

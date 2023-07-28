@@ -47,14 +47,14 @@ const AppHeader = () => {
           alignItems="center"
         >
           <img src="images/books.png" height={30} alt="logo" />
-          <div onClick={() => navigate("/")} style={{ marginRight: 5 }}>
+          <div onClick={() => navigate("/home")} style={{ marginRight: 5 }}>
             <Typography variant="h6" sx={{ cursor: "pointer" }}>
               <strong>BookShelf</strong>
             </Typography>
           </div>
           <NavLink
             exact
-            to="/"
+            to="/home"
             style={({ isActive }) => ({
               color: isActive ? "#ffc107" : "inherit",
               textDecoration: "none",

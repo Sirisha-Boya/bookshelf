@@ -63,7 +63,7 @@ const LoginScreen = (props) => {
           dispatch(fetchLoginSuccess(response.data));
           snackbar.enqueueSnackbar(response.message, { variant: "success" });
           setTimeout(() => {
-            navigate("/");
+            navigate("/home");
           }, 1000);
         } else if (response.status === 404) {
           snackbar.enqueueSnackbar(response.message, { variant: "error" });

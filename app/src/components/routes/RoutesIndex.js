@@ -18,12 +18,12 @@ const RoutesIndex = createBrowserRouter(
   createRoutesFromElements(
     <>
       <Route path="*" element={<NotFound />} />
-      <Route path="/" element={<Navigate to="/login" replace/>} />
-      <Route path="/login" element={<LandingScreen />}>
+      {/* <Route path="/" element={<Navigate to="/login" replace/>} /> */}
+      <Route path="/" element={<LandingScreen />}>
         <Route index element={<LoginScreen />} />
       </Route>
       <Route path="/" element={<Layout />}>
-        <Route index element={<HomePage />} />
+        <Route index path="/home" element={<HomePage />} />
         <Route path="/preview/:id" element={<PreviewBook />} />
         <Route path="/library" element={<Library />} />
         {/* <Route path="*" element={<Navigate to="/home" replace />} /> */}
