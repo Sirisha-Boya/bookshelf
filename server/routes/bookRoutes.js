@@ -32,7 +32,7 @@ router.post("/addbook/:userid/:bookid", async (req, res) => {
       created_on: new Date(),
       created_by: userid,
     });
-    console.log("obj", readingListEntry);
+    //console.log("obj", readingListEntry);
 
     // Save the reading list entry
     await readingListEntry.save();
@@ -57,7 +57,7 @@ router.put("/updateBookProgress/:userid/:bookid", async (req, res) => {
       return res.status(404).json({ error: "User not found" });
     }
     const book = await UserBooks.findOne({ book_id: bookId });
-    console.log("bookexists?", book);
+    //console.log("bookexists?", book);
     if (!book) {
       return res.status(404).json({ error: "Book not found" });
     } else {
@@ -103,13 +103,13 @@ router.get("/bookshelfbooksstatus/:userId/:bookStatus", async (req, res) => {
       bookId: book.book_id,
       progress: book.progress,
     }));
-    console.log("book progress", bookProgress);
+    //console.log("book progress", bookProgress);
     // Extract book IDs from the userBooks
     const bookIds = userBooks.map((book) => book.book_id);
-    console.log("api bookIds", bookIds);
+    //console.log("api bookIds", bookIds);
     // Retrieve book information based on the book IDs from the booklist collection
     const books = await BookList.find({ id: bookIds });
-    console.log("books", books);
+    //console.log("books", books);
     if (books.length > 0) {
       res.json({ books, bookProgress });
     } else if (books.length === 0) {

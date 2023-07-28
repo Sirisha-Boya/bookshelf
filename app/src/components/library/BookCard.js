@@ -34,7 +34,8 @@ const BookCard = ({ title, genre, filteredBooks }) => {
         state: { id: id },
       });
     } else {
-      console.log("Id not received");
+      return;
+      //console.log("Id not received");
     }
   };
   const isScreenSizeDownSm = useMediaQuery(theme.breakpoints.down("sm"));

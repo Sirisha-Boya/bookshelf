@@ -64,9 +64,12 @@ const HomePage = () => {
     setOpen(false);
     var res = await UpdateBook(userData.userId, bookid, obj);
     dispatch(updateBookProgress(bookid));
-    console.log("green", res);
+    //console.log("green", res);
     if (res.status === 200) {
       snackbar.enqueueSnackbar(res.message, { variant: "success" });
+      setTimeout(() => {
+        bookshelfBooks();
+      }, 1000);
     } else if (res.status === 404) {
       snackbar.enqueueSnackbar(res.message, { variant: "error" });
     } else {

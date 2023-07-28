@@ -20,7 +20,7 @@ const initialstate = {
   selectedBookId: "",
 };
 const bookReducer = (state = initialstate, action) => {
-  console.log("state", state);
+  //("state", state);
   switch (action.type) {
     case FETCH_BOOK_REQUEST:
       return {

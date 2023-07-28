@@ -30,7 +30,7 @@ const BookShelf = () => {
     //console.log("res",res)
     // setBookshelf(res);
   };
-  console.log("bookHulk", bookDetails);
+  //console.log("bookHulk", bookDetails);
   useEffect(() => {
     GetBookShelfBooks();
   }, []);

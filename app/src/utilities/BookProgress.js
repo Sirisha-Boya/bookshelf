@@ -7,15 +7,11 @@ import Box from "@mui/material/Box";
 import { useSelector } from "react-redux";
 
 export default function BookProgress(props) {
-  //const { percentage, bookId } = props;
-  //const [progress, setProgress] = useState(percentage);
   const bookData = useSelector((state) => state.books);
   var progress = bookData?.bookshelfBooks?.bookProgress.filter(
     (book) => book.bookId === props.bookId
   );
-  //React.useEffect(() => {}, [progress]);
-  //const matchingIds = bookData?.bookshelfBooks?.bookProgress.map((book) => book.bookId).filter((id) => bookData?.bookshelfBooks?.books.map((book) => book.id).includes(id));
-  console.log("progress", progress);
+
   return (
     <Box sx={{ position: "relative", display: "inline-flex" }}>
       {progress &&

@@ -7,9 +7,10 @@ The Bookshelf project is a web application that allows users to organize and man
 ### **Features:**
 
 - ***User Accounts***: Authentication and Authorization of users.
-- ***Library***: Users can see different categories of books and search. Once clicking on book they can see book details like thumbnail, title, author, average rating. and add to their bookshelf to read.
+- ***Library***: Users can see different categories of books and search. 
+- ***Preview Book***: Once clicking on book they can preview book details like thumbnail, title, author, average rating. and add to their bookshelf to read. Or go to BUY link.
 - ***My Bookshelf***: Want to Read Books will be shown here after adding book to bookshelf in Library. Once Click on Read Now button, book will be redirected to Home page for Reading and updating.
-- ***Home Page***: Books with Currently Reading status will be displayed here. User can update progress here. And Can see the progress after updating and reloading of page.
+- ***Home Page / Dashboard***: Books with Currently Reading status will be displayed here. User can update progress here. And Can see the progress after updating and reloading of page.
 - ***Theming***: Users have provision to change themes from light to dark mode and vice versa.
 
 ## Tech Stack used in this application
@@ -69,16 +70,17 @@ npm install -D "nodemon"
 - **Status 0**: "Want to Read"
 - **Status 1**: "Currently Reading"
 - **Status 2**: "Completed"
+  
 ## Flow of the application ##
 
 Bookshelf application starts with a landing page which have Register/login screen.
 
 - ***Registration of User***: Click on `New User?Register` link. Register with details and save.
 - ***Login User***: Click on `Sign In to explore`  and enter login credentials and sign in.
-- ***Home Page***: This is the default screen after logging in. Here we can see the books that we are currently reading.
+- ***Home Page / Dashboard***: This is the default screen after logging in. Here we can see the books that we are currently reading.
 - ***Library***: Explore different genre books in here. Click on a book and here we can add a rating to the book and we can `Add to Bookshelf`. 
 - ***My Bookshelf***: Books added in library will be added in here.Now click on `Read Now`. This will add book to currently reading status and navigate to home page where we see currently reading books.
--  ***Home Page***: Here we can see book with progress and button to update progress. Click on it and update progress by entering percentage or if it is 100% then click on `I've Finished` and it will be removed from your reading list. Now update and refresh the page to see updated progress for that book.
+-  ***Home Page***: Here we can see book with progress and button to update progress. Click on it and update progress by entering percentage and update. Now progress will be updated. OR if it is 100% then click on `I've Finished` and it will be removed from your reading list as a completed Reading status.
 - ***Search***: We can search for books all over the application.
 - ***Theme Change***: Here we have light and dark theme available to the application.
 We can change it according to our preference by clicking on the theme icon present beside logout button.

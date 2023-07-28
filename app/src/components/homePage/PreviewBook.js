@@ -88,7 +88,7 @@ const PreviewBook = (props) => {
       setAddButton(false);
     }
 
-    console.log("res", res);
+    //console.log("res", res);
     setAddBook(res);
   };
   const filterBooks = bookStatus?.filter((book) => book.id);

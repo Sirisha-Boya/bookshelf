@@ -15,7 +15,7 @@ export const GetBooks = async () => {
     .get(`https://bookshelf-xx4y.onrender.com/api/books`)
     .then((response) => {
       store.dispatch(fetchBookSuccess(response.data));
-      console.log("response", response.data);
+      //console.log("response", response.data);
       return response.data;
     })
     .catch((error) => {
@@ -75,7 +75,7 @@ export const AllUserBooks = async (userId) => {
   var res = await axios
     .get(`https://bookshelf-xx4y.onrender.com/api/alluserbooks/${userId}`)
     .then((response) => {
-      console.log("starkAxios", response.data);
+      //console.log("starkAxios", response.data);
       store.dispatch(fetchBookshelfSuccess(response.data));
       return response.data;
     })
