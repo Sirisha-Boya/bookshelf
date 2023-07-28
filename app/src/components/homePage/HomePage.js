@@ -34,11 +34,19 @@ const HomePage = () => {
   var bookData = useSelector((state) => state.books);
   const [open, setOpen] = useState(false);
   const [percentage, setPercentage] = useState(0);
+  const [completeBooks, setCompleteBooks] = useState([]);
   const [id, setId] = useState("");
 
   const bookshelfBooks = async () => {
     var status = 1; // Currently Reading status
     await BookshelfBooksStatusCheck(userData.userId, status);
+  };
+
+  const completedBooks = async () => {
+    var status = 2; // Completed Reading Status
+    var res = await BookshelfBooksStatusCheck(userData.userId, status);
+    setCompleteBooks(res.books);
+    //console.log(res.books)
   };
 
   const handleProgressChange = async (event, bookid) => {
@@ -84,7 +92,24 @@ const HomePage = () => {
   //console.log("bbb", bookDetails);
   useEffect(() => {
     bookshelfBooks();
+    completedBooks();
   }, []);
+
+  const handleReadNow = async (bookid) => {
+    var obj = {
+      bookprogress: 0,
+      status: 1,
+      //status: 1 ===> Currently Reading
+    };
+    var res = await UpdateBook(userData.userId, bookid, obj);
+    if (res.status === 200) {
+      snackbar.enqueueSnackbar(res.message, { variant: "success" });
+    } else if (res.status === 404) {
+      snackbar.enqueueSnackbar(res.message, { variant: "error" });
+    } else {
+      snackbar.enqueueSnackbar(res.message, { variant: "error" });
+    }
+  };
 
   const filteredBooks = bookData?.bookshelfBooks?.books?.filter((book) =>
     book?.volumeInfo?.title
@@ -96,7 +121,7 @@ const HomePage = () => {
       <Grid container spacing={2}>
         <Grid item xs={12} sm={12} md={12} lg={12}>
           <Typography variant="h6" color="secondary">
-            <strong>Currently Reading ...</strong>
+            <strong>Currently Reading </strong>
           </Typography>
         </Grid>
         {filteredBooks &&
@@ -234,6 +259,42 @@ const HomePage = () => {
             <Typography variant="h5">Uh oh! No Books added to read!</Typography>
           </Grid>
         )}
+      </Grid>
+      <Grid container spacing={2}>
+        <Grid item xs={12} sm={12} md={12} lg={12}>
+          <Typography variant="h6" color="secondary">
+            <strong>Completed Books </strong>
+          </Typography>
+        </Grid>
+        {completeBooks ?
+          completeBooks.map((book) => (
+            <Grid item xs={8} sm={5} md={3} lg={2}>
+              <CardMedia
+                sx={{
+                  objectFit: "fill",
+                  mb: 1,
+                  borderRadius: "20px",
+                  border: "1px solid #ffc107",
+                }}
+                component="img"
+                //sx={{ mb: 1 }}
+                height={300}
+                image={book?.volumeInfo?.imageLinks?.thumbnail}
+                alt="Book Cover"
+              />
+
+              <Button
+                fullWidth
+                sx={{ borderRadius: "20px", mb: 1 }}
+                size="small"
+                variant="outlined"
+                color="secondary"
+                onClick={() => handleReadNow(book.id)}
+              >
+                Read Again
+              </Button>
+            </Grid>
+          )) : <Typography>No Books completed!</Typography>}
       </Grid>
     </>
   );
